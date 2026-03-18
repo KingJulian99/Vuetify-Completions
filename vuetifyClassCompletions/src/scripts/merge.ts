@@ -1,3 +1,32 @@
+/**
+ * This script generates a single TypeScript module (`vuetify-classes.ts`) that contains
+ * all Vuetify utility and color classes for use in a VS Code extension.
+ *
+ * Features:
+ * 1. Loads scraped utility classes (spacing, layout, text, borders, etc.) from `vuetify-docs-classes.json`.
+ * 2. Generates full color palette classes, including base colors, lighten/darken/accent variants.
+ * 3. Merges scraped utilities and color classes into a single `Record<string, VuetifyClass>` object.
+ * 4. Automatically:
+ *    - Skips unwanted spacing labels like "Extra small", "Small", etc.
+ *    - Remaps layout visibility classes so the key becomes the CSS and the CSS string is empty.
+ * 5. Outputs a fully typed TypeScript file ready for VS Code autocomplete and hover support.
+ *
+ * Type definition used:
+ * export type VuetifyClass = {
+ *   css: string; // CSS string to show in hover or apply programmatically
+ *   type: "spacing" | "color" | "layout" | "text";
+ *   color?: string; // Only set for color classes; reflects exact color/variant
+ * };
+ *
+ * Usage:
+ *   1. Run `npx ts-node merge.ts` to generate `vuetify-classes.ts`.
+ *   2. Import in your extension:
+ *        import { vuetifyClasses } from "../data/vuetify-classes";
+ *   3. Access any class:
+ *        const cls = vuetifyClasses["bg-red-darken-1"];
+ *        console.log(cls.css, cls.type, cls.color);
+ */
+
 import fs from "fs";
 import { toCss } from "../utils/toCss";
 
@@ -9,7 +38,11 @@ type VuetifyClass = {
 
 // Load scraped JSON
 const scraped: any[] = JSON.parse(
-     fs.readFileSync("vuetify-docs-classes.json", "utf-8"),
+     fs.readFileSync("../data/vuetify-docs-classes.json", "utf-8"),
+);
+
+const colorHexMap: Record<string, string> = JSON.parse(
+  fs.readFileSync("../data/vuetify-color-hex.json", "utf-8")
 );
 
 // Define color palette
@@ -57,25 +90,28 @@ COLORS.forEach((color) => {
     colorClasses[`text-${color}`] = {
         css: `color: var(--v-${color}-base);`,
         type: "color",
-        color,
+        color: colorHexMap[color] || undefined,
     };
     colorClasses[`bg-${color}`] = {
         css: `background-color: var(--v-${color}-base);`,
         type: "color",
-        color,
+        color: colorHexMap[color] || undefined,
     };
+
     // variants
     [...LIGHTEN, ...DARKEN, ...ACCENT].forEach((variant) => {
         const fullVariant = `${color}-${variant}`;
+        const hex = colorHexMap[fullVariant] || colorHexMap[color];
+
         colorClasses[`text-${fullVariant}`] = {
-        css: `color: var(--v-${fullVariant});`,
-        type: "color",
-        color: fullVariant,
+            css: `color: var(--v-${fullVariant});`,
+            type: "color",
+            color: hex,
         };
         colorClasses[`bg-${fullVariant}`] = {
-        css: `background-color: var(--v-${fullVariant});`,
-        type: "color",
-        color: fullVariant,
+            css: `background-color: var(--v-${fullVariant});`,
+            type: "color",
+            color: hex,
         };
     });
 });
@@ -96,16 +132,80 @@ const categoryMap: Record<string, "spacing" | "color" | "layout" | "text"> = {
 
 const vuetifyClasses: Record<string, VuetifyClass> = {};
 
-// Add scraped utilities / text / spacing
-scraped.forEach((cls) => {
-    const cssValue = toCss(cls.name) || cls.description || "";
-    const type = categoryMap[cls.category] || "layout";
-    vuetifyClasses[cls.name] = { css: cssValue, type };
-});
+// Define spacing names to skip
+const skipSpacing = [
+    "Extra small",
+    "Small",
+    "Medium",
+    "Large",
+    "Extra large",
+    "Extra extra large"
+];
 
-// Merge color classes (override if needed)
-Object.entries(colorClasses).forEach(([name, cls]) => {
-      vuetifyClasses[name] = cls;
+/**
+ * Transforms Vuetify display visibility helper rows (e.g. "Hidden only on md")
+ * into individual class entries (e.g. "d-md-none", "d-lg-flex").
+ *
+ * Returns `true` if the class was handled and inserted, otherwise `false`.
+ */
+function transformDisplayClasses(
+    cls: any,
+    target: Record<string, VuetifyClass>
+): boolean {
+    if (cls.category !== "display") {return false;}
+
+    const visibilityClasses = [
+        "Hidden on all",
+        "Hidden only on xs",
+        "Hidden only on sm",
+        "Hidden only on md",
+        "Hidden only on lg",
+        "Hidden only on xl",
+        "Hidden only on xxl",
+        "Visible on all",
+        "Visible only on xs",
+        "Visible only on sm",
+        "Visible only on md",
+        "Visible only on lg",
+        "Visible only on xl",
+        "Visible only on xxl",
+    ];
+
+    if (!visibilityClasses.includes(cls.name)) {return false;}
+
+    const classNames = cls.description
+        .split(" ")
+        .map((c: string) => c.replace(".", "").trim())
+        .filter(Boolean);
+
+    for (const className of classNames) {
+        if (!target[className]) {
+        target[className] = {
+            css: "",
+            type: "layout",
+        };
+        }
+    }
+
+    return true;
+}
+
+// Add scraped utilities / text / spacing
+scraped.forEach(cls => {
+    if (skipSpacing.includes(cls.name)) {return;}
+
+    if (transformDisplayClasses(cls, vuetifyClasses)) {return;}
+
+    let key = cls.name;
+    let cssValue = toCss(cls.name) || cls.description || "";
+    let type = categoryMap[cls.category] || "layout";
+
+    vuetifyClasses[key] = { css: cssValue, type };
+    });
+
+    // Merge color classes (override if needed)
+    Object.entries(colorClasses).forEach(([name, cls]) => {
+        vuetifyClasses[name] = cls;
 });
 
 // Write as a TypeScript module
@@ -118,8 +218,13 @@ const output = `export type VuetifyClass = {
 export const vuetifyClasses: Record<string, VuetifyClass> = ${JSON.stringify(vuetifyClasses, null, 2)};
 `;
 
-fs.writeFileSync("vuetify-classes.ts", output);
+const outputDir = "../data";
+const outputFile = `${outputDir}/vuetify-classes.ts`;
+
+fs.mkdirSync(outputDir, { recursive: true });
+fs.writeFileSync(outputFile, output);
+console.log(`✅ Saved to ${outputFile}`);
 
 console.log(
-     `✅ Generated vuetify-classes.ts with ${Object.keys(vuetifyClasses).length} classes`,
+    `✅ Generated vuetify-classes.ts with ${Object.keys(vuetifyClasses).length} classes`,
 );
