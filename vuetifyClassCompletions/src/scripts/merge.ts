@@ -1,3 +1,32 @@
+/**
+ * This script generates a single TypeScript module (`vuetify-classes.ts`) that contains
+ * all Vuetify utility and color classes for use in a VS Code extension.
+ *
+ * Features:
+ * 1. Loads scraped utility classes (spacing, layout, text, borders, etc.) from `vuetify-docs-classes.json`.
+ * 2. Generates full color palette classes, including base colors, lighten/darken/accent variants.
+ * 3. Merges scraped utilities and color classes into a single `Record<string, VuetifyClass>` object.
+ * 4. Automatically:
+ *    - Skips unwanted spacing labels like "Extra small", "Small", etc.
+ *    - Remaps layout visibility classes so the key becomes the CSS and the CSS string is empty.
+ * 5. Outputs a fully typed TypeScript file ready for VS Code autocomplete and hover support.
+ *
+ * Type definition used:
+ * export type VuetifyClass = {
+ *   css: string; // CSS string to show in hover or apply programmatically
+ *   type: "spacing" | "color" | "layout" | "text";
+ *   color?: string; // Only set for color classes; reflects exact color/variant
+ * };
+ *
+ * Usage:
+ *   1. Run `npx ts-node merge.ts` to generate `vuetify-classes.ts`.
+ *   2. Import in your extension:
+ *        import { vuetifyClasses } from "../data/vuetify-classes";
+ *   3. Access any class:
+ *        const cls = vuetifyClasses["bg-red-darken-1"];
+ *        console.log(cls.css, cls.type, cls.color);
+ */
+
 import fs from "fs";
 import { toCss } from "../utils/toCss";
 
@@ -9,7 +38,7 @@ type VuetifyClass = {
 
 // Load scraped JSON
 const scraped: any[] = JSON.parse(
-     fs.readFileSync("vuetify-docs-classes.json", "utf-8"),
+     fs.readFileSync("../data/vuetify-docs-classes.json", "utf-8"),
 );
 
 // Define color palette
@@ -161,7 +190,12 @@ const output = `export type VuetifyClass = {
 export const vuetifyClasses: Record<string, VuetifyClass> = ${JSON.stringify(vuetifyClasses, null, 2)};
 `;
 
-fs.writeFileSync("vuetify-classes.ts", output);
+const outputDir = "../data";
+const outputFile = `${outputDir}/vuetify-classes.ts`;
+
+fs.mkdirSync(outputDir, { recursive: true });
+fs.writeFileSync(outputFile, output);
+console.log(`✅ Saved to ${outputFile}`);
 
 console.log(
     `✅ Generated vuetify-classes.ts with ${Object.keys(vuetifyClasses).length} classes`,
