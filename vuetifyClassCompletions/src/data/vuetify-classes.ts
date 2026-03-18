@@ -445,86 +445,6 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
     "css": "display: none;",
     "type": "layout"
   },
-  "Extra small": {
-    "css": "xs",
-    "type": "spacing"
-  },
-  "Small": {
-    "css": "sm",
-    "type": "spacing"
-  },
-  "Medium": {
-    "css": "md",
-    "type": "spacing"
-  },
-  "Large": {
-    "css": "lg",
-    "type": "spacing"
-  },
-  "Extra large": {
-    "css": "xl",
-    "type": "spacing"
-  },
-  "Extra extra large": {
-    "css": "xxl",
-    "type": "spacing"
-  },
-  "Hidden on all": {
-    "css": ".d-none",
-    "type": "layout"
-  },
-  "Hidden only on xs": {
-    "css": ".d-none .d-sm-flex",
-    "type": "layout"
-  },
-  "Hidden only on sm": {
-    "css": ".d-sm-none .d-md-flex",
-    "type": "layout"
-  },
-  "Hidden only on md": {
-    "css": ".d-md-none .d-lg-flex",
-    "type": "layout"
-  },
-  "Hidden only on lg": {
-    "css": ".d-lg-none .d-xl-flex",
-    "type": "layout"
-  },
-  "Hidden only on xl": {
-    "css": ".d-xl-none .d-xxl-flex",
-    "type": "layout"
-  },
-  "Hidden only on xxl": {
-    "css": ".d-xxl-none",
-    "type": "layout"
-  },
-  "Visible on all": {
-    "css": ".d-flex",
-    "type": "layout"
-  },
-  "Visible only on xs": {
-    "css": ".d-flex .d-sm-none",
-    "type": "layout"
-  },
-  "Visible only on sm": {
-    "css": ".d-none .d-sm-flex .d-md-none",
-    "type": "layout"
-  },
-  "Visible only on md": {
-    "css": ".d-none .d-md-flex .d-lg-none",
-    "type": "layout"
-  },
-  "Visible only on lg": {
-    "css": ".d-none .d-lg-flex .d-xl-none",
-    "type": "layout"
-  },
-  "Visible only on xl": {
-    "css": ".d-none .d-xl-flex .d-xxl-none",
-    "type": "layout"
-  },
-  "Visible only on xxl": {
-    "css": ".d-none .d-xxl-flex",
-    "type": "layout"
-  },
   "d-flex": {
     "css": "display: flex;",
     "type": "layout"
@@ -3928,3501 +3848,3193 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
   "text-red": {
     "css": "color: var(--v-red-base);",
     "type": "color",
-    "color": "red"
+    "color": "#f44336"
   },
   "bg-red": {
     "css": "background-color: var(--v-red-base);",
     "type": "color",
-    "color": "red"
+    "color": "#f44336"
   },
   "text-red-lighten-1": {
     "css": "color: var(--v-red-lighten-1);",
     "type": "color",
-    "color": "red-lighten-1"
+    "color": "#f44336"
   },
   "bg-red-lighten-1": {
     "css": "background-color: var(--v-red-lighten-1);",
     "type": "color",
-    "color": "red-lighten-1"
+    "color": "#f44336"
   },
   "text-red-lighten-2": {
     "css": "color: var(--v-red-lighten-2);",
     "type": "color",
-    "color": "red-lighten-2"
+    "color": "#f44336"
   },
   "bg-red-lighten-2": {
     "css": "background-color: var(--v-red-lighten-2);",
     "type": "color",
-    "color": "red-lighten-2"
+    "color": "#f44336"
   },
   "text-red-lighten-3": {
     "css": "color: var(--v-red-lighten-3);",
     "type": "color",
-    "color": "red-lighten-3"
+    "color": "#f44336"
   },
   "bg-red-lighten-3": {
     "css": "background-color: var(--v-red-lighten-3);",
     "type": "color",
-    "color": "red-lighten-3"
+    "color": "#f44336"
   },
   "text-red-lighten-4": {
     "css": "color: var(--v-red-lighten-4);",
     "type": "color",
-    "color": "red-lighten-4"
+    "color": "#f44336"
   },
   "bg-red-lighten-4": {
     "css": "background-color: var(--v-red-lighten-4);",
     "type": "color",
-    "color": "red-lighten-4"
+    "color": "#f44336"
   },
   "text-red-lighten-5": {
     "css": "color: var(--v-red-lighten-5);",
     "type": "color",
-    "color": "red-lighten-5"
+    "color": "#f44336"
   },
   "bg-red-lighten-5": {
     "css": "background-color: var(--v-red-lighten-5);",
     "type": "color",
-    "color": "red-lighten-5"
+    "color": "#f44336"
   },
   "text-red-darken-1": {
     "css": "color: var(--v-red-darken-1);",
     "type": "color",
-    "color": "red-darken-1"
+    "color": "#f44336"
   },
   "bg-red-darken-1": {
     "css": "background-color: var(--v-red-darken-1);",
     "type": "color",
-    "color": "red-darken-1"
+    "color": "#f44336"
   },
   "text-red-darken-2": {
     "css": "color: var(--v-red-darken-2);",
     "type": "color",
-    "color": "red-darken-2"
+    "color": "#f44336"
   },
   "bg-red-darken-2": {
     "css": "background-color: var(--v-red-darken-2);",
     "type": "color",
-    "color": "red-darken-2"
+    "color": "#f44336"
   },
   "text-red-darken-3": {
     "css": "color: var(--v-red-darken-3);",
     "type": "color",
-    "color": "red-darken-3"
+    "color": "#f44336"
   },
   "bg-red-darken-3": {
     "css": "background-color: var(--v-red-darken-3);",
     "type": "color",
-    "color": "red-darken-3"
+    "color": "#f44336"
   },
   "text-red-darken-4": {
     "css": "color: var(--v-red-darken-4);",
     "type": "color",
-    "color": "red-darken-4"
+    "color": "#f44336"
   },
   "bg-red-darken-4": {
     "css": "background-color: var(--v-red-darken-4);",
     "type": "color",
-    "color": "red-darken-4"
+    "color": "#f44336"
   },
   "text-red-accent-1": {
     "css": "color: var(--v-red-accent-1);",
     "type": "color",
-    "color": "red-accent-1"
+    "color": "#f44336"
   },
   "bg-red-accent-1": {
     "css": "background-color: var(--v-red-accent-1);",
     "type": "color",
-    "color": "red-accent-1"
+    "color": "#f44336"
   },
   "text-red-accent-2": {
     "css": "color: var(--v-red-accent-2);",
     "type": "color",
-    "color": "red-accent-2"
+    "color": "#f44336"
   },
   "bg-red-accent-2": {
     "css": "background-color: var(--v-red-accent-2);",
     "type": "color",
-    "color": "red-accent-2"
+    "color": "#f44336"
   },
   "text-red-accent-3": {
     "css": "color: var(--v-red-accent-3);",
     "type": "color",
-    "color": "red-accent-3"
+    "color": "#f44336"
   },
   "bg-red-accent-3": {
     "css": "background-color: var(--v-red-accent-3);",
     "type": "color",
-    "color": "red-accent-3"
+    "color": "#f44336"
   },
   "text-red-accent-4": {
     "css": "color: var(--v-red-accent-4);",
     "type": "color",
-    "color": "red-accent-4"
+    "color": "#f44336"
   },
   "bg-red-accent-4": {
     "css": "background-color: var(--v-red-accent-4);",
     "type": "color",
-    "color": "red-accent-4"
+    "color": "#f44336"
   },
   "text-pink": {
     "css": "color: var(--v-pink-base);",
     "type": "color",
-    "color": "pink"
+    "color": "#e91e63"
   },
   "bg-pink": {
     "css": "background-color: var(--v-pink-base);",
     "type": "color",
-    "color": "pink"
+    "color": "#e91e63"
   },
   "text-pink-lighten-1": {
     "css": "color: var(--v-pink-lighten-1);",
     "type": "color",
-    "color": "pink-lighten-1"
+    "color": "#e91e63"
   },
   "bg-pink-lighten-1": {
     "css": "background-color: var(--v-pink-lighten-1);",
     "type": "color",
-    "color": "pink-lighten-1"
+    "color": "#e91e63"
   },
   "text-pink-lighten-2": {
     "css": "color: var(--v-pink-lighten-2);",
     "type": "color",
-    "color": "pink-lighten-2"
+    "color": "#e91e63"
   },
   "bg-pink-lighten-2": {
     "css": "background-color: var(--v-pink-lighten-2);",
     "type": "color",
-    "color": "pink-lighten-2"
+    "color": "#e91e63"
   },
   "text-pink-lighten-3": {
     "css": "color: var(--v-pink-lighten-3);",
     "type": "color",
-    "color": "pink-lighten-3"
+    "color": "#e91e63"
   },
   "bg-pink-lighten-3": {
     "css": "background-color: var(--v-pink-lighten-3);",
     "type": "color",
-    "color": "pink-lighten-3"
+    "color": "#e91e63"
   },
   "text-pink-lighten-4": {
     "css": "color: var(--v-pink-lighten-4);",
     "type": "color",
-    "color": "pink-lighten-4"
+    "color": "#e91e63"
   },
   "bg-pink-lighten-4": {
     "css": "background-color: var(--v-pink-lighten-4);",
     "type": "color",
-    "color": "pink-lighten-4"
+    "color": "#e91e63"
   },
   "text-pink-lighten-5": {
     "css": "color: var(--v-pink-lighten-5);",
     "type": "color",
-    "color": "pink-lighten-5"
+    "color": "#e91e63"
   },
   "bg-pink-lighten-5": {
     "css": "background-color: var(--v-pink-lighten-5);",
     "type": "color",
-    "color": "pink-lighten-5"
+    "color": "#e91e63"
   },
   "text-pink-darken-1": {
     "css": "color: var(--v-pink-darken-1);",
     "type": "color",
-    "color": "pink-darken-1"
+    "color": "#e91e63"
   },
   "bg-pink-darken-1": {
     "css": "background-color: var(--v-pink-darken-1);",
     "type": "color",
-    "color": "pink-darken-1"
+    "color": "#e91e63"
   },
   "text-pink-darken-2": {
     "css": "color: var(--v-pink-darken-2);",
     "type": "color",
-    "color": "pink-darken-2"
+    "color": "#e91e63"
   },
   "bg-pink-darken-2": {
     "css": "background-color: var(--v-pink-darken-2);",
     "type": "color",
-    "color": "pink-darken-2"
+    "color": "#e91e63"
   },
   "text-pink-darken-3": {
     "css": "color: var(--v-pink-darken-3);",
     "type": "color",
-    "color": "pink-darken-3"
+    "color": "#e91e63"
   },
   "bg-pink-darken-3": {
     "css": "background-color: var(--v-pink-darken-3);",
     "type": "color",
-    "color": "pink-darken-3"
+    "color": "#e91e63"
   },
   "text-pink-darken-4": {
     "css": "color: var(--v-pink-darken-4);",
     "type": "color",
-    "color": "pink-darken-4"
+    "color": "#e91e63"
   },
   "bg-pink-darken-4": {
     "css": "background-color: var(--v-pink-darken-4);",
     "type": "color",
-    "color": "pink-darken-4"
+    "color": "#e91e63"
   },
   "text-pink-accent-1": {
     "css": "color: var(--v-pink-accent-1);",
     "type": "color",
-    "color": "pink-accent-1"
+    "color": "#e91e63"
   },
   "bg-pink-accent-1": {
     "css": "background-color: var(--v-pink-accent-1);",
     "type": "color",
-    "color": "pink-accent-1"
+    "color": "#e91e63"
   },
   "text-pink-accent-2": {
     "css": "color: var(--v-pink-accent-2);",
     "type": "color",
-    "color": "pink-accent-2"
+    "color": "#e91e63"
   },
   "bg-pink-accent-2": {
     "css": "background-color: var(--v-pink-accent-2);",
     "type": "color",
-    "color": "pink-accent-2"
+    "color": "#e91e63"
   },
   "text-pink-accent-3": {
     "css": "color: var(--v-pink-accent-3);",
     "type": "color",
-    "color": "pink-accent-3"
+    "color": "#e91e63"
   },
   "bg-pink-accent-3": {
     "css": "background-color: var(--v-pink-accent-3);",
     "type": "color",
-    "color": "pink-accent-3"
+    "color": "#e91e63"
   },
   "text-pink-accent-4": {
     "css": "color: var(--v-pink-accent-4);",
     "type": "color",
-    "color": "pink-accent-4"
+    "color": "#e91e63"
   },
   "bg-pink-accent-4": {
     "css": "background-color: var(--v-pink-accent-4);",
     "type": "color",
-    "color": "pink-accent-4"
+    "color": "#e91e63"
   },
   "text-purple": {
     "css": "color: var(--v-purple-base);",
     "type": "color",
-    "color": "purple"
+    "color": "#9c27b0"
   },
   "bg-purple": {
     "css": "background-color: var(--v-purple-base);",
     "type": "color",
-    "color": "purple"
+    "color": "#9c27b0"
   },
   "text-purple-lighten-1": {
     "css": "color: var(--v-purple-lighten-1);",
     "type": "color",
-    "color": "purple-lighten-1"
+    "color": "#9c27b0"
   },
   "bg-purple-lighten-1": {
     "css": "background-color: var(--v-purple-lighten-1);",
     "type": "color",
-    "color": "purple-lighten-1"
+    "color": "#9c27b0"
   },
   "text-purple-lighten-2": {
     "css": "color: var(--v-purple-lighten-2);",
     "type": "color",
-    "color": "purple-lighten-2"
+    "color": "#9c27b0"
   },
   "bg-purple-lighten-2": {
     "css": "background-color: var(--v-purple-lighten-2);",
     "type": "color",
-    "color": "purple-lighten-2"
+    "color": "#9c27b0"
   },
   "text-purple-lighten-3": {
     "css": "color: var(--v-purple-lighten-3);",
     "type": "color",
-    "color": "purple-lighten-3"
+    "color": "#9c27b0"
   },
   "bg-purple-lighten-3": {
     "css": "background-color: var(--v-purple-lighten-3);",
     "type": "color",
-    "color": "purple-lighten-3"
+    "color": "#9c27b0"
   },
   "text-purple-lighten-4": {
     "css": "color: var(--v-purple-lighten-4);",
     "type": "color",
-    "color": "purple-lighten-4"
+    "color": "#9c27b0"
   },
   "bg-purple-lighten-4": {
     "css": "background-color: var(--v-purple-lighten-4);",
     "type": "color",
-    "color": "purple-lighten-4"
+    "color": "#9c27b0"
   },
   "text-purple-lighten-5": {
     "css": "color: var(--v-purple-lighten-5);",
     "type": "color",
-    "color": "purple-lighten-5"
+    "color": "#9c27b0"
   },
   "bg-purple-lighten-5": {
     "css": "background-color: var(--v-purple-lighten-5);",
     "type": "color",
-    "color": "purple-lighten-5"
+    "color": "#9c27b0"
   },
   "text-purple-darken-1": {
     "css": "color: var(--v-purple-darken-1);",
     "type": "color",
-    "color": "purple-darken-1"
+    "color": "#9c27b0"
   },
   "bg-purple-darken-1": {
     "css": "background-color: var(--v-purple-darken-1);",
     "type": "color",
-    "color": "purple-darken-1"
+    "color": "#9c27b0"
   },
   "text-purple-darken-2": {
     "css": "color: var(--v-purple-darken-2);",
     "type": "color",
-    "color": "purple-darken-2"
+    "color": "#9c27b0"
   },
   "bg-purple-darken-2": {
     "css": "background-color: var(--v-purple-darken-2);",
     "type": "color",
-    "color": "purple-darken-2"
+    "color": "#9c27b0"
   },
   "text-purple-darken-3": {
     "css": "color: var(--v-purple-darken-3);",
     "type": "color",
-    "color": "purple-darken-3"
+    "color": "#9c27b0"
   },
   "bg-purple-darken-3": {
     "css": "background-color: var(--v-purple-darken-3);",
     "type": "color",
-    "color": "purple-darken-3"
+    "color": "#9c27b0"
   },
   "text-purple-darken-4": {
     "css": "color: var(--v-purple-darken-4);",
     "type": "color",
-    "color": "purple-darken-4"
+    "color": "#9c27b0"
   },
   "bg-purple-darken-4": {
     "css": "background-color: var(--v-purple-darken-4);",
     "type": "color",
-    "color": "purple-darken-4"
+    "color": "#9c27b0"
   },
   "text-purple-accent-1": {
     "css": "color: var(--v-purple-accent-1);",
     "type": "color",
-    "color": "purple-accent-1"
+    "color": "#9c27b0"
   },
   "bg-purple-accent-1": {
     "css": "background-color: var(--v-purple-accent-1);",
     "type": "color",
-    "color": "purple-accent-1"
+    "color": "#9c27b0"
   },
   "text-purple-accent-2": {
     "css": "color: var(--v-purple-accent-2);",
     "type": "color",
-    "color": "purple-accent-2"
+    "color": "#9c27b0"
   },
   "bg-purple-accent-2": {
     "css": "background-color: var(--v-purple-accent-2);",
     "type": "color",
-    "color": "purple-accent-2"
+    "color": "#9c27b0"
   },
   "text-purple-accent-3": {
     "css": "color: var(--v-purple-accent-3);",
     "type": "color",
-    "color": "purple-accent-3"
+    "color": "#9c27b0"
   },
   "bg-purple-accent-3": {
     "css": "background-color: var(--v-purple-accent-3);",
     "type": "color",
-    "color": "purple-accent-3"
+    "color": "#9c27b0"
   },
   "text-purple-accent-4": {
     "css": "color: var(--v-purple-accent-4);",
     "type": "color",
-    "color": "purple-accent-4"
+    "color": "#9c27b0"
   },
   "bg-purple-accent-4": {
     "css": "background-color: var(--v-purple-accent-4);",
     "type": "color",
-    "color": "purple-accent-4"
+    "color": "#9c27b0"
   },
   "text-deep-purple": {
     "css": "color: var(--v-deep-purple-base);",
-    "type": "color",
-    "color": "deep-purple"
+    "type": "color"
   },
   "bg-deep-purple": {
     "css": "background-color: var(--v-deep-purple-base);",
-    "type": "color",
-    "color": "deep-purple"
+    "type": "color"
   },
   "text-deep-purple-lighten-1": {
     "css": "color: var(--v-deep-purple-lighten-1);",
-    "type": "color",
-    "color": "deep-purple-lighten-1"
+    "type": "color"
   },
   "bg-deep-purple-lighten-1": {
     "css": "background-color: var(--v-deep-purple-lighten-1);",
-    "type": "color",
-    "color": "deep-purple-lighten-1"
+    "type": "color"
   },
   "text-deep-purple-lighten-2": {
     "css": "color: var(--v-deep-purple-lighten-2);",
-    "type": "color",
-    "color": "deep-purple-lighten-2"
+    "type": "color"
   },
   "bg-deep-purple-lighten-2": {
     "css": "background-color: var(--v-deep-purple-lighten-2);",
-    "type": "color",
-    "color": "deep-purple-lighten-2"
+    "type": "color"
   },
   "text-deep-purple-lighten-3": {
     "css": "color: var(--v-deep-purple-lighten-3);",
-    "type": "color",
-    "color": "deep-purple-lighten-3"
+    "type": "color"
   },
   "bg-deep-purple-lighten-3": {
     "css": "background-color: var(--v-deep-purple-lighten-3);",
-    "type": "color",
-    "color": "deep-purple-lighten-3"
+    "type": "color"
   },
   "text-deep-purple-lighten-4": {
     "css": "color: var(--v-deep-purple-lighten-4);",
-    "type": "color",
-    "color": "deep-purple-lighten-4"
+    "type": "color"
   },
   "bg-deep-purple-lighten-4": {
     "css": "background-color: var(--v-deep-purple-lighten-4);",
-    "type": "color",
-    "color": "deep-purple-lighten-4"
+    "type": "color"
   },
   "text-deep-purple-lighten-5": {
     "css": "color: var(--v-deep-purple-lighten-5);",
-    "type": "color",
-    "color": "deep-purple-lighten-5"
+    "type": "color"
   },
   "bg-deep-purple-lighten-5": {
     "css": "background-color: var(--v-deep-purple-lighten-5);",
-    "type": "color",
-    "color": "deep-purple-lighten-5"
+    "type": "color"
   },
   "text-deep-purple-darken-1": {
     "css": "color: var(--v-deep-purple-darken-1);",
-    "type": "color",
-    "color": "deep-purple-darken-1"
+    "type": "color"
   },
   "bg-deep-purple-darken-1": {
     "css": "background-color: var(--v-deep-purple-darken-1);",
-    "type": "color",
-    "color": "deep-purple-darken-1"
+    "type": "color"
   },
   "text-deep-purple-darken-2": {
     "css": "color: var(--v-deep-purple-darken-2);",
-    "type": "color",
-    "color": "deep-purple-darken-2"
+    "type": "color"
   },
   "bg-deep-purple-darken-2": {
     "css": "background-color: var(--v-deep-purple-darken-2);",
-    "type": "color",
-    "color": "deep-purple-darken-2"
+    "type": "color"
   },
   "text-deep-purple-darken-3": {
     "css": "color: var(--v-deep-purple-darken-3);",
-    "type": "color",
-    "color": "deep-purple-darken-3"
+    "type": "color"
   },
   "bg-deep-purple-darken-3": {
     "css": "background-color: var(--v-deep-purple-darken-3);",
-    "type": "color",
-    "color": "deep-purple-darken-3"
+    "type": "color"
   },
   "text-deep-purple-darken-4": {
     "css": "color: var(--v-deep-purple-darken-4);",
-    "type": "color",
-    "color": "deep-purple-darken-4"
+    "type": "color"
   },
   "bg-deep-purple-darken-4": {
     "css": "background-color: var(--v-deep-purple-darken-4);",
-    "type": "color",
-    "color": "deep-purple-darken-4"
+    "type": "color"
   },
   "text-deep-purple-accent-1": {
     "css": "color: var(--v-deep-purple-accent-1);",
-    "type": "color",
-    "color": "deep-purple-accent-1"
+    "type": "color"
   },
   "bg-deep-purple-accent-1": {
     "css": "background-color: var(--v-deep-purple-accent-1);",
-    "type": "color",
-    "color": "deep-purple-accent-1"
+    "type": "color"
   },
   "text-deep-purple-accent-2": {
     "css": "color: var(--v-deep-purple-accent-2);",
-    "type": "color",
-    "color": "deep-purple-accent-2"
+    "type": "color"
   },
   "bg-deep-purple-accent-2": {
     "css": "background-color: var(--v-deep-purple-accent-2);",
-    "type": "color",
-    "color": "deep-purple-accent-2"
+    "type": "color"
   },
   "text-deep-purple-accent-3": {
     "css": "color: var(--v-deep-purple-accent-3);",
-    "type": "color",
-    "color": "deep-purple-accent-3"
+    "type": "color"
   },
   "bg-deep-purple-accent-3": {
     "css": "background-color: var(--v-deep-purple-accent-3);",
-    "type": "color",
-    "color": "deep-purple-accent-3"
+    "type": "color"
   },
   "text-deep-purple-accent-4": {
     "css": "color: var(--v-deep-purple-accent-4);",
-    "type": "color",
-    "color": "deep-purple-accent-4"
+    "type": "color"
   },
   "bg-deep-purple-accent-4": {
     "css": "background-color: var(--v-deep-purple-accent-4);",
-    "type": "color",
-    "color": "deep-purple-accent-4"
+    "type": "color"
   },
   "text-indigo": {
     "css": "color: var(--v-indigo-base);",
     "type": "color",
-    "color": "indigo"
+    "color": "#3f51b5"
   },
   "bg-indigo": {
     "css": "background-color: var(--v-indigo-base);",
     "type": "color",
-    "color": "indigo"
+    "color": "#3f51b5"
   },
   "text-indigo-lighten-1": {
     "css": "color: var(--v-indigo-lighten-1);",
     "type": "color",
-    "color": "indigo-lighten-1"
+    "color": "#3f51b5"
   },
   "bg-indigo-lighten-1": {
     "css": "background-color: var(--v-indigo-lighten-1);",
     "type": "color",
-    "color": "indigo-lighten-1"
+    "color": "#3f51b5"
   },
   "text-indigo-lighten-2": {
     "css": "color: var(--v-indigo-lighten-2);",
     "type": "color",
-    "color": "indigo-lighten-2"
+    "color": "#3f51b5"
   },
   "bg-indigo-lighten-2": {
     "css": "background-color: var(--v-indigo-lighten-2);",
     "type": "color",
-    "color": "indigo-lighten-2"
+    "color": "#3f51b5"
   },
   "text-indigo-lighten-3": {
     "css": "color: var(--v-indigo-lighten-3);",
     "type": "color",
-    "color": "indigo-lighten-3"
+    "color": "#3f51b5"
   },
   "bg-indigo-lighten-3": {
     "css": "background-color: var(--v-indigo-lighten-3);",
     "type": "color",
-    "color": "indigo-lighten-3"
+    "color": "#3f51b5"
   },
   "text-indigo-lighten-4": {
     "css": "color: var(--v-indigo-lighten-4);",
     "type": "color",
-    "color": "indigo-lighten-4"
+    "color": "#3f51b5"
   },
   "bg-indigo-lighten-4": {
     "css": "background-color: var(--v-indigo-lighten-4);",
     "type": "color",
-    "color": "indigo-lighten-4"
+    "color": "#3f51b5"
   },
   "text-indigo-lighten-5": {
     "css": "color: var(--v-indigo-lighten-5);",
     "type": "color",
-    "color": "indigo-lighten-5"
+    "color": "#3f51b5"
   },
   "bg-indigo-lighten-5": {
     "css": "background-color: var(--v-indigo-lighten-5);",
     "type": "color",
-    "color": "indigo-lighten-5"
+    "color": "#3f51b5"
   },
   "text-indigo-darken-1": {
     "css": "color: var(--v-indigo-darken-1);",
     "type": "color",
-    "color": "indigo-darken-1"
+    "color": "#3f51b5"
   },
   "bg-indigo-darken-1": {
     "css": "background-color: var(--v-indigo-darken-1);",
     "type": "color",
-    "color": "indigo-darken-1"
+    "color": "#3f51b5"
   },
   "text-indigo-darken-2": {
     "css": "color: var(--v-indigo-darken-2);",
     "type": "color",
-    "color": "indigo-darken-2"
+    "color": "#3f51b5"
   },
   "bg-indigo-darken-2": {
     "css": "background-color: var(--v-indigo-darken-2);",
     "type": "color",
-    "color": "indigo-darken-2"
+    "color": "#3f51b5"
   },
   "text-indigo-darken-3": {
     "css": "color: var(--v-indigo-darken-3);",
     "type": "color",
-    "color": "indigo-darken-3"
+    "color": "#3f51b5"
   },
   "bg-indigo-darken-3": {
     "css": "background-color: var(--v-indigo-darken-3);",
     "type": "color",
-    "color": "indigo-darken-3"
+    "color": "#3f51b5"
   },
   "text-indigo-darken-4": {
     "css": "color: var(--v-indigo-darken-4);",
     "type": "color",
-    "color": "indigo-darken-4"
+    "color": "#3f51b5"
   },
   "bg-indigo-darken-4": {
     "css": "background-color: var(--v-indigo-darken-4);",
     "type": "color",
-    "color": "indigo-darken-4"
+    "color": "#3f51b5"
   },
   "text-indigo-accent-1": {
     "css": "color: var(--v-indigo-accent-1);",
     "type": "color",
-    "color": "indigo-accent-1"
+    "color": "#3f51b5"
   },
   "bg-indigo-accent-1": {
     "css": "background-color: var(--v-indigo-accent-1);",
     "type": "color",
-    "color": "indigo-accent-1"
+    "color": "#3f51b5"
   },
   "text-indigo-accent-2": {
     "css": "color: var(--v-indigo-accent-2);",
     "type": "color",
-    "color": "indigo-accent-2"
+    "color": "#3f51b5"
   },
   "bg-indigo-accent-2": {
     "css": "background-color: var(--v-indigo-accent-2);",
     "type": "color",
-    "color": "indigo-accent-2"
+    "color": "#3f51b5"
   },
   "text-indigo-accent-3": {
     "css": "color: var(--v-indigo-accent-3);",
     "type": "color",
-    "color": "indigo-accent-3"
+    "color": "#3f51b5"
   },
   "bg-indigo-accent-3": {
     "css": "background-color: var(--v-indigo-accent-3);",
     "type": "color",
-    "color": "indigo-accent-3"
+    "color": "#3f51b5"
   },
   "text-indigo-accent-4": {
     "css": "color: var(--v-indigo-accent-4);",
     "type": "color",
-    "color": "indigo-accent-4"
+    "color": "#3f51b5"
   },
   "bg-indigo-accent-4": {
     "css": "background-color: var(--v-indigo-accent-4);",
     "type": "color",
-    "color": "indigo-accent-4"
+    "color": "#3f51b5"
   },
   "text-blue": {
     "css": "color: var(--v-blue-base);",
     "type": "color",
-    "color": "blue"
+    "color": "#2196f3"
   },
   "bg-blue": {
     "css": "background-color: var(--v-blue-base);",
     "type": "color",
-    "color": "blue"
+    "color": "#2196f3"
   },
   "text-blue-lighten-1": {
     "css": "color: var(--v-blue-lighten-1);",
     "type": "color",
-    "color": "blue-lighten-1"
+    "color": "#2196f3"
   },
   "bg-blue-lighten-1": {
     "css": "background-color: var(--v-blue-lighten-1);",
     "type": "color",
-    "color": "blue-lighten-1"
+    "color": "#2196f3"
   },
   "text-blue-lighten-2": {
     "css": "color: var(--v-blue-lighten-2);",
     "type": "color",
-    "color": "blue-lighten-2"
+    "color": "#2196f3"
   },
   "bg-blue-lighten-2": {
     "css": "background-color: var(--v-blue-lighten-2);",
     "type": "color",
-    "color": "blue-lighten-2"
+    "color": "#2196f3"
   },
   "text-blue-lighten-3": {
     "css": "color: var(--v-blue-lighten-3);",
     "type": "color",
-    "color": "blue-lighten-3"
+    "color": "#2196f3"
   },
   "bg-blue-lighten-3": {
     "css": "background-color: var(--v-blue-lighten-3);",
     "type": "color",
-    "color": "blue-lighten-3"
+    "color": "#2196f3"
   },
   "text-blue-lighten-4": {
     "css": "color: var(--v-blue-lighten-4);",
     "type": "color",
-    "color": "blue-lighten-4"
+    "color": "#2196f3"
   },
   "bg-blue-lighten-4": {
     "css": "background-color: var(--v-blue-lighten-4);",
     "type": "color",
-    "color": "blue-lighten-4"
+    "color": "#2196f3"
   },
   "text-blue-lighten-5": {
     "css": "color: var(--v-blue-lighten-5);",
     "type": "color",
-    "color": "blue-lighten-5"
+    "color": "#2196f3"
   },
   "bg-blue-lighten-5": {
     "css": "background-color: var(--v-blue-lighten-5);",
     "type": "color",
-    "color": "blue-lighten-5"
+    "color": "#2196f3"
   },
   "text-blue-darken-1": {
     "css": "color: var(--v-blue-darken-1);",
     "type": "color",
-    "color": "blue-darken-1"
+    "color": "#2196f3"
   },
   "bg-blue-darken-1": {
     "css": "background-color: var(--v-blue-darken-1);",
     "type": "color",
-    "color": "blue-darken-1"
+    "color": "#2196f3"
   },
   "text-blue-darken-2": {
     "css": "color: var(--v-blue-darken-2);",
     "type": "color",
-    "color": "blue-darken-2"
+    "color": "#2196f3"
   },
   "bg-blue-darken-2": {
     "css": "background-color: var(--v-blue-darken-2);",
     "type": "color",
-    "color": "blue-darken-2"
+    "color": "#2196f3"
   },
   "text-blue-darken-3": {
     "css": "color: var(--v-blue-darken-3);",
     "type": "color",
-    "color": "blue-darken-3"
+    "color": "#2196f3"
   },
   "bg-blue-darken-3": {
     "css": "background-color: var(--v-blue-darken-3);",
     "type": "color",
-    "color": "blue-darken-3"
+    "color": "#2196f3"
   },
   "text-blue-darken-4": {
     "css": "color: var(--v-blue-darken-4);",
     "type": "color",
-    "color": "blue-darken-4"
+    "color": "#2196f3"
   },
   "bg-blue-darken-4": {
     "css": "background-color: var(--v-blue-darken-4);",
     "type": "color",
-    "color": "blue-darken-4"
+    "color": "#2196f3"
   },
   "text-blue-accent-1": {
     "css": "color: var(--v-blue-accent-1);",
     "type": "color",
-    "color": "blue-accent-1"
+    "color": "#2196f3"
   },
   "bg-blue-accent-1": {
     "css": "background-color: var(--v-blue-accent-1);",
     "type": "color",
-    "color": "blue-accent-1"
+    "color": "#2196f3"
   },
   "text-blue-accent-2": {
     "css": "color: var(--v-blue-accent-2);",
     "type": "color",
-    "color": "blue-accent-2"
+    "color": "#2196f3"
   },
   "bg-blue-accent-2": {
     "css": "background-color: var(--v-blue-accent-2);",
     "type": "color",
-    "color": "blue-accent-2"
+    "color": "#2196f3"
   },
   "text-blue-accent-3": {
     "css": "color: var(--v-blue-accent-3);",
     "type": "color",
-    "color": "blue-accent-3"
+    "color": "#2196f3"
   },
   "bg-blue-accent-3": {
     "css": "background-color: var(--v-blue-accent-3);",
     "type": "color",
-    "color": "blue-accent-3"
+    "color": "#2196f3"
   },
   "text-blue-accent-4": {
     "css": "color: var(--v-blue-accent-4);",
     "type": "color",
-    "color": "blue-accent-4"
+    "color": "#2196f3"
   },
   "bg-blue-accent-4": {
     "css": "background-color: var(--v-blue-accent-4);",
     "type": "color",
-    "color": "blue-accent-4"
+    "color": "#2196f3"
   },
   "text-light-blue": {
     "css": "color: var(--v-light-blue-base);",
-    "type": "color",
-    "color": "light-blue"
+    "type": "color"
   },
   "bg-light-blue": {
     "css": "background-color: var(--v-light-blue-base);",
-    "type": "color",
-    "color": "light-blue"
+    "type": "color"
   },
   "text-light-blue-lighten-1": {
     "css": "color: var(--v-light-blue-lighten-1);",
-    "type": "color",
-    "color": "light-blue-lighten-1"
+    "type": "color"
   },
   "bg-light-blue-lighten-1": {
     "css": "background-color: var(--v-light-blue-lighten-1);",
-    "type": "color",
-    "color": "light-blue-lighten-1"
+    "type": "color"
   },
   "text-light-blue-lighten-2": {
     "css": "color: var(--v-light-blue-lighten-2);",
-    "type": "color",
-    "color": "light-blue-lighten-2"
+    "type": "color"
   },
   "bg-light-blue-lighten-2": {
     "css": "background-color: var(--v-light-blue-lighten-2);",
-    "type": "color",
-    "color": "light-blue-lighten-2"
+    "type": "color"
   },
   "text-light-blue-lighten-3": {
     "css": "color: var(--v-light-blue-lighten-3);",
-    "type": "color",
-    "color": "light-blue-lighten-3"
+    "type": "color"
   },
   "bg-light-blue-lighten-3": {
     "css": "background-color: var(--v-light-blue-lighten-3);",
-    "type": "color",
-    "color": "light-blue-lighten-3"
+    "type": "color"
   },
   "text-light-blue-lighten-4": {
     "css": "color: var(--v-light-blue-lighten-4);",
-    "type": "color",
-    "color": "light-blue-lighten-4"
+    "type": "color"
   },
   "bg-light-blue-lighten-4": {
     "css": "background-color: var(--v-light-blue-lighten-4);",
-    "type": "color",
-    "color": "light-blue-lighten-4"
+    "type": "color"
   },
   "text-light-blue-lighten-5": {
     "css": "color: var(--v-light-blue-lighten-5);",
-    "type": "color",
-    "color": "light-blue-lighten-5"
+    "type": "color"
   },
   "bg-light-blue-lighten-5": {
     "css": "background-color: var(--v-light-blue-lighten-5);",
-    "type": "color",
-    "color": "light-blue-lighten-5"
+    "type": "color"
   },
   "text-light-blue-darken-1": {
     "css": "color: var(--v-light-blue-darken-1);",
-    "type": "color",
-    "color": "light-blue-darken-1"
+    "type": "color"
   },
   "bg-light-blue-darken-1": {
     "css": "background-color: var(--v-light-blue-darken-1);",
-    "type": "color",
-    "color": "light-blue-darken-1"
+    "type": "color"
   },
   "text-light-blue-darken-2": {
     "css": "color: var(--v-light-blue-darken-2);",
-    "type": "color",
-    "color": "light-blue-darken-2"
+    "type": "color"
   },
   "bg-light-blue-darken-2": {
     "css": "background-color: var(--v-light-blue-darken-2);",
-    "type": "color",
-    "color": "light-blue-darken-2"
+    "type": "color"
   },
   "text-light-blue-darken-3": {
     "css": "color: var(--v-light-blue-darken-3);",
-    "type": "color",
-    "color": "light-blue-darken-3"
+    "type": "color"
   },
   "bg-light-blue-darken-3": {
     "css": "background-color: var(--v-light-blue-darken-3);",
-    "type": "color",
-    "color": "light-blue-darken-3"
+    "type": "color"
   },
   "text-light-blue-darken-4": {
     "css": "color: var(--v-light-blue-darken-4);",
-    "type": "color",
-    "color": "light-blue-darken-4"
+    "type": "color"
   },
   "bg-light-blue-darken-4": {
     "css": "background-color: var(--v-light-blue-darken-4);",
-    "type": "color",
-    "color": "light-blue-darken-4"
+    "type": "color"
   },
   "text-light-blue-accent-1": {
     "css": "color: var(--v-light-blue-accent-1);",
-    "type": "color",
-    "color": "light-blue-accent-1"
+    "type": "color"
   },
   "bg-light-blue-accent-1": {
     "css": "background-color: var(--v-light-blue-accent-1);",
-    "type": "color",
-    "color": "light-blue-accent-1"
+    "type": "color"
   },
   "text-light-blue-accent-2": {
     "css": "color: var(--v-light-blue-accent-2);",
-    "type": "color",
-    "color": "light-blue-accent-2"
+    "type": "color"
   },
   "bg-light-blue-accent-2": {
     "css": "background-color: var(--v-light-blue-accent-2);",
-    "type": "color",
-    "color": "light-blue-accent-2"
+    "type": "color"
   },
   "text-light-blue-accent-3": {
     "css": "color: var(--v-light-blue-accent-3);",
-    "type": "color",
-    "color": "light-blue-accent-3"
+    "type": "color"
   },
   "bg-light-blue-accent-3": {
     "css": "background-color: var(--v-light-blue-accent-3);",
-    "type": "color",
-    "color": "light-blue-accent-3"
+    "type": "color"
   },
   "text-light-blue-accent-4": {
     "css": "color: var(--v-light-blue-accent-4);",
-    "type": "color",
-    "color": "light-blue-accent-4"
+    "type": "color"
   },
   "bg-light-blue-accent-4": {
     "css": "background-color: var(--v-light-blue-accent-4);",
-    "type": "color",
-    "color": "light-blue-accent-4"
+    "type": "color"
   },
   "text-cyan": {
     "css": "color: var(--v-cyan-base);",
     "type": "color",
-    "color": "cyan"
+    "color": "#00bcd4"
   },
   "bg-cyan": {
     "css": "background-color: var(--v-cyan-base);",
     "type": "color",
-    "color": "cyan"
+    "color": "#00bcd4"
   },
   "text-cyan-lighten-1": {
     "css": "color: var(--v-cyan-lighten-1);",
     "type": "color",
-    "color": "cyan-lighten-1"
+    "color": "#00bcd4"
   },
   "bg-cyan-lighten-1": {
     "css": "background-color: var(--v-cyan-lighten-1);",
     "type": "color",
-    "color": "cyan-lighten-1"
+    "color": "#00bcd4"
   },
   "text-cyan-lighten-2": {
     "css": "color: var(--v-cyan-lighten-2);",
     "type": "color",
-    "color": "cyan-lighten-2"
+    "color": "#00bcd4"
   },
   "bg-cyan-lighten-2": {
     "css": "background-color: var(--v-cyan-lighten-2);",
     "type": "color",
-    "color": "cyan-lighten-2"
+    "color": "#00bcd4"
   },
   "text-cyan-lighten-3": {
     "css": "color: var(--v-cyan-lighten-3);",
     "type": "color",
-    "color": "cyan-lighten-3"
+    "color": "#00bcd4"
   },
   "bg-cyan-lighten-3": {
     "css": "background-color: var(--v-cyan-lighten-3);",
     "type": "color",
-    "color": "cyan-lighten-3"
+    "color": "#00bcd4"
   },
   "text-cyan-lighten-4": {
     "css": "color: var(--v-cyan-lighten-4);",
     "type": "color",
-    "color": "cyan-lighten-4"
+    "color": "#00bcd4"
   },
   "bg-cyan-lighten-4": {
     "css": "background-color: var(--v-cyan-lighten-4);",
     "type": "color",
-    "color": "cyan-lighten-4"
+    "color": "#00bcd4"
   },
   "text-cyan-lighten-5": {
     "css": "color: var(--v-cyan-lighten-5);",
     "type": "color",
-    "color": "cyan-lighten-5"
+    "color": "#00bcd4"
   },
   "bg-cyan-lighten-5": {
     "css": "background-color: var(--v-cyan-lighten-5);",
     "type": "color",
-    "color": "cyan-lighten-5"
+    "color": "#00bcd4"
   },
   "text-cyan-darken-1": {
     "css": "color: var(--v-cyan-darken-1);",
     "type": "color",
-    "color": "cyan-darken-1"
+    "color": "#00bcd4"
   },
   "bg-cyan-darken-1": {
     "css": "background-color: var(--v-cyan-darken-1);",
     "type": "color",
-    "color": "cyan-darken-1"
+    "color": "#00bcd4"
   },
   "text-cyan-darken-2": {
     "css": "color: var(--v-cyan-darken-2);",
     "type": "color",
-    "color": "cyan-darken-2"
+    "color": "#00bcd4"
   },
   "bg-cyan-darken-2": {
     "css": "background-color: var(--v-cyan-darken-2);",
     "type": "color",
-    "color": "cyan-darken-2"
+    "color": "#00bcd4"
   },
   "text-cyan-darken-3": {
     "css": "color: var(--v-cyan-darken-3);",
     "type": "color",
-    "color": "cyan-darken-3"
+    "color": "#00bcd4"
   },
   "bg-cyan-darken-3": {
     "css": "background-color: var(--v-cyan-darken-3);",
     "type": "color",
-    "color": "cyan-darken-3"
+    "color": "#00bcd4"
   },
   "text-cyan-darken-4": {
     "css": "color: var(--v-cyan-darken-4);",
     "type": "color",
-    "color": "cyan-darken-4"
+    "color": "#00bcd4"
   },
   "bg-cyan-darken-4": {
     "css": "background-color: var(--v-cyan-darken-4);",
     "type": "color",
-    "color": "cyan-darken-4"
+    "color": "#00bcd4"
   },
   "text-cyan-accent-1": {
     "css": "color: var(--v-cyan-accent-1);",
     "type": "color",
-    "color": "cyan-accent-1"
+    "color": "#00bcd4"
   },
   "bg-cyan-accent-1": {
     "css": "background-color: var(--v-cyan-accent-1);",
     "type": "color",
-    "color": "cyan-accent-1"
+    "color": "#00bcd4"
   },
   "text-cyan-accent-2": {
     "css": "color: var(--v-cyan-accent-2);",
     "type": "color",
-    "color": "cyan-accent-2"
+    "color": "#00bcd4"
   },
   "bg-cyan-accent-2": {
     "css": "background-color: var(--v-cyan-accent-2);",
     "type": "color",
-    "color": "cyan-accent-2"
+    "color": "#00bcd4"
   },
   "text-cyan-accent-3": {
     "css": "color: var(--v-cyan-accent-3);",
     "type": "color",
-    "color": "cyan-accent-3"
+    "color": "#00bcd4"
   },
   "bg-cyan-accent-3": {
     "css": "background-color: var(--v-cyan-accent-3);",
     "type": "color",
-    "color": "cyan-accent-3"
+    "color": "#00bcd4"
   },
   "text-cyan-accent-4": {
     "css": "color: var(--v-cyan-accent-4);",
     "type": "color",
-    "color": "cyan-accent-4"
+    "color": "#00bcd4"
   },
   "bg-cyan-accent-4": {
     "css": "background-color: var(--v-cyan-accent-4);",
     "type": "color",
-    "color": "cyan-accent-4"
+    "color": "#00bcd4"
   },
   "text-teal": {
     "css": "color: var(--v-teal-base);",
     "type": "color",
-    "color": "teal"
+    "color": "#009688"
   },
   "bg-teal": {
     "css": "background-color: var(--v-teal-base);",
     "type": "color",
-    "color": "teal"
+    "color": "#009688"
   },
   "text-teal-lighten-1": {
     "css": "color: var(--v-teal-lighten-1);",
     "type": "color",
-    "color": "teal-lighten-1"
+    "color": "#009688"
   },
   "bg-teal-lighten-1": {
     "css": "background-color: var(--v-teal-lighten-1);",
     "type": "color",
-    "color": "teal-lighten-1"
+    "color": "#009688"
   },
   "text-teal-lighten-2": {
     "css": "color: var(--v-teal-lighten-2);",
     "type": "color",
-    "color": "teal-lighten-2"
+    "color": "#009688"
   },
   "bg-teal-lighten-2": {
     "css": "background-color: var(--v-teal-lighten-2);",
     "type": "color",
-    "color": "teal-lighten-2"
+    "color": "#009688"
   },
   "text-teal-lighten-3": {
     "css": "color: var(--v-teal-lighten-3);",
     "type": "color",
-    "color": "teal-lighten-3"
+    "color": "#009688"
   },
   "bg-teal-lighten-3": {
     "css": "background-color: var(--v-teal-lighten-3);",
     "type": "color",
-    "color": "teal-lighten-3"
+    "color": "#009688"
   },
   "text-teal-lighten-4": {
     "css": "color: var(--v-teal-lighten-4);",
     "type": "color",
-    "color": "teal-lighten-4"
+    "color": "#009688"
   },
   "bg-teal-lighten-4": {
     "css": "background-color: var(--v-teal-lighten-4);",
     "type": "color",
-    "color": "teal-lighten-4"
+    "color": "#009688"
   },
   "text-teal-lighten-5": {
     "css": "color: var(--v-teal-lighten-5);",
     "type": "color",
-    "color": "teal-lighten-5"
+    "color": "#009688"
   },
   "bg-teal-lighten-5": {
     "css": "background-color: var(--v-teal-lighten-5);",
     "type": "color",
-    "color": "teal-lighten-5"
+    "color": "#009688"
   },
   "text-teal-darken-1": {
     "css": "color: var(--v-teal-darken-1);",
     "type": "color",
-    "color": "teal-darken-1"
+    "color": "#009688"
   },
   "bg-teal-darken-1": {
     "css": "background-color: var(--v-teal-darken-1);",
     "type": "color",
-    "color": "teal-darken-1"
+    "color": "#009688"
   },
   "text-teal-darken-2": {
     "css": "color: var(--v-teal-darken-2);",
     "type": "color",
-    "color": "teal-darken-2"
+    "color": "#009688"
   },
   "bg-teal-darken-2": {
     "css": "background-color: var(--v-teal-darken-2);",
     "type": "color",
-    "color": "teal-darken-2"
+    "color": "#009688"
   },
   "text-teal-darken-3": {
     "css": "color: var(--v-teal-darken-3);",
     "type": "color",
-    "color": "teal-darken-3"
+    "color": "#009688"
   },
   "bg-teal-darken-3": {
     "css": "background-color: var(--v-teal-darken-3);",
     "type": "color",
-    "color": "teal-darken-3"
+    "color": "#009688"
   },
   "text-teal-darken-4": {
     "css": "color: var(--v-teal-darken-4);",
     "type": "color",
-    "color": "teal-darken-4"
+    "color": "#009688"
   },
   "bg-teal-darken-4": {
     "css": "background-color: var(--v-teal-darken-4);",
     "type": "color",
-    "color": "teal-darken-4"
+    "color": "#009688"
   },
   "text-teal-accent-1": {
     "css": "color: var(--v-teal-accent-1);",
     "type": "color",
-    "color": "teal-accent-1"
+    "color": "#009688"
   },
   "bg-teal-accent-1": {
     "css": "background-color: var(--v-teal-accent-1);",
     "type": "color",
-    "color": "teal-accent-1"
+    "color": "#009688"
   },
   "text-teal-accent-2": {
     "css": "color: var(--v-teal-accent-2);",
     "type": "color",
-    "color": "teal-accent-2"
+    "color": "#009688"
   },
   "bg-teal-accent-2": {
     "css": "background-color: var(--v-teal-accent-2);",
     "type": "color",
-    "color": "teal-accent-2"
+    "color": "#009688"
   },
   "text-teal-accent-3": {
     "css": "color: var(--v-teal-accent-3);",
     "type": "color",
-    "color": "teal-accent-3"
+    "color": "#009688"
   },
   "bg-teal-accent-3": {
     "css": "background-color: var(--v-teal-accent-3);",
     "type": "color",
-    "color": "teal-accent-3"
+    "color": "#009688"
   },
   "text-teal-accent-4": {
     "css": "color: var(--v-teal-accent-4);",
     "type": "color",
-    "color": "teal-accent-4"
+    "color": "#009688"
   },
   "bg-teal-accent-4": {
     "css": "background-color: var(--v-teal-accent-4);",
     "type": "color",
-    "color": "teal-accent-4"
+    "color": "#009688"
   },
   "text-green": {
     "css": "color: var(--v-green-base);",
     "type": "color",
-    "color": "green"
+    "color": "#4caf50"
   },
   "bg-green": {
     "css": "background-color: var(--v-green-base);",
     "type": "color",
-    "color": "green"
+    "color": "#4caf50"
   },
   "text-green-lighten-1": {
     "css": "color: var(--v-green-lighten-1);",
     "type": "color",
-    "color": "green-lighten-1"
+    "color": "#4caf50"
   },
   "bg-green-lighten-1": {
     "css": "background-color: var(--v-green-lighten-1);",
     "type": "color",
-    "color": "green-lighten-1"
+    "color": "#4caf50"
   },
   "text-green-lighten-2": {
     "css": "color: var(--v-green-lighten-2);",
     "type": "color",
-    "color": "green-lighten-2"
+    "color": "#4caf50"
   },
   "bg-green-lighten-2": {
     "css": "background-color: var(--v-green-lighten-2);",
     "type": "color",
-    "color": "green-lighten-2"
+    "color": "#4caf50"
   },
   "text-green-lighten-3": {
     "css": "color: var(--v-green-lighten-3);",
     "type": "color",
-    "color": "green-lighten-3"
+    "color": "#4caf50"
   },
   "bg-green-lighten-3": {
     "css": "background-color: var(--v-green-lighten-3);",
     "type": "color",
-    "color": "green-lighten-3"
+    "color": "#4caf50"
   },
   "text-green-lighten-4": {
     "css": "color: var(--v-green-lighten-4);",
     "type": "color",
-    "color": "green-lighten-4"
+    "color": "#4caf50"
   },
   "bg-green-lighten-4": {
     "css": "background-color: var(--v-green-lighten-4);",
     "type": "color",
-    "color": "green-lighten-4"
+    "color": "#4caf50"
   },
   "text-green-lighten-5": {
     "css": "color: var(--v-green-lighten-5);",
     "type": "color",
-    "color": "green-lighten-5"
+    "color": "#4caf50"
   },
   "bg-green-lighten-5": {
     "css": "background-color: var(--v-green-lighten-5);",
     "type": "color",
-    "color": "green-lighten-5"
+    "color": "#4caf50"
   },
   "text-green-darken-1": {
     "css": "color: var(--v-green-darken-1);",
     "type": "color",
-    "color": "green-darken-1"
+    "color": "#4caf50"
   },
   "bg-green-darken-1": {
     "css": "background-color: var(--v-green-darken-1);",
     "type": "color",
-    "color": "green-darken-1"
+    "color": "#4caf50"
   },
   "text-green-darken-2": {
     "css": "color: var(--v-green-darken-2);",
     "type": "color",
-    "color": "green-darken-2"
+    "color": "#4caf50"
   },
   "bg-green-darken-2": {
     "css": "background-color: var(--v-green-darken-2);",
     "type": "color",
-    "color": "green-darken-2"
+    "color": "#4caf50"
   },
   "text-green-darken-3": {
     "css": "color: var(--v-green-darken-3);",
     "type": "color",
-    "color": "green-darken-3"
+    "color": "#4caf50"
   },
   "bg-green-darken-3": {
     "css": "background-color: var(--v-green-darken-3);",
     "type": "color",
-    "color": "green-darken-3"
+    "color": "#4caf50"
   },
   "text-green-darken-4": {
     "css": "color: var(--v-green-darken-4);",
     "type": "color",
-    "color": "green-darken-4"
+    "color": "#4caf50"
   },
   "bg-green-darken-4": {
     "css": "background-color: var(--v-green-darken-4);",
     "type": "color",
-    "color": "green-darken-4"
+    "color": "#4caf50"
   },
   "text-green-accent-1": {
     "css": "color: var(--v-green-accent-1);",
     "type": "color",
-    "color": "green-accent-1"
+    "color": "#4caf50"
   },
   "bg-green-accent-1": {
     "css": "background-color: var(--v-green-accent-1);",
     "type": "color",
-    "color": "green-accent-1"
+    "color": "#4caf50"
   },
   "text-green-accent-2": {
     "css": "color: var(--v-green-accent-2);",
     "type": "color",
-    "color": "green-accent-2"
+    "color": "#4caf50"
   },
   "bg-green-accent-2": {
     "css": "background-color: var(--v-green-accent-2);",
     "type": "color",
-    "color": "green-accent-2"
+    "color": "#4caf50"
   },
   "text-green-accent-3": {
     "css": "color: var(--v-green-accent-3);",
     "type": "color",
-    "color": "green-accent-3"
+    "color": "#4caf50"
   },
   "bg-green-accent-3": {
     "css": "background-color: var(--v-green-accent-3);",
     "type": "color",
-    "color": "green-accent-3"
+    "color": "#4caf50"
   },
   "text-green-accent-4": {
     "css": "color: var(--v-green-accent-4);",
     "type": "color",
-    "color": "green-accent-4"
+    "color": "#4caf50"
   },
   "bg-green-accent-4": {
     "css": "background-color: var(--v-green-accent-4);",
     "type": "color",
-    "color": "green-accent-4"
+    "color": "#4caf50"
   },
   "text-light-green": {
     "css": "color: var(--v-light-green-base);",
-    "type": "color",
-    "color": "light-green"
+    "type": "color"
   },
   "bg-light-green": {
     "css": "background-color: var(--v-light-green-base);",
-    "type": "color",
-    "color": "light-green"
+    "type": "color"
   },
   "text-light-green-lighten-1": {
     "css": "color: var(--v-light-green-lighten-1);",
-    "type": "color",
-    "color": "light-green-lighten-1"
+    "type": "color"
   },
   "bg-light-green-lighten-1": {
     "css": "background-color: var(--v-light-green-lighten-1);",
-    "type": "color",
-    "color": "light-green-lighten-1"
+    "type": "color"
   },
   "text-light-green-lighten-2": {
     "css": "color: var(--v-light-green-lighten-2);",
-    "type": "color",
-    "color": "light-green-lighten-2"
+    "type": "color"
   },
   "bg-light-green-lighten-2": {
     "css": "background-color: var(--v-light-green-lighten-2);",
-    "type": "color",
-    "color": "light-green-lighten-2"
+    "type": "color"
   },
   "text-light-green-lighten-3": {
     "css": "color: var(--v-light-green-lighten-3);",
-    "type": "color",
-    "color": "light-green-lighten-3"
+    "type": "color"
   },
   "bg-light-green-lighten-3": {
     "css": "background-color: var(--v-light-green-lighten-3);",
-    "type": "color",
-    "color": "light-green-lighten-3"
+    "type": "color"
   },
   "text-light-green-lighten-4": {
     "css": "color: var(--v-light-green-lighten-4);",
-    "type": "color",
-    "color": "light-green-lighten-4"
+    "type": "color"
   },
   "bg-light-green-lighten-4": {
     "css": "background-color: var(--v-light-green-lighten-4);",
-    "type": "color",
-    "color": "light-green-lighten-4"
+    "type": "color"
   },
   "text-light-green-lighten-5": {
     "css": "color: var(--v-light-green-lighten-5);",
-    "type": "color",
-    "color": "light-green-lighten-5"
+    "type": "color"
   },
   "bg-light-green-lighten-5": {
     "css": "background-color: var(--v-light-green-lighten-5);",
-    "type": "color",
-    "color": "light-green-lighten-5"
+    "type": "color"
   },
   "text-light-green-darken-1": {
     "css": "color: var(--v-light-green-darken-1);",
-    "type": "color",
-    "color": "light-green-darken-1"
+    "type": "color"
   },
   "bg-light-green-darken-1": {
     "css": "background-color: var(--v-light-green-darken-1);",
-    "type": "color",
-    "color": "light-green-darken-1"
+    "type": "color"
   },
   "text-light-green-darken-2": {
     "css": "color: var(--v-light-green-darken-2);",
-    "type": "color",
-    "color": "light-green-darken-2"
+    "type": "color"
   },
   "bg-light-green-darken-2": {
     "css": "background-color: var(--v-light-green-darken-2);",
-    "type": "color",
-    "color": "light-green-darken-2"
+    "type": "color"
   },
   "text-light-green-darken-3": {
     "css": "color: var(--v-light-green-darken-3);",
-    "type": "color",
-    "color": "light-green-darken-3"
+    "type": "color"
   },
   "bg-light-green-darken-3": {
     "css": "background-color: var(--v-light-green-darken-3);",
-    "type": "color",
-    "color": "light-green-darken-3"
+    "type": "color"
   },
   "text-light-green-darken-4": {
     "css": "color: var(--v-light-green-darken-4);",
-    "type": "color",
-    "color": "light-green-darken-4"
+    "type": "color"
   },
   "bg-light-green-darken-4": {
     "css": "background-color: var(--v-light-green-darken-4);",
-    "type": "color",
-    "color": "light-green-darken-4"
+    "type": "color"
   },
   "text-light-green-accent-1": {
     "css": "color: var(--v-light-green-accent-1);",
-    "type": "color",
-    "color": "light-green-accent-1"
+    "type": "color"
   },
   "bg-light-green-accent-1": {
     "css": "background-color: var(--v-light-green-accent-1);",
-    "type": "color",
-    "color": "light-green-accent-1"
+    "type": "color"
   },
   "text-light-green-accent-2": {
     "css": "color: var(--v-light-green-accent-2);",
-    "type": "color",
-    "color": "light-green-accent-2"
+    "type": "color"
   },
   "bg-light-green-accent-2": {
     "css": "background-color: var(--v-light-green-accent-2);",
-    "type": "color",
-    "color": "light-green-accent-2"
+    "type": "color"
   },
   "text-light-green-accent-3": {
     "css": "color: var(--v-light-green-accent-3);",
-    "type": "color",
-    "color": "light-green-accent-3"
+    "type": "color"
   },
   "bg-light-green-accent-3": {
     "css": "background-color: var(--v-light-green-accent-3);",
-    "type": "color",
-    "color": "light-green-accent-3"
+    "type": "color"
   },
   "text-light-green-accent-4": {
     "css": "color: var(--v-light-green-accent-4);",
-    "type": "color",
-    "color": "light-green-accent-4"
+    "type": "color"
   },
   "bg-light-green-accent-4": {
     "css": "background-color: var(--v-light-green-accent-4);",
-    "type": "color",
-    "color": "light-green-accent-4"
+    "type": "color"
   },
   "text-lime": {
     "css": "color: var(--v-lime-base);",
     "type": "color",
-    "color": "lime"
+    "color": "#cddc39"
   },
   "bg-lime": {
     "css": "background-color: var(--v-lime-base);",
     "type": "color",
-    "color": "lime"
+    "color": "#cddc39"
   },
   "text-lime-lighten-1": {
     "css": "color: var(--v-lime-lighten-1);",
     "type": "color",
-    "color": "lime-lighten-1"
+    "color": "#cddc39"
   },
   "bg-lime-lighten-1": {
     "css": "background-color: var(--v-lime-lighten-1);",
     "type": "color",
-    "color": "lime-lighten-1"
+    "color": "#cddc39"
   },
   "text-lime-lighten-2": {
     "css": "color: var(--v-lime-lighten-2);",
     "type": "color",
-    "color": "lime-lighten-2"
+    "color": "#cddc39"
   },
   "bg-lime-lighten-2": {
     "css": "background-color: var(--v-lime-lighten-2);",
     "type": "color",
-    "color": "lime-lighten-2"
+    "color": "#cddc39"
   },
   "text-lime-lighten-3": {
     "css": "color: var(--v-lime-lighten-3);",
     "type": "color",
-    "color": "lime-lighten-3"
+    "color": "#cddc39"
   },
   "bg-lime-lighten-3": {
     "css": "background-color: var(--v-lime-lighten-3);",
     "type": "color",
-    "color": "lime-lighten-3"
+    "color": "#cddc39"
   },
   "text-lime-lighten-4": {
     "css": "color: var(--v-lime-lighten-4);",
     "type": "color",
-    "color": "lime-lighten-4"
+    "color": "#cddc39"
   },
   "bg-lime-lighten-4": {
     "css": "background-color: var(--v-lime-lighten-4);",
     "type": "color",
-    "color": "lime-lighten-4"
+    "color": "#cddc39"
   },
   "text-lime-lighten-5": {
     "css": "color: var(--v-lime-lighten-5);",
     "type": "color",
-    "color": "lime-lighten-5"
+    "color": "#cddc39"
   },
   "bg-lime-lighten-5": {
     "css": "background-color: var(--v-lime-lighten-5);",
     "type": "color",
-    "color": "lime-lighten-5"
+    "color": "#cddc39"
   },
   "text-lime-darken-1": {
     "css": "color: var(--v-lime-darken-1);",
     "type": "color",
-    "color": "lime-darken-1"
+    "color": "#cddc39"
   },
   "bg-lime-darken-1": {
     "css": "background-color: var(--v-lime-darken-1);",
     "type": "color",
-    "color": "lime-darken-1"
+    "color": "#cddc39"
   },
   "text-lime-darken-2": {
     "css": "color: var(--v-lime-darken-2);",
     "type": "color",
-    "color": "lime-darken-2"
+    "color": "#cddc39"
   },
   "bg-lime-darken-2": {
     "css": "background-color: var(--v-lime-darken-2);",
     "type": "color",
-    "color": "lime-darken-2"
+    "color": "#cddc39"
   },
   "text-lime-darken-3": {
     "css": "color: var(--v-lime-darken-3);",
     "type": "color",
-    "color": "lime-darken-3"
+    "color": "#cddc39"
   },
   "bg-lime-darken-3": {
     "css": "background-color: var(--v-lime-darken-3);",
     "type": "color",
-    "color": "lime-darken-3"
+    "color": "#cddc39"
   },
   "text-lime-darken-4": {
     "css": "color: var(--v-lime-darken-4);",
     "type": "color",
-    "color": "lime-darken-4"
+    "color": "#cddc39"
   },
   "bg-lime-darken-4": {
     "css": "background-color: var(--v-lime-darken-4);",
     "type": "color",
-    "color": "lime-darken-4"
+    "color": "#cddc39"
   },
   "text-lime-accent-1": {
     "css": "color: var(--v-lime-accent-1);",
     "type": "color",
-    "color": "lime-accent-1"
+    "color": "#cddc39"
   },
   "bg-lime-accent-1": {
     "css": "background-color: var(--v-lime-accent-1);",
     "type": "color",
-    "color": "lime-accent-1"
+    "color": "#cddc39"
   },
   "text-lime-accent-2": {
     "css": "color: var(--v-lime-accent-2);",
     "type": "color",
-    "color": "lime-accent-2"
+    "color": "#cddc39"
   },
   "bg-lime-accent-2": {
     "css": "background-color: var(--v-lime-accent-2);",
     "type": "color",
-    "color": "lime-accent-2"
+    "color": "#cddc39"
   },
   "text-lime-accent-3": {
     "css": "color: var(--v-lime-accent-3);",
     "type": "color",
-    "color": "lime-accent-3"
+    "color": "#cddc39"
   },
   "bg-lime-accent-3": {
     "css": "background-color: var(--v-lime-accent-3);",
     "type": "color",
-    "color": "lime-accent-3"
+    "color": "#cddc39"
   },
   "text-lime-accent-4": {
     "css": "color: var(--v-lime-accent-4);",
     "type": "color",
-    "color": "lime-accent-4"
+    "color": "#cddc39"
   },
   "bg-lime-accent-4": {
     "css": "background-color: var(--v-lime-accent-4);",
     "type": "color",
-    "color": "lime-accent-4"
+    "color": "#cddc39"
   },
   "text-yellow": {
     "css": "color: var(--v-yellow-base);",
     "type": "color",
-    "color": "yellow"
+    "color": "#ffeb3b"
   },
   "bg-yellow": {
     "css": "background-color: var(--v-yellow-base);",
     "type": "color",
-    "color": "yellow"
+    "color": "#ffeb3b"
   },
   "text-yellow-lighten-1": {
     "css": "color: var(--v-yellow-lighten-1);",
     "type": "color",
-    "color": "yellow-lighten-1"
+    "color": "#ffeb3b"
   },
   "bg-yellow-lighten-1": {
     "css": "background-color: var(--v-yellow-lighten-1);",
     "type": "color",
-    "color": "yellow-lighten-1"
+    "color": "#ffeb3b"
   },
   "text-yellow-lighten-2": {
     "css": "color: var(--v-yellow-lighten-2);",
     "type": "color",
-    "color": "yellow-lighten-2"
+    "color": "#ffeb3b"
   },
   "bg-yellow-lighten-2": {
     "css": "background-color: var(--v-yellow-lighten-2);",
     "type": "color",
-    "color": "yellow-lighten-2"
+    "color": "#ffeb3b"
   },
   "text-yellow-lighten-3": {
     "css": "color: var(--v-yellow-lighten-3);",
     "type": "color",
-    "color": "yellow-lighten-3"
+    "color": "#ffeb3b"
   },
   "bg-yellow-lighten-3": {
     "css": "background-color: var(--v-yellow-lighten-3);",
     "type": "color",
-    "color": "yellow-lighten-3"
+    "color": "#ffeb3b"
   },
   "text-yellow-lighten-4": {
     "css": "color: var(--v-yellow-lighten-4);",
     "type": "color",
-    "color": "yellow-lighten-4"
+    "color": "#ffeb3b"
   },
   "bg-yellow-lighten-4": {
     "css": "background-color: var(--v-yellow-lighten-4);",
     "type": "color",
-    "color": "yellow-lighten-4"
+    "color": "#ffeb3b"
   },
   "text-yellow-lighten-5": {
     "css": "color: var(--v-yellow-lighten-5);",
     "type": "color",
-    "color": "yellow-lighten-5"
+    "color": "#ffeb3b"
   },
   "bg-yellow-lighten-5": {
     "css": "background-color: var(--v-yellow-lighten-5);",
     "type": "color",
-    "color": "yellow-lighten-5"
+    "color": "#ffeb3b"
   },
   "text-yellow-darken-1": {
     "css": "color: var(--v-yellow-darken-1);",
     "type": "color",
-    "color": "yellow-darken-1"
+    "color": "#ffeb3b"
   },
   "bg-yellow-darken-1": {
     "css": "background-color: var(--v-yellow-darken-1);",
     "type": "color",
-    "color": "yellow-darken-1"
+    "color": "#ffeb3b"
   },
   "text-yellow-darken-2": {
     "css": "color: var(--v-yellow-darken-2);",
     "type": "color",
-    "color": "yellow-darken-2"
+    "color": "#ffeb3b"
   },
   "bg-yellow-darken-2": {
     "css": "background-color: var(--v-yellow-darken-2);",
     "type": "color",
-    "color": "yellow-darken-2"
+    "color": "#ffeb3b"
   },
   "text-yellow-darken-3": {
     "css": "color: var(--v-yellow-darken-3);",
     "type": "color",
-    "color": "yellow-darken-3"
+    "color": "#ffeb3b"
   },
   "bg-yellow-darken-3": {
     "css": "background-color: var(--v-yellow-darken-3);",
     "type": "color",
-    "color": "yellow-darken-3"
+    "color": "#ffeb3b"
   },
   "text-yellow-darken-4": {
     "css": "color: var(--v-yellow-darken-4);",
     "type": "color",
-    "color": "yellow-darken-4"
+    "color": "#ffeb3b"
   },
   "bg-yellow-darken-4": {
     "css": "background-color: var(--v-yellow-darken-4);",
     "type": "color",
-    "color": "yellow-darken-4"
+    "color": "#ffeb3b"
   },
   "text-yellow-accent-1": {
     "css": "color: var(--v-yellow-accent-1);",
     "type": "color",
-    "color": "yellow-accent-1"
+    "color": "#ffeb3b"
   },
   "bg-yellow-accent-1": {
     "css": "background-color: var(--v-yellow-accent-1);",
     "type": "color",
-    "color": "yellow-accent-1"
+    "color": "#ffeb3b"
   },
   "text-yellow-accent-2": {
     "css": "color: var(--v-yellow-accent-2);",
     "type": "color",
-    "color": "yellow-accent-2"
+    "color": "#ffeb3b"
   },
   "bg-yellow-accent-2": {
     "css": "background-color: var(--v-yellow-accent-2);",
     "type": "color",
-    "color": "yellow-accent-2"
+    "color": "#ffeb3b"
   },
   "text-yellow-accent-3": {
     "css": "color: var(--v-yellow-accent-3);",
     "type": "color",
-    "color": "yellow-accent-3"
+    "color": "#ffeb3b"
   },
   "bg-yellow-accent-3": {
     "css": "background-color: var(--v-yellow-accent-3);",
     "type": "color",
-    "color": "yellow-accent-3"
+    "color": "#ffeb3b"
   },
   "text-yellow-accent-4": {
     "css": "color: var(--v-yellow-accent-4);",
     "type": "color",
-    "color": "yellow-accent-4"
+    "color": "#ffeb3b"
   },
   "bg-yellow-accent-4": {
     "css": "background-color: var(--v-yellow-accent-4);",
     "type": "color",
-    "color": "yellow-accent-4"
+    "color": "#ffeb3b"
   },
   "text-amber": {
     "css": "color: var(--v-amber-base);",
     "type": "color",
-    "color": "amber"
+    "color": "#ffc107"
   },
   "bg-amber": {
     "css": "background-color: var(--v-amber-base);",
     "type": "color",
-    "color": "amber"
+    "color": "#ffc107"
   },
   "text-amber-lighten-1": {
     "css": "color: var(--v-amber-lighten-1);",
     "type": "color",
-    "color": "amber-lighten-1"
+    "color": "#ffc107"
   },
   "bg-amber-lighten-1": {
     "css": "background-color: var(--v-amber-lighten-1);",
     "type": "color",
-    "color": "amber-lighten-1"
+    "color": "#ffc107"
   },
   "text-amber-lighten-2": {
     "css": "color: var(--v-amber-lighten-2);",
     "type": "color",
-    "color": "amber-lighten-2"
+    "color": "#ffc107"
   },
   "bg-amber-lighten-2": {
     "css": "background-color: var(--v-amber-lighten-2);",
     "type": "color",
-    "color": "amber-lighten-2"
+    "color": "#ffc107"
   },
   "text-amber-lighten-3": {
     "css": "color: var(--v-amber-lighten-3);",
     "type": "color",
-    "color": "amber-lighten-3"
+    "color": "#ffc107"
   },
   "bg-amber-lighten-3": {
     "css": "background-color: var(--v-amber-lighten-3);",
     "type": "color",
-    "color": "amber-lighten-3"
+    "color": "#ffc107"
   },
   "text-amber-lighten-4": {
     "css": "color: var(--v-amber-lighten-4);",
     "type": "color",
-    "color": "amber-lighten-4"
+    "color": "#ffc107"
   },
   "bg-amber-lighten-4": {
     "css": "background-color: var(--v-amber-lighten-4);",
     "type": "color",
-    "color": "amber-lighten-4"
+    "color": "#ffc107"
   },
   "text-amber-lighten-5": {
     "css": "color: var(--v-amber-lighten-5);",
     "type": "color",
-    "color": "amber-lighten-5"
+    "color": "#ffc107"
   },
   "bg-amber-lighten-5": {
     "css": "background-color: var(--v-amber-lighten-5);",
     "type": "color",
-    "color": "amber-lighten-5"
+    "color": "#ffc107"
   },
   "text-amber-darken-1": {
     "css": "color: var(--v-amber-darken-1);",
     "type": "color",
-    "color": "amber-darken-1"
+    "color": "#ffc107"
   },
   "bg-amber-darken-1": {
     "css": "background-color: var(--v-amber-darken-1);",
     "type": "color",
-    "color": "amber-darken-1"
+    "color": "#ffc107"
   },
   "text-amber-darken-2": {
     "css": "color: var(--v-amber-darken-2);",
     "type": "color",
-    "color": "amber-darken-2"
+    "color": "#ffc107"
   },
   "bg-amber-darken-2": {
     "css": "background-color: var(--v-amber-darken-2);",
     "type": "color",
-    "color": "amber-darken-2"
+    "color": "#ffc107"
   },
   "text-amber-darken-3": {
     "css": "color: var(--v-amber-darken-3);",
     "type": "color",
-    "color": "amber-darken-3"
+    "color": "#ffc107"
   },
   "bg-amber-darken-3": {
     "css": "background-color: var(--v-amber-darken-3);",
     "type": "color",
-    "color": "amber-darken-3"
+    "color": "#ffc107"
   },
   "text-amber-darken-4": {
     "css": "color: var(--v-amber-darken-4);",
     "type": "color",
-    "color": "amber-darken-4"
+    "color": "#ffc107"
   },
   "bg-amber-darken-4": {
     "css": "background-color: var(--v-amber-darken-4);",
     "type": "color",
-    "color": "amber-darken-4"
+    "color": "#ffc107"
   },
   "text-amber-accent-1": {
     "css": "color: var(--v-amber-accent-1);",
     "type": "color",
-    "color": "amber-accent-1"
+    "color": "#ffc107"
   },
   "bg-amber-accent-1": {
     "css": "background-color: var(--v-amber-accent-1);",
     "type": "color",
-    "color": "amber-accent-1"
+    "color": "#ffc107"
   },
   "text-amber-accent-2": {
     "css": "color: var(--v-amber-accent-2);",
     "type": "color",
-    "color": "amber-accent-2"
+    "color": "#ffc107"
   },
   "bg-amber-accent-2": {
     "css": "background-color: var(--v-amber-accent-2);",
     "type": "color",
-    "color": "amber-accent-2"
+    "color": "#ffc107"
   },
   "text-amber-accent-3": {
     "css": "color: var(--v-amber-accent-3);",
     "type": "color",
-    "color": "amber-accent-3"
+    "color": "#ffc107"
   },
   "bg-amber-accent-3": {
     "css": "background-color: var(--v-amber-accent-3);",
     "type": "color",
-    "color": "amber-accent-3"
+    "color": "#ffc107"
   },
   "text-amber-accent-4": {
     "css": "color: var(--v-amber-accent-4);",
     "type": "color",
-    "color": "amber-accent-4"
+    "color": "#ffc107"
   },
   "bg-amber-accent-4": {
     "css": "background-color: var(--v-amber-accent-4);",
     "type": "color",
-    "color": "amber-accent-4"
+    "color": "#ffc107"
   },
   "text-orange": {
     "css": "color: var(--v-orange-base);",
     "type": "color",
-    "color": "orange"
+    "color": "#ff9800"
   },
   "bg-orange": {
     "css": "background-color: var(--v-orange-base);",
     "type": "color",
-    "color": "orange"
+    "color": "#ff9800"
   },
   "text-orange-lighten-1": {
     "css": "color: var(--v-orange-lighten-1);",
     "type": "color",
-    "color": "orange-lighten-1"
+    "color": "#ff9800"
   },
   "bg-orange-lighten-1": {
     "css": "background-color: var(--v-orange-lighten-1);",
     "type": "color",
-    "color": "orange-lighten-1"
+    "color": "#ff9800"
   },
   "text-orange-lighten-2": {
     "css": "color: var(--v-orange-lighten-2);",
     "type": "color",
-    "color": "orange-lighten-2"
+    "color": "#ff9800"
   },
   "bg-orange-lighten-2": {
     "css": "background-color: var(--v-orange-lighten-2);",
     "type": "color",
-    "color": "orange-lighten-2"
+    "color": "#ff9800"
   },
   "text-orange-lighten-3": {
     "css": "color: var(--v-orange-lighten-3);",
     "type": "color",
-    "color": "orange-lighten-3"
+    "color": "#ff9800"
   },
   "bg-orange-lighten-3": {
     "css": "background-color: var(--v-orange-lighten-3);",
     "type": "color",
-    "color": "orange-lighten-3"
+    "color": "#ff9800"
   },
   "text-orange-lighten-4": {
     "css": "color: var(--v-orange-lighten-4);",
     "type": "color",
-    "color": "orange-lighten-4"
+    "color": "#ff9800"
   },
   "bg-orange-lighten-4": {
     "css": "background-color: var(--v-orange-lighten-4);",
     "type": "color",
-    "color": "orange-lighten-4"
+    "color": "#ff9800"
   },
   "text-orange-lighten-5": {
     "css": "color: var(--v-orange-lighten-5);",
     "type": "color",
-    "color": "orange-lighten-5"
+    "color": "#ff9800"
   },
   "bg-orange-lighten-5": {
     "css": "background-color: var(--v-orange-lighten-5);",
     "type": "color",
-    "color": "orange-lighten-5"
+    "color": "#ff9800"
   },
   "text-orange-darken-1": {
     "css": "color: var(--v-orange-darken-1);",
     "type": "color",
-    "color": "orange-darken-1"
+    "color": "#ff9800"
   },
   "bg-orange-darken-1": {
     "css": "background-color: var(--v-orange-darken-1);",
     "type": "color",
-    "color": "orange-darken-1"
+    "color": "#ff9800"
   },
   "text-orange-darken-2": {
     "css": "color: var(--v-orange-darken-2);",
     "type": "color",
-    "color": "orange-darken-2"
+    "color": "#ff9800"
   },
   "bg-orange-darken-2": {
     "css": "background-color: var(--v-orange-darken-2);",
     "type": "color",
-    "color": "orange-darken-2"
+    "color": "#ff9800"
   },
   "text-orange-darken-3": {
     "css": "color: var(--v-orange-darken-3);",
     "type": "color",
-    "color": "orange-darken-3"
+    "color": "#ff9800"
   },
   "bg-orange-darken-3": {
     "css": "background-color: var(--v-orange-darken-3);",
     "type": "color",
-    "color": "orange-darken-3"
+    "color": "#ff9800"
   },
   "text-orange-darken-4": {
     "css": "color: var(--v-orange-darken-4);",
     "type": "color",
-    "color": "orange-darken-4"
+    "color": "#ff9800"
   },
   "bg-orange-darken-4": {
     "css": "background-color: var(--v-orange-darken-4);",
     "type": "color",
-    "color": "orange-darken-4"
+    "color": "#ff9800"
   },
   "text-orange-accent-1": {
     "css": "color: var(--v-orange-accent-1);",
     "type": "color",
-    "color": "orange-accent-1"
+    "color": "#ff9800"
   },
   "bg-orange-accent-1": {
     "css": "background-color: var(--v-orange-accent-1);",
     "type": "color",
-    "color": "orange-accent-1"
+    "color": "#ff9800"
   },
   "text-orange-accent-2": {
     "css": "color: var(--v-orange-accent-2);",
     "type": "color",
-    "color": "orange-accent-2"
+    "color": "#ff9800"
   },
   "bg-orange-accent-2": {
     "css": "background-color: var(--v-orange-accent-2);",
     "type": "color",
-    "color": "orange-accent-2"
+    "color": "#ff9800"
   },
   "text-orange-accent-3": {
     "css": "color: var(--v-orange-accent-3);",
     "type": "color",
-    "color": "orange-accent-3"
+    "color": "#ff9800"
   },
   "bg-orange-accent-3": {
     "css": "background-color: var(--v-orange-accent-3);",
     "type": "color",
-    "color": "orange-accent-3"
+    "color": "#ff9800"
   },
   "text-orange-accent-4": {
     "css": "color: var(--v-orange-accent-4);",
     "type": "color",
-    "color": "orange-accent-4"
+    "color": "#ff9800"
   },
   "bg-orange-accent-4": {
     "css": "background-color: var(--v-orange-accent-4);",
     "type": "color",
-    "color": "orange-accent-4"
+    "color": "#ff9800"
   },
   "text-deep-orange": {
     "css": "color: var(--v-deep-orange-base);",
-    "type": "color",
-    "color": "deep-orange"
+    "type": "color"
   },
   "bg-deep-orange": {
     "css": "background-color: var(--v-deep-orange-base);",
-    "type": "color",
-    "color": "deep-orange"
+    "type": "color"
   },
   "text-deep-orange-lighten-1": {
     "css": "color: var(--v-deep-orange-lighten-1);",
-    "type": "color",
-    "color": "deep-orange-lighten-1"
+    "type": "color"
   },
   "bg-deep-orange-lighten-1": {
     "css": "background-color: var(--v-deep-orange-lighten-1);",
-    "type": "color",
-    "color": "deep-orange-lighten-1"
+    "type": "color"
   },
   "text-deep-orange-lighten-2": {
     "css": "color: var(--v-deep-orange-lighten-2);",
-    "type": "color",
-    "color": "deep-orange-lighten-2"
+    "type": "color"
   },
   "bg-deep-orange-lighten-2": {
     "css": "background-color: var(--v-deep-orange-lighten-2);",
-    "type": "color",
-    "color": "deep-orange-lighten-2"
+    "type": "color"
   },
   "text-deep-orange-lighten-3": {
     "css": "color: var(--v-deep-orange-lighten-3);",
-    "type": "color",
-    "color": "deep-orange-lighten-3"
+    "type": "color"
   },
   "bg-deep-orange-lighten-3": {
     "css": "background-color: var(--v-deep-orange-lighten-3);",
-    "type": "color",
-    "color": "deep-orange-lighten-3"
+    "type": "color"
   },
   "text-deep-orange-lighten-4": {
     "css": "color: var(--v-deep-orange-lighten-4);",
-    "type": "color",
-    "color": "deep-orange-lighten-4"
+    "type": "color"
   },
   "bg-deep-orange-lighten-4": {
     "css": "background-color: var(--v-deep-orange-lighten-4);",
-    "type": "color",
-    "color": "deep-orange-lighten-4"
+    "type": "color"
   },
   "text-deep-orange-lighten-5": {
     "css": "color: var(--v-deep-orange-lighten-5);",
-    "type": "color",
-    "color": "deep-orange-lighten-5"
+    "type": "color"
   },
   "bg-deep-orange-lighten-5": {
     "css": "background-color: var(--v-deep-orange-lighten-5);",
-    "type": "color",
-    "color": "deep-orange-lighten-5"
+    "type": "color"
   },
   "text-deep-orange-darken-1": {
     "css": "color: var(--v-deep-orange-darken-1);",
-    "type": "color",
-    "color": "deep-orange-darken-1"
+    "type": "color"
   },
   "bg-deep-orange-darken-1": {
     "css": "background-color: var(--v-deep-orange-darken-1);",
-    "type": "color",
-    "color": "deep-orange-darken-1"
+    "type": "color"
   },
   "text-deep-orange-darken-2": {
     "css": "color: var(--v-deep-orange-darken-2);",
-    "type": "color",
-    "color": "deep-orange-darken-2"
+    "type": "color"
   },
   "bg-deep-orange-darken-2": {
     "css": "background-color: var(--v-deep-orange-darken-2);",
-    "type": "color",
-    "color": "deep-orange-darken-2"
+    "type": "color"
   },
   "text-deep-orange-darken-3": {
     "css": "color: var(--v-deep-orange-darken-3);",
-    "type": "color",
-    "color": "deep-orange-darken-3"
+    "type": "color"
   },
   "bg-deep-orange-darken-3": {
     "css": "background-color: var(--v-deep-orange-darken-3);",
-    "type": "color",
-    "color": "deep-orange-darken-3"
+    "type": "color"
   },
   "text-deep-orange-darken-4": {
     "css": "color: var(--v-deep-orange-darken-4);",
-    "type": "color",
-    "color": "deep-orange-darken-4"
+    "type": "color"
   },
   "bg-deep-orange-darken-4": {
     "css": "background-color: var(--v-deep-orange-darken-4);",
-    "type": "color",
-    "color": "deep-orange-darken-4"
+    "type": "color"
   },
   "text-deep-orange-accent-1": {
     "css": "color: var(--v-deep-orange-accent-1);",
-    "type": "color",
-    "color": "deep-orange-accent-1"
+    "type": "color"
   },
   "bg-deep-orange-accent-1": {
     "css": "background-color: var(--v-deep-orange-accent-1);",
-    "type": "color",
-    "color": "deep-orange-accent-1"
+    "type": "color"
   },
   "text-deep-orange-accent-2": {
     "css": "color: var(--v-deep-orange-accent-2);",
-    "type": "color",
-    "color": "deep-orange-accent-2"
+    "type": "color"
   },
   "bg-deep-orange-accent-2": {
     "css": "background-color: var(--v-deep-orange-accent-2);",
-    "type": "color",
-    "color": "deep-orange-accent-2"
+    "type": "color"
   },
   "text-deep-orange-accent-3": {
     "css": "color: var(--v-deep-orange-accent-3);",
-    "type": "color",
-    "color": "deep-orange-accent-3"
+    "type": "color"
   },
   "bg-deep-orange-accent-3": {
     "css": "background-color: var(--v-deep-orange-accent-3);",
-    "type": "color",
-    "color": "deep-orange-accent-3"
+    "type": "color"
   },
   "text-deep-orange-accent-4": {
     "css": "color: var(--v-deep-orange-accent-4);",
-    "type": "color",
-    "color": "deep-orange-accent-4"
+    "type": "color"
   },
   "bg-deep-orange-accent-4": {
     "css": "background-color: var(--v-deep-orange-accent-4);",
-    "type": "color",
-    "color": "deep-orange-accent-4"
+    "type": "color"
   },
   "text-brown": {
     "css": "color: var(--v-brown-base);",
     "type": "color",
-    "color": "brown"
+    "color": "#795548"
   },
   "bg-brown": {
     "css": "background-color: var(--v-brown-base);",
     "type": "color",
-    "color": "brown"
+    "color": "#795548"
   },
   "text-brown-lighten-1": {
     "css": "color: var(--v-brown-lighten-1);",
     "type": "color",
-    "color": "brown-lighten-1"
+    "color": "#795548"
   },
   "bg-brown-lighten-1": {
     "css": "background-color: var(--v-brown-lighten-1);",
     "type": "color",
-    "color": "brown-lighten-1"
+    "color": "#795548"
   },
   "text-brown-lighten-2": {
     "css": "color: var(--v-brown-lighten-2);",
     "type": "color",
-    "color": "brown-lighten-2"
+    "color": "#795548"
   },
   "bg-brown-lighten-2": {
     "css": "background-color: var(--v-brown-lighten-2);",
     "type": "color",
-    "color": "brown-lighten-2"
+    "color": "#795548"
   },
   "text-brown-lighten-3": {
     "css": "color: var(--v-brown-lighten-3);",
     "type": "color",
-    "color": "brown-lighten-3"
+    "color": "#795548"
   },
   "bg-brown-lighten-3": {
     "css": "background-color: var(--v-brown-lighten-3);",
     "type": "color",
-    "color": "brown-lighten-3"
+    "color": "#795548"
   },
   "text-brown-lighten-4": {
     "css": "color: var(--v-brown-lighten-4);",
     "type": "color",
-    "color": "brown-lighten-4"
+    "color": "#795548"
   },
   "bg-brown-lighten-4": {
     "css": "background-color: var(--v-brown-lighten-4);",
     "type": "color",
-    "color": "brown-lighten-4"
+    "color": "#795548"
   },
   "text-brown-lighten-5": {
     "css": "color: var(--v-brown-lighten-5);",
     "type": "color",
-    "color": "brown-lighten-5"
+    "color": "#795548"
   },
   "bg-brown-lighten-5": {
     "css": "background-color: var(--v-brown-lighten-5);",
     "type": "color",
-    "color": "brown-lighten-5"
+    "color": "#795548"
   },
   "text-brown-darken-1": {
     "css": "color: var(--v-brown-darken-1);",
     "type": "color",
-    "color": "brown-darken-1"
+    "color": "#795548"
   },
   "bg-brown-darken-1": {
     "css": "background-color: var(--v-brown-darken-1);",
     "type": "color",
-    "color": "brown-darken-1"
+    "color": "#795548"
   },
   "text-brown-darken-2": {
     "css": "color: var(--v-brown-darken-2);",
     "type": "color",
-    "color": "brown-darken-2"
+    "color": "#795548"
   },
   "bg-brown-darken-2": {
     "css": "background-color: var(--v-brown-darken-2);",
     "type": "color",
-    "color": "brown-darken-2"
+    "color": "#795548"
   },
   "text-brown-darken-3": {
     "css": "color: var(--v-brown-darken-3);",
     "type": "color",
-    "color": "brown-darken-3"
+    "color": "#795548"
   },
   "bg-brown-darken-3": {
     "css": "background-color: var(--v-brown-darken-3);",
     "type": "color",
-    "color": "brown-darken-3"
+    "color": "#795548"
   },
   "text-brown-darken-4": {
     "css": "color: var(--v-brown-darken-4);",
     "type": "color",
-    "color": "brown-darken-4"
+    "color": "#795548"
   },
   "bg-brown-darken-4": {
     "css": "background-color: var(--v-brown-darken-4);",
     "type": "color",
-    "color": "brown-darken-4"
+    "color": "#795548"
   },
   "text-brown-accent-1": {
     "css": "color: var(--v-brown-accent-1);",
     "type": "color",
-    "color": "brown-accent-1"
+    "color": "#795548"
   },
   "bg-brown-accent-1": {
     "css": "background-color: var(--v-brown-accent-1);",
     "type": "color",
-    "color": "brown-accent-1"
+    "color": "#795548"
   },
   "text-brown-accent-2": {
     "css": "color: var(--v-brown-accent-2);",
     "type": "color",
-    "color": "brown-accent-2"
+    "color": "#795548"
   },
   "bg-brown-accent-2": {
     "css": "background-color: var(--v-brown-accent-2);",
     "type": "color",
-    "color": "brown-accent-2"
+    "color": "#795548"
   },
   "text-brown-accent-3": {
     "css": "color: var(--v-brown-accent-3);",
     "type": "color",
-    "color": "brown-accent-3"
+    "color": "#795548"
   },
   "bg-brown-accent-3": {
     "css": "background-color: var(--v-brown-accent-3);",
     "type": "color",
-    "color": "brown-accent-3"
+    "color": "#795548"
   },
   "text-brown-accent-4": {
     "css": "color: var(--v-brown-accent-4);",
     "type": "color",
-    "color": "brown-accent-4"
+    "color": "#795548"
   },
   "bg-brown-accent-4": {
     "css": "background-color: var(--v-brown-accent-4);",
     "type": "color",
-    "color": "brown-accent-4"
+    "color": "#795548"
   },
   "text-grey": {
     "css": "color: var(--v-grey-base);",
     "type": "color",
-    "color": "grey"
+    "color": "#9e9e9e"
   },
   "bg-grey": {
     "css": "background-color: var(--v-grey-base);",
     "type": "color",
-    "color": "grey"
+    "color": "#9e9e9e"
   },
   "text-grey-lighten-1": {
     "css": "color: var(--v-grey-lighten-1);",
     "type": "color",
-    "color": "grey-lighten-1"
+    "color": "#9e9e9e"
   },
   "bg-grey-lighten-1": {
     "css": "background-color: var(--v-grey-lighten-1);",
     "type": "color",
-    "color": "grey-lighten-1"
+    "color": "#9e9e9e"
   },
   "text-grey-lighten-2": {
     "css": "color: var(--v-grey-lighten-2);",
     "type": "color",
-    "color": "grey-lighten-2"
+    "color": "#9e9e9e"
   },
   "bg-grey-lighten-2": {
     "css": "background-color: var(--v-grey-lighten-2);",
     "type": "color",
-    "color": "grey-lighten-2"
+    "color": "#9e9e9e"
   },
   "text-grey-lighten-3": {
     "css": "color: var(--v-grey-lighten-3);",
     "type": "color",
-    "color": "grey-lighten-3"
+    "color": "#9e9e9e"
   },
   "bg-grey-lighten-3": {
     "css": "background-color: var(--v-grey-lighten-3);",
     "type": "color",
-    "color": "grey-lighten-3"
+    "color": "#9e9e9e"
   },
   "text-grey-lighten-4": {
     "css": "color: var(--v-grey-lighten-4);",
     "type": "color",
-    "color": "grey-lighten-4"
+    "color": "#9e9e9e"
   },
   "bg-grey-lighten-4": {
     "css": "background-color: var(--v-grey-lighten-4);",
     "type": "color",
-    "color": "grey-lighten-4"
+    "color": "#9e9e9e"
   },
   "text-grey-lighten-5": {
     "css": "color: var(--v-grey-lighten-5);",
     "type": "color",
-    "color": "grey-lighten-5"
+    "color": "#9e9e9e"
   },
   "bg-grey-lighten-5": {
     "css": "background-color: var(--v-grey-lighten-5);",
     "type": "color",
-    "color": "grey-lighten-5"
+    "color": "#9e9e9e"
   },
   "text-grey-darken-1": {
     "css": "color: var(--v-grey-darken-1);",
     "type": "color",
-    "color": "grey-darken-1"
+    "color": "#9e9e9e"
   },
   "bg-grey-darken-1": {
     "css": "background-color: var(--v-grey-darken-1);",
     "type": "color",
-    "color": "grey-darken-1"
+    "color": "#9e9e9e"
   },
   "text-grey-darken-2": {
     "css": "color: var(--v-grey-darken-2);",
     "type": "color",
-    "color": "grey-darken-2"
+    "color": "#9e9e9e"
   },
   "bg-grey-darken-2": {
     "css": "background-color: var(--v-grey-darken-2);",
     "type": "color",
-    "color": "grey-darken-2"
+    "color": "#9e9e9e"
   },
   "text-grey-darken-3": {
     "css": "color: var(--v-grey-darken-3);",
     "type": "color",
-    "color": "grey-darken-3"
+    "color": "#9e9e9e"
   },
   "bg-grey-darken-3": {
     "css": "background-color: var(--v-grey-darken-3);",
     "type": "color",
-    "color": "grey-darken-3"
+    "color": "#9e9e9e"
   },
   "text-grey-darken-4": {
     "css": "color: var(--v-grey-darken-4);",
     "type": "color",
-    "color": "grey-darken-4"
+    "color": "#9e9e9e"
   },
   "bg-grey-darken-4": {
     "css": "background-color: var(--v-grey-darken-4);",
     "type": "color",
-    "color": "grey-darken-4"
+    "color": "#9e9e9e"
   },
   "text-grey-accent-1": {
     "css": "color: var(--v-grey-accent-1);",
     "type": "color",
-    "color": "grey-accent-1"
+    "color": "#9e9e9e"
   },
   "bg-grey-accent-1": {
     "css": "background-color: var(--v-grey-accent-1);",
     "type": "color",
-    "color": "grey-accent-1"
+    "color": "#9e9e9e"
   },
   "text-grey-accent-2": {
     "css": "color: var(--v-grey-accent-2);",
     "type": "color",
-    "color": "grey-accent-2"
+    "color": "#9e9e9e"
   },
   "bg-grey-accent-2": {
     "css": "background-color: var(--v-grey-accent-2);",
     "type": "color",
-    "color": "grey-accent-2"
+    "color": "#9e9e9e"
   },
   "text-grey-accent-3": {
     "css": "color: var(--v-grey-accent-3);",
     "type": "color",
-    "color": "grey-accent-3"
+    "color": "#9e9e9e"
   },
   "bg-grey-accent-3": {
     "css": "background-color: var(--v-grey-accent-3);",
     "type": "color",
-    "color": "grey-accent-3"
+    "color": "#9e9e9e"
   },
   "text-grey-accent-4": {
     "css": "color: var(--v-grey-accent-4);",
     "type": "color",
-    "color": "grey-accent-4"
+    "color": "#9e9e9e"
   },
   "bg-grey-accent-4": {
     "css": "background-color: var(--v-grey-accent-4);",
     "type": "color",
-    "color": "grey-accent-4"
+    "color": "#9e9e9e"
   },
   "text-blue-grey": {
     "css": "color: var(--v-blue-grey-base);",
-    "type": "color",
-    "color": "blue-grey"
+    "type": "color"
   },
   "bg-blue-grey": {
     "css": "background-color: var(--v-blue-grey-base);",
-    "type": "color",
-    "color": "blue-grey"
+    "type": "color"
   },
   "text-blue-grey-lighten-1": {
     "css": "color: var(--v-blue-grey-lighten-1);",
-    "type": "color",
-    "color": "blue-grey-lighten-1"
+    "type": "color"
   },
   "bg-blue-grey-lighten-1": {
     "css": "background-color: var(--v-blue-grey-lighten-1);",
-    "type": "color",
-    "color": "blue-grey-lighten-1"
+    "type": "color"
   },
   "text-blue-grey-lighten-2": {
     "css": "color: var(--v-blue-grey-lighten-2);",
-    "type": "color",
-    "color": "blue-grey-lighten-2"
+    "type": "color"
   },
   "bg-blue-grey-lighten-2": {
     "css": "background-color: var(--v-blue-grey-lighten-2);",
-    "type": "color",
-    "color": "blue-grey-lighten-2"
+    "type": "color"
   },
   "text-blue-grey-lighten-3": {
     "css": "color: var(--v-blue-grey-lighten-3);",
-    "type": "color",
-    "color": "blue-grey-lighten-3"
+    "type": "color"
   },
   "bg-blue-grey-lighten-3": {
     "css": "background-color: var(--v-blue-grey-lighten-3);",
-    "type": "color",
-    "color": "blue-grey-lighten-3"
+    "type": "color"
   },
   "text-blue-grey-lighten-4": {
     "css": "color: var(--v-blue-grey-lighten-4);",
-    "type": "color",
-    "color": "blue-grey-lighten-4"
+    "type": "color"
   },
   "bg-blue-grey-lighten-4": {
     "css": "background-color: var(--v-blue-grey-lighten-4);",
-    "type": "color",
-    "color": "blue-grey-lighten-4"
+    "type": "color"
   },
   "text-blue-grey-lighten-5": {
     "css": "color: var(--v-blue-grey-lighten-5);",
-    "type": "color",
-    "color": "blue-grey-lighten-5"
+    "type": "color"
   },
   "bg-blue-grey-lighten-5": {
     "css": "background-color: var(--v-blue-grey-lighten-5);",
-    "type": "color",
-    "color": "blue-grey-lighten-5"
+    "type": "color"
   },
   "text-blue-grey-darken-1": {
     "css": "color: var(--v-blue-grey-darken-1);",
-    "type": "color",
-    "color": "blue-grey-darken-1"
+    "type": "color"
   },
   "bg-blue-grey-darken-1": {
     "css": "background-color: var(--v-blue-grey-darken-1);",
-    "type": "color",
-    "color": "blue-grey-darken-1"
+    "type": "color"
   },
   "text-blue-grey-darken-2": {
     "css": "color: var(--v-blue-grey-darken-2);",
-    "type": "color",
-    "color": "blue-grey-darken-2"
+    "type": "color"
   },
   "bg-blue-grey-darken-2": {
     "css": "background-color: var(--v-blue-grey-darken-2);",
-    "type": "color",
-    "color": "blue-grey-darken-2"
+    "type": "color"
   },
   "text-blue-grey-darken-3": {
     "css": "color: var(--v-blue-grey-darken-3);",
-    "type": "color",
-    "color": "blue-grey-darken-3"
+    "type": "color"
   },
   "bg-blue-grey-darken-3": {
     "css": "background-color: var(--v-blue-grey-darken-3);",
-    "type": "color",
-    "color": "blue-grey-darken-3"
+    "type": "color"
   },
   "text-blue-grey-darken-4": {
     "css": "color: var(--v-blue-grey-darken-4);",
-    "type": "color",
-    "color": "blue-grey-darken-4"
+    "type": "color"
   },
   "bg-blue-grey-darken-4": {
     "css": "background-color: var(--v-blue-grey-darken-4);",
-    "type": "color",
-    "color": "blue-grey-darken-4"
+    "type": "color"
   },
   "text-blue-grey-accent-1": {
     "css": "color: var(--v-blue-grey-accent-1);",
-    "type": "color",
-    "color": "blue-grey-accent-1"
+    "type": "color"
   },
   "bg-blue-grey-accent-1": {
     "css": "background-color: var(--v-blue-grey-accent-1);",
-    "type": "color",
-    "color": "blue-grey-accent-1"
+    "type": "color"
   },
   "text-blue-grey-accent-2": {
     "css": "color: var(--v-blue-grey-accent-2);",
-    "type": "color",
-    "color": "blue-grey-accent-2"
+    "type": "color"
   },
   "bg-blue-grey-accent-2": {
     "css": "background-color: var(--v-blue-grey-accent-2);",
-    "type": "color",
-    "color": "blue-grey-accent-2"
+    "type": "color"
   },
   "text-blue-grey-accent-3": {
     "css": "color: var(--v-blue-grey-accent-3);",
-    "type": "color",
-    "color": "blue-grey-accent-3"
+    "type": "color"
   },
   "bg-blue-grey-accent-3": {
     "css": "background-color: var(--v-blue-grey-accent-3);",
-    "type": "color",
-    "color": "blue-grey-accent-3"
+    "type": "color"
   },
   "text-blue-grey-accent-4": {
     "css": "color: var(--v-blue-grey-accent-4);",
-    "type": "color",
-    "color": "blue-grey-accent-4"
+    "type": "color"
   },
   "bg-blue-grey-accent-4": {
     "css": "background-color: var(--v-blue-grey-accent-4);",
-    "type": "color",
-    "color": "blue-grey-accent-4"
+    "type": "color"
   },
   "text-primary": {
     "css": "color: var(--v-primary-base);",
-    "type": "color",
-    "color": "primary"
+    "type": "color"
   },
   "bg-primary": {
     "css": "background-color: var(--v-primary-base);",
-    "type": "color",
-    "color": "primary"
+    "type": "color"
   },
   "text-primary-lighten-1": {
     "css": "color: var(--v-primary-lighten-1);",
-    "type": "color",
-    "color": "primary-lighten-1"
+    "type": "color"
   },
   "bg-primary-lighten-1": {
     "css": "background-color: var(--v-primary-lighten-1);",
-    "type": "color",
-    "color": "primary-lighten-1"
+    "type": "color"
   },
   "text-primary-lighten-2": {
     "css": "color: var(--v-primary-lighten-2);",
-    "type": "color",
-    "color": "primary-lighten-2"
+    "type": "color"
   },
   "bg-primary-lighten-2": {
     "css": "background-color: var(--v-primary-lighten-2);",
-    "type": "color",
-    "color": "primary-lighten-2"
+    "type": "color"
   },
   "text-primary-lighten-3": {
     "css": "color: var(--v-primary-lighten-3);",
-    "type": "color",
-    "color": "primary-lighten-3"
+    "type": "color"
   },
   "bg-primary-lighten-3": {
     "css": "background-color: var(--v-primary-lighten-3);",
-    "type": "color",
-    "color": "primary-lighten-3"
+    "type": "color"
   },
   "text-primary-lighten-4": {
     "css": "color: var(--v-primary-lighten-4);",
-    "type": "color",
-    "color": "primary-lighten-4"
+    "type": "color"
   },
   "bg-primary-lighten-4": {
     "css": "background-color: var(--v-primary-lighten-4);",
-    "type": "color",
-    "color": "primary-lighten-4"
+    "type": "color"
   },
   "text-primary-lighten-5": {
     "css": "color: var(--v-primary-lighten-5);",
-    "type": "color",
-    "color": "primary-lighten-5"
+    "type": "color"
   },
   "bg-primary-lighten-5": {
     "css": "background-color: var(--v-primary-lighten-5);",
-    "type": "color",
-    "color": "primary-lighten-5"
+    "type": "color"
   },
   "text-primary-darken-1": {
     "css": "color: var(--v-primary-darken-1);",
-    "type": "color",
-    "color": "primary-darken-1"
+    "type": "color"
   },
   "bg-primary-darken-1": {
     "css": "background-color: var(--v-primary-darken-1);",
-    "type": "color",
-    "color": "primary-darken-1"
+    "type": "color"
   },
   "text-primary-darken-2": {
     "css": "color: var(--v-primary-darken-2);",
-    "type": "color",
-    "color": "primary-darken-2"
+    "type": "color"
   },
   "bg-primary-darken-2": {
     "css": "background-color: var(--v-primary-darken-2);",
-    "type": "color",
-    "color": "primary-darken-2"
+    "type": "color"
   },
   "text-primary-darken-3": {
     "css": "color: var(--v-primary-darken-3);",
-    "type": "color",
-    "color": "primary-darken-3"
+    "type": "color"
   },
   "bg-primary-darken-3": {
     "css": "background-color: var(--v-primary-darken-3);",
-    "type": "color",
-    "color": "primary-darken-3"
+    "type": "color"
   },
   "text-primary-darken-4": {
     "css": "color: var(--v-primary-darken-4);",
-    "type": "color",
-    "color": "primary-darken-4"
+    "type": "color"
   },
   "bg-primary-darken-4": {
     "css": "background-color: var(--v-primary-darken-4);",
-    "type": "color",
-    "color": "primary-darken-4"
+    "type": "color"
   },
   "text-primary-accent-1": {
     "css": "color: var(--v-primary-accent-1);",
-    "type": "color",
-    "color": "primary-accent-1"
+    "type": "color"
   },
   "bg-primary-accent-1": {
     "css": "background-color: var(--v-primary-accent-1);",
-    "type": "color",
-    "color": "primary-accent-1"
+    "type": "color"
   },
   "text-primary-accent-2": {
     "css": "color: var(--v-primary-accent-2);",
-    "type": "color",
-    "color": "primary-accent-2"
+    "type": "color"
   },
   "bg-primary-accent-2": {
     "css": "background-color: var(--v-primary-accent-2);",
-    "type": "color",
-    "color": "primary-accent-2"
+    "type": "color"
   },
   "text-primary-accent-3": {
     "css": "color: var(--v-primary-accent-3);",
-    "type": "color",
-    "color": "primary-accent-3"
+    "type": "color"
   },
   "bg-primary-accent-3": {
     "css": "background-color: var(--v-primary-accent-3);",
-    "type": "color",
-    "color": "primary-accent-3"
+    "type": "color"
   },
   "text-primary-accent-4": {
     "css": "color: var(--v-primary-accent-4);",
-    "type": "color",
-    "color": "primary-accent-4"
+    "type": "color"
   },
   "bg-primary-accent-4": {
     "css": "background-color: var(--v-primary-accent-4);",
-    "type": "color",
-    "color": "primary-accent-4"
+    "type": "color"
   },
   "text-secondary": {
     "css": "color: var(--v-secondary-base);",
-    "type": "color",
-    "color": "secondary"
+    "type": "color"
   },
   "bg-secondary": {
     "css": "background-color: var(--v-secondary-base);",
-    "type": "color",
-    "color": "secondary"
+    "type": "color"
   },
   "text-secondary-lighten-1": {
     "css": "color: var(--v-secondary-lighten-1);",
-    "type": "color",
-    "color": "secondary-lighten-1"
+    "type": "color"
   },
   "bg-secondary-lighten-1": {
     "css": "background-color: var(--v-secondary-lighten-1);",
-    "type": "color",
-    "color": "secondary-lighten-1"
+    "type": "color"
   },
   "text-secondary-lighten-2": {
     "css": "color: var(--v-secondary-lighten-2);",
-    "type": "color",
-    "color": "secondary-lighten-2"
+    "type": "color"
   },
   "bg-secondary-lighten-2": {
     "css": "background-color: var(--v-secondary-lighten-2);",
-    "type": "color",
-    "color": "secondary-lighten-2"
+    "type": "color"
   },
   "text-secondary-lighten-3": {
     "css": "color: var(--v-secondary-lighten-3);",
-    "type": "color",
-    "color": "secondary-lighten-3"
+    "type": "color"
   },
   "bg-secondary-lighten-3": {
     "css": "background-color: var(--v-secondary-lighten-3);",
-    "type": "color",
-    "color": "secondary-lighten-3"
+    "type": "color"
   },
   "text-secondary-lighten-4": {
     "css": "color: var(--v-secondary-lighten-4);",
-    "type": "color",
-    "color": "secondary-lighten-4"
+    "type": "color"
   },
   "bg-secondary-lighten-4": {
     "css": "background-color: var(--v-secondary-lighten-4);",
-    "type": "color",
-    "color": "secondary-lighten-4"
+    "type": "color"
   },
   "text-secondary-lighten-5": {
     "css": "color: var(--v-secondary-lighten-5);",
-    "type": "color",
-    "color": "secondary-lighten-5"
+    "type": "color"
   },
   "bg-secondary-lighten-5": {
     "css": "background-color: var(--v-secondary-lighten-5);",
-    "type": "color",
-    "color": "secondary-lighten-5"
+    "type": "color"
   },
   "text-secondary-darken-1": {
     "css": "color: var(--v-secondary-darken-1);",
-    "type": "color",
-    "color": "secondary-darken-1"
+    "type": "color"
   },
   "bg-secondary-darken-1": {
     "css": "background-color: var(--v-secondary-darken-1);",
-    "type": "color",
-    "color": "secondary-darken-1"
+    "type": "color"
   },
   "text-secondary-darken-2": {
     "css": "color: var(--v-secondary-darken-2);",
-    "type": "color",
-    "color": "secondary-darken-2"
+    "type": "color"
   },
   "bg-secondary-darken-2": {
     "css": "background-color: var(--v-secondary-darken-2);",
-    "type": "color",
-    "color": "secondary-darken-2"
+    "type": "color"
   },
   "text-secondary-darken-3": {
     "css": "color: var(--v-secondary-darken-3);",
-    "type": "color",
-    "color": "secondary-darken-3"
+    "type": "color"
   },
   "bg-secondary-darken-3": {
     "css": "background-color: var(--v-secondary-darken-3);",
-    "type": "color",
-    "color": "secondary-darken-3"
+    "type": "color"
   },
   "text-secondary-darken-4": {
     "css": "color: var(--v-secondary-darken-4);",
-    "type": "color",
-    "color": "secondary-darken-4"
+    "type": "color"
   },
   "bg-secondary-darken-4": {
     "css": "background-color: var(--v-secondary-darken-4);",
-    "type": "color",
-    "color": "secondary-darken-4"
+    "type": "color"
   },
   "text-secondary-accent-1": {
     "css": "color: var(--v-secondary-accent-1);",
-    "type": "color",
-    "color": "secondary-accent-1"
+    "type": "color"
   },
   "bg-secondary-accent-1": {
     "css": "background-color: var(--v-secondary-accent-1);",
-    "type": "color",
-    "color": "secondary-accent-1"
+    "type": "color"
   },
   "text-secondary-accent-2": {
     "css": "color: var(--v-secondary-accent-2);",
-    "type": "color",
-    "color": "secondary-accent-2"
+    "type": "color"
   },
   "bg-secondary-accent-2": {
     "css": "background-color: var(--v-secondary-accent-2);",
-    "type": "color",
-    "color": "secondary-accent-2"
+    "type": "color"
   },
   "text-secondary-accent-3": {
     "css": "color: var(--v-secondary-accent-3);",
-    "type": "color",
-    "color": "secondary-accent-3"
+    "type": "color"
   },
   "bg-secondary-accent-3": {
     "css": "background-color: var(--v-secondary-accent-3);",
-    "type": "color",
-    "color": "secondary-accent-3"
+    "type": "color"
   },
   "text-secondary-accent-4": {
     "css": "color: var(--v-secondary-accent-4);",
-    "type": "color",
-    "color": "secondary-accent-4"
+    "type": "color"
   },
   "bg-secondary-accent-4": {
     "css": "background-color: var(--v-secondary-accent-4);",
-    "type": "color",
-    "color": "secondary-accent-4"
+    "type": "color"
   },
   "text-success": {
     "css": "color: var(--v-success-base);",
-    "type": "color",
-    "color": "success"
+    "type": "color"
   },
   "bg-success": {
     "css": "background-color: var(--v-success-base);",
-    "type": "color",
-    "color": "success"
+    "type": "color"
   },
   "text-success-lighten-1": {
     "css": "color: var(--v-success-lighten-1);",
-    "type": "color",
-    "color": "success-lighten-1"
+    "type": "color"
   },
   "bg-success-lighten-1": {
     "css": "background-color: var(--v-success-lighten-1);",
-    "type": "color",
-    "color": "success-lighten-1"
+    "type": "color"
   },
   "text-success-lighten-2": {
     "css": "color: var(--v-success-lighten-2);",
-    "type": "color",
-    "color": "success-lighten-2"
+    "type": "color"
   },
   "bg-success-lighten-2": {
     "css": "background-color: var(--v-success-lighten-2);",
-    "type": "color",
-    "color": "success-lighten-2"
+    "type": "color"
   },
   "text-success-lighten-3": {
     "css": "color: var(--v-success-lighten-3);",
-    "type": "color",
-    "color": "success-lighten-3"
+    "type": "color"
   },
   "bg-success-lighten-3": {
     "css": "background-color: var(--v-success-lighten-3);",
-    "type": "color",
-    "color": "success-lighten-3"
+    "type": "color"
   },
   "text-success-lighten-4": {
     "css": "color: var(--v-success-lighten-4);",
-    "type": "color",
-    "color": "success-lighten-4"
+    "type": "color"
   },
   "bg-success-lighten-4": {
     "css": "background-color: var(--v-success-lighten-4);",
-    "type": "color",
-    "color": "success-lighten-4"
+    "type": "color"
   },
   "text-success-lighten-5": {
     "css": "color: var(--v-success-lighten-5);",
-    "type": "color",
-    "color": "success-lighten-5"
+    "type": "color"
   },
   "bg-success-lighten-5": {
     "css": "background-color: var(--v-success-lighten-5);",
-    "type": "color",
-    "color": "success-lighten-5"
+    "type": "color"
   },
   "text-success-darken-1": {
     "css": "color: var(--v-success-darken-1);",
-    "type": "color",
-    "color": "success-darken-1"
+    "type": "color"
   },
   "bg-success-darken-1": {
     "css": "background-color: var(--v-success-darken-1);",
-    "type": "color",
-    "color": "success-darken-1"
+    "type": "color"
   },
   "text-success-darken-2": {
     "css": "color: var(--v-success-darken-2);",
-    "type": "color",
-    "color": "success-darken-2"
+    "type": "color"
   },
   "bg-success-darken-2": {
     "css": "background-color: var(--v-success-darken-2);",
-    "type": "color",
-    "color": "success-darken-2"
+    "type": "color"
   },
   "text-success-darken-3": {
     "css": "color: var(--v-success-darken-3);",
-    "type": "color",
-    "color": "success-darken-3"
+    "type": "color"
   },
   "bg-success-darken-3": {
     "css": "background-color: var(--v-success-darken-3);",
-    "type": "color",
-    "color": "success-darken-3"
+    "type": "color"
   },
   "text-success-darken-4": {
     "css": "color: var(--v-success-darken-4);",
-    "type": "color",
-    "color": "success-darken-4"
+    "type": "color"
   },
   "bg-success-darken-4": {
     "css": "background-color: var(--v-success-darken-4);",
-    "type": "color",
-    "color": "success-darken-4"
+    "type": "color"
   },
   "text-success-accent-1": {
     "css": "color: var(--v-success-accent-1);",
-    "type": "color",
-    "color": "success-accent-1"
+    "type": "color"
   },
   "bg-success-accent-1": {
     "css": "background-color: var(--v-success-accent-1);",
-    "type": "color",
-    "color": "success-accent-1"
+    "type": "color"
   },
   "text-success-accent-2": {
     "css": "color: var(--v-success-accent-2);",
-    "type": "color",
-    "color": "success-accent-2"
+    "type": "color"
   },
   "bg-success-accent-2": {
     "css": "background-color: var(--v-success-accent-2);",
-    "type": "color",
-    "color": "success-accent-2"
+    "type": "color"
   },
   "text-success-accent-3": {
     "css": "color: var(--v-success-accent-3);",
-    "type": "color",
-    "color": "success-accent-3"
+    "type": "color"
   },
   "bg-success-accent-3": {
     "css": "background-color: var(--v-success-accent-3);",
-    "type": "color",
-    "color": "success-accent-3"
+    "type": "color"
   },
   "text-success-accent-4": {
     "css": "color: var(--v-success-accent-4);",
-    "type": "color",
-    "color": "success-accent-4"
+    "type": "color"
   },
   "bg-success-accent-4": {
     "css": "background-color: var(--v-success-accent-4);",
-    "type": "color",
-    "color": "success-accent-4"
+    "type": "color"
   },
   "text-info": {
     "css": "color: var(--v-info-base);",
-    "type": "color",
-    "color": "info"
+    "type": "color"
   },
   "bg-info": {
     "css": "background-color: var(--v-info-base);",
-    "type": "color",
-    "color": "info"
+    "type": "color"
   },
   "text-info-lighten-1": {
     "css": "color: var(--v-info-lighten-1);",
-    "type": "color",
-    "color": "info-lighten-1"
+    "type": "color"
   },
   "bg-info-lighten-1": {
     "css": "background-color: var(--v-info-lighten-1);",
-    "type": "color",
-    "color": "info-lighten-1"
+    "type": "color"
   },
   "text-info-lighten-2": {
     "css": "color: var(--v-info-lighten-2);",
-    "type": "color",
-    "color": "info-lighten-2"
+    "type": "color"
   },
   "bg-info-lighten-2": {
     "css": "background-color: var(--v-info-lighten-2);",
-    "type": "color",
-    "color": "info-lighten-2"
+    "type": "color"
   },
   "text-info-lighten-3": {
     "css": "color: var(--v-info-lighten-3);",
-    "type": "color",
-    "color": "info-lighten-3"
+    "type": "color"
   },
   "bg-info-lighten-3": {
     "css": "background-color: var(--v-info-lighten-3);",
-    "type": "color",
-    "color": "info-lighten-3"
+    "type": "color"
   },
   "text-info-lighten-4": {
     "css": "color: var(--v-info-lighten-4);",
-    "type": "color",
-    "color": "info-lighten-4"
+    "type": "color"
   },
   "bg-info-lighten-4": {
     "css": "background-color: var(--v-info-lighten-4);",
-    "type": "color",
-    "color": "info-lighten-4"
+    "type": "color"
   },
   "text-info-lighten-5": {
     "css": "color: var(--v-info-lighten-5);",
-    "type": "color",
-    "color": "info-lighten-5"
+    "type": "color"
   },
   "bg-info-lighten-5": {
     "css": "background-color: var(--v-info-lighten-5);",
-    "type": "color",
-    "color": "info-lighten-5"
+    "type": "color"
   },
   "text-info-darken-1": {
     "css": "color: var(--v-info-darken-1);",
-    "type": "color",
-    "color": "info-darken-1"
+    "type": "color"
   },
   "bg-info-darken-1": {
     "css": "background-color: var(--v-info-darken-1);",
-    "type": "color",
-    "color": "info-darken-1"
+    "type": "color"
   },
   "text-info-darken-2": {
     "css": "color: var(--v-info-darken-2);",
-    "type": "color",
-    "color": "info-darken-2"
+    "type": "color"
   },
   "bg-info-darken-2": {
     "css": "background-color: var(--v-info-darken-2);",
-    "type": "color",
-    "color": "info-darken-2"
+    "type": "color"
   },
   "text-info-darken-3": {
     "css": "color: var(--v-info-darken-3);",
-    "type": "color",
-    "color": "info-darken-3"
+    "type": "color"
   },
   "bg-info-darken-3": {
     "css": "background-color: var(--v-info-darken-3);",
-    "type": "color",
-    "color": "info-darken-3"
+    "type": "color"
   },
   "text-info-darken-4": {
     "css": "color: var(--v-info-darken-4);",
-    "type": "color",
-    "color": "info-darken-4"
+    "type": "color"
   },
   "bg-info-darken-4": {
     "css": "background-color: var(--v-info-darken-4);",
-    "type": "color",
-    "color": "info-darken-4"
+    "type": "color"
   },
   "text-info-accent-1": {
     "css": "color: var(--v-info-accent-1);",
-    "type": "color",
-    "color": "info-accent-1"
+    "type": "color"
   },
   "bg-info-accent-1": {
     "css": "background-color: var(--v-info-accent-1);",
-    "type": "color",
-    "color": "info-accent-1"
+    "type": "color"
   },
   "text-info-accent-2": {
     "css": "color: var(--v-info-accent-2);",
-    "type": "color",
-    "color": "info-accent-2"
+    "type": "color"
   },
   "bg-info-accent-2": {
     "css": "background-color: var(--v-info-accent-2);",
-    "type": "color",
-    "color": "info-accent-2"
+    "type": "color"
   },
   "text-info-accent-3": {
     "css": "color: var(--v-info-accent-3);",
-    "type": "color",
-    "color": "info-accent-3"
+    "type": "color"
   },
   "bg-info-accent-3": {
     "css": "background-color: var(--v-info-accent-3);",
-    "type": "color",
-    "color": "info-accent-3"
+    "type": "color"
   },
   "text-info-accent-4": {
     "css": "color: var(--v-info-accent-4);",
-    "type": "color",
-    "color": "info-accent-4"
+    "type": "color"
   },
   "bg-info-accent-4": {
     "css": "background-color: var(--v-info-accent-4);",
-    "type": "color",
-    "color": "info-accent-4"
+    "type": "color"
   },
   "text-warning": {
     "css": "color: var(--v-warning-base);",
-    "type": "color",
-    "color": "warning"
+    "type": "color"
   },
   "bg-warning": {
     "css": "background-color: var(--v-warning-base);",
-    "type": "color",
-    "color": "warning"
+    "type": "color"
   },
   "text-warning-lighten-1": {
     "css": "color: var(--v-warning-lighten-1);",
-    "type": "color",
-    "color": "warning-lighten-1"
+    "type": "color"
   },
   "bg-warning-lighten-1": {
     "css": "background-color: var(--v-warning-lighten-1);",
-    "type": "color",
-    "color": "warning-lighten-1"
+    "type": "color"
   },
   "text-warning-lighten-2": {
     "css": "color: var(--v-warning-lighten-2);",
-    "type": "color",
-    "color": "warning-lighten-2"
+    "type": "color"
   },
   "bg-warning-lighten-2": {
     "css": "background-color: var(--v-warning-lighten-2);",
-    "type": "color",
-    "color": "warning-lighten-2"
+    "type": "color"
   },
   "text-warning-lighten-3": {
     "css": "color: var(--v-warning-lighten-3);",
-    "type": "color",
-    "color": "warning-lighten-3"
+    "type": "color"
   },
   "bg-warning-lighten-3": {
     "css": "background-color: var(--v-warning-lighten-3);",
-    "type": "color",
-    "color": "warning-lighten-3"
+    "type": "color"
   },
   "text-warning-lighten-4": {
     "css": "color: var(--v-warning-lighten-4);",
-    "type": "color",
-    "color": "warning-lighten-4"
+    "type": "color"
   },
   "bg-warning-lighten-4": {
     "css": "background-color: var(--v-warning-lighten-4);",
-    "type": "color",
-    "color": "warning-lighten-4"
+    "type": "color"
   },
   "text-warning-lighten-5": {
     "css": "color: var(--v-warning-lighten-5);",
-    "type": "color",
-    "color": "warning-lighten-5"
+    "type": "color"
   },
   "bg-warning-lighten-5": {
     "css": "background-color: var(--v-warning-lighten-5);",
-    "type": "color",
-    "color": "warning-lighten-5"
+    "type": "color"
   },
   "text-warning-darken-1": {
     "css": "color: var(--v-warning-darken-1);",
-    "type": "color",
-    "color": "warning-darken-1"
+    "type": "color"
   },
   "bg-warning-darken-1": {
     "css": "background-color: var(--v-warning-darken-1);",
-    "type": "color",
-    "color": "warning-darken-1"
+    "type": "color"
   },
   "text-warning-darken-2": {
     "css": "color: var(--v-warning-darken-2);",
-    "type": "color",
-    "color": "warning-darken-2"
+    "type": "color"
   },
   "bg-warning-darken-2": {
     "css": "background-color: var(--v-warning-darken-2);",
-    "type": "color",
-    "color": "warning-darken-2"
+    "type": "color"
   },
   "text-warning-darken-3": {
     "css": "color: var(--v-warning-darken-3);",
-    "type": "color",
-    "color": "warning-darken-3"
+    "type": "color"
   },
   "bg-warning-darken-3": {
     "css": "background-color: var(--v-warning-darken-3);",
-    "type": "color",
-    "color": "warning-darken-3"
+    "type": "color"
   },
   "text-warning-darken-4": {
     "css": "color: var(--v-warning-darken-4);",
-    "type": "color",
-    "color": "warning-darken-4"
+    "type": "color"
   },
   "bg-warning-darken-4": {
     "css": "background-color: var(--v-warning-darken-4);",
-    "type": "color",
-    "color": "warning-darken-4"
+    "type": "color"
   },
   "text-warning-accent-1": {
     "css": "color: var(--v-warning-accent-1);",
-    "type": "color",
-    "color": "warning-accent-1"
+    "type": "color"
   },
   "bg-warning-accent-1": {
     "css": "background-color: var(--v-warning-accent-1);",
-    "type": "color",
-    "color": "warning-accent-1"
+    "type": "color"
   },
   "text-warning-accent-2": {
     "css": "color: var(--v-warning-accent-2);",
-    "type": "color",
-    "color": "warning-accent-2"
+    "type": "color"
   },
   "bg-warning-accent-2": {
     "css": "background-color: var(--v-warning-accent-2);",
-    "type": "color",
-    "color": "warning-accent-2"
+    "type": "color"
   },
   "text-warning-accent-3": {
     "css": "color: var(--v-warning-accent-3);",
-    "type": "color",
-    "color": "warning-accent-3"
+    "type": "color"
   },
   "bg-warning-accent-3": {
     "css": "background-color: var(--v-warning-accent-3);",
-    "type": "color",
-    "color": "warning-accent-3"
+    "type": "color"
   },
   "text-warning-accent-4": {
     "css": "color: var(--v-warning-accent-4);",
-    "type": "color",
-    "color": "warning-accent-4"
+    "type": "color"
   },
   "bg-warning-accent-4": {
     "css": "background-color: var(--v-warning-accent-4);",
-    "type": "color",
-    "color": "warning-accent-4"
+    "type": "color"
   },
   "text-error": {
     "css": "color: var(--v-error-base);",
-    "type": "color",
-    "color": "error"
+    "type": "color"
   },
   "bg-error": {
     "css": "background-color: var(--v-error-base);",
-    "type": "color",
-    "color": "error"
+    "type": "color"
   },
   "text-error-lighten-1": {
     "css": "color: var(--v-error-lighten-1);",
-    "type": "color",
-    "color": "error-lighten-1"
+    "type": "color"
   },
   "bg-error-lighten-1": {
     "css": "background-color: var(--v-error-lighten-1);",
-    "type": "color",
-    "color": "error-lighten-1"
+    "type": "color"
   },
   "text-error-lighten-2": {
     "css": "color: var(--v-error-lighten-2);",
-    "type": "color",
-    "color": "error-lighten-2"
+    "type": "color"
   },
   "bg-error-lighten-2": {
     "css": "background-color: var(--v-error-lighten-2);",
-    "type": "color",
-    "color": "error-lighten-2"
+    "type": "color"
   },
   "text-error-lighten-3": {
     "css": "color: var(--v-error-lighten-3);",
-    "type": "color",
-    "color": "error-lighten-3"
+    "type": "color"
   },
   "bg-error-lighten-3": {
     "css": "background-color: var(--v-error-lighten-3);",
-    "type": "color",
-    "color": "error-lighten-3"
+    "type": "color"
   },
   "text-error-lighten-4": {
     "css": "color: var(--v-error-lighten-4);",
-    "type": "color",
-    "color": "error-lighten-4"
+    "type": "color"
   },
   "bg-error-lighten-4": {
     "css": "background-color: var(--v-error-lighten-4);",
-    "type": "color",
-    "color": "error-lighten-4"
+    "type": "color"
   },
   "text-error-lighten-5": {
     "css": "color: var(--v-error-lighten-5);",
-    "type": "color",
-    "color": "error-lighten-5"
+    "type": "color"
   },
   "bg-error-lighten-5": {
     "css": "background-color: var(--v-error-lighten-5);",
-    "type": "color",
-    "color": "error-lighten-5"
+    "type": "color"
   },
   "text-error-darken-1": {
     "css": "color: var(--v-error-darken-1);",
-    "type": "color",
-    "color": "error-darken-1"
+    "type": "color"
   },
   "bg-error-darken-1": {
     "css": "background-color: var(--v-error-darken-1);",
-    "type": "color",
-    "color": "error-darken-1"
+    "type": "color"
   },
   "text-error-darken-2": {
     "css": "color: var(--v-error-darken-2);",
-    "type": "color",
-    "color": "error-darken-2"
+    "type": "color"
   },
   "bg-error-darken-2": {
     "css": "background-color: var(--v-error-darken-2);",
-    "type": "color",
-    "color": "error-darken-2"
+    "type": "color"
   },
   "text-error-darken-3": {
     "css": "color: var(--v-error-darken-3);",
-    "type": "color",
-    "color": "error-darken-3"
+    "type": "color"
   },
   "bg-error-darken-3": {
     "css": "background-color: var(--v-error-darken-3);",
-    "type": "color",
-    "color": "error-darken-3"
+    "type": "color"
   },
   "text-error-darken-4": {
     "css": "color: var(--v-error-darken-4);",
-    "type": "color",
-    "color": "error-darken-4"
+    "type": "color"
   },
   "bg-error-darken-4": {
     "css": "background-color: var(--v-error-darken-4);",
-    "type": "color",
-    "color": "error-darken-4"
+    "type": "color"
   },
   "text-error-accent-1": {
     "css": "color: var(--v-error-accent-1);",
-    "type": "color",
-    "color": "error-accent-1"
+    "type": "color"
   },
   "bg-error-accent-1": {
     "css": "background-color: var(--v-error-accent-1);",
-    "type": "color",
-    "color": "error-accent-1"
+    "type": "color"
   },
   "text-error-accent-2": {
     "css": "color: var(--v-error-accent-2);",
-    "type": "color",
-    "color": "error-accent-2"
+    "type": "color"
   },
   "bg-error-accent-2": {
     "css": "background-color: var(--v-error-accent-2);",
-    "type": "color",
-    "color": "error-accent-2"
+    "type": "color"
   },
   "text-error-accent-3": {
     "css": "color: var(--v-error-accent-3);",
-    "type": "color",
-    "color": "error-accent-3"
+    "type": "color"
   },
   "bg-error-accent-3": {
     "css": "background-color: var(--v-error-accent-3);",
-    "type": "color",
-    "color": "error-accent-3"
+    "type": "color"
   },
   "text-error-accent-4": {
     "css": "color: var(--v-error-accent-4);",
-    "type": "color",
-    "color": "error-accent-4"
+    "type": "color"
   },
   "bg-error-accent-4": {
     "css": "background-color: var(--v-error-accent-4);",
-    "type": "color",
-    "color": "error-accent-4"
+    "type": "color"
   }
 };

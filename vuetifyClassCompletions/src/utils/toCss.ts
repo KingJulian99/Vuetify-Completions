@@ -1,6 +1,27 @@
+/**
+ * Utility function that converts Vuetify class names into actual CSS strings.
+ *
+ * Features:
+ * 1. Handles spacing, margin, padding, border, and other utility classes.
+ * 2. Converts shorthand Vuetify classes like `m-4`, `p-2`, `border-lg` into CSS rules.
+ * 3. Returns a CSS string suitable for display in hover previews or programmatic use.
+ *
+ * Example:
+ *   toCss("m-2")       => "margin: 8px;"
+ *   toCss("p-4")       => "padding: 16px;"
+ *   toCss("border-lg") => "border-width: 4px;"
+ *
+ * Usage:
+ *   import { toCss } from "../utils/toCss";
+ *   const css = toCss("m-2"); // returns "margin: 8px;"
+ *
+ * Notes:
+ * - Returns `undefined` if the class cannot be converted.
+ * - Used primarily in merge.ts to fill the `css` property for `VuetifyClass`.
+ */
+
 export function toCss(className: string): string {
   // Spacing
-  // spacing helper
     const spacingMatch = className.match(/([mp][trblxya]?)-(\d+)/);
     if (spacingMatch) {
         const prop = spacingMatch[1][0] === "m" ? "margin" : "padding";
