@@ -445,62 +445,6 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
     "css": "display: none;",
     "type": "layout"
   },
-  ".d-none": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-none .d-sm-flex": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-sm-none .d-md-flex": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-md-none .d-lg-flex": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-lg-none .d-xl-flex": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-xl-none .d-xxl-flex": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-xxl-none": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-flex": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-flex .d-sm-none": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-none .d-sm-flex .d-md-none": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-none .d-md-flex .d-lg-none": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-none .d-lg-flex .d-xl-none": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-none .d-xl-flex .d-xxl-none": {
-    "css": "",
-    "type": "layout"
-  },
-  ".d-none .d-xxl-flex": {
-    "css": "",
-    "type": "layout"
-  },
   "d-flex": {
     "css": "display: flex;",
     "type": "layout"

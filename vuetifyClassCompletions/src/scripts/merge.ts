@@ -135,21 +135,19 @@ const skipSpacing = [
     "Extra extra large"
 ];
 
-// Add scraped utilities / text / spacing
-scraped.forEach(cls => {
-    // Skip the unwanted spacing labels
-    if (skipSpacing.includes(cls.name)) {
-        return;
-    }
+/**
+ * Transforms Vuetify display visibility helper rows (e.g. "Hidden only on md")
+ * into individual class entries (e.g. "d-md-none", "d-lg-flex").
+ *
+ * Returns `true` if the class was handled and inserted, otherwise `false`.
+ */
+function transformDisplayClasses(
+    cls: any,
+    target: Record<string, VuetifyClass>
+): boolean {
+    if (cls.category !== "display") {return false;}
 
-    let key = cls.name;
-    let cssValue = toCss(cls.name) || cls.description || "";
-    let type = categoryMap[cls.category] || "layout";
-
-    // Special remapping for layout visibility classes
-    if (cls.category === "display") {
-        // List of layout visibility descriptions to remap
-        const visibilityClasses = [
+    const visibilityClasses = [
         "Hidden on all",
         "Hidden only on xs",
         "Hidden only on sm",
@@ -163,14 +161,38 @@ scraped.forEach(cls => {
         "Visible only on md",
         "Visible only on lg",
         "Visible only on xl",
-        "Visible only on xxl"
-        ];
+        "Visible only on xxl",
+    ];
 
-        if (visibilityClasses.includes(cls.name)) {
-        key = cls.description; // Use current CSS as key
-        cssValue = "";         // Clear CSS
+    if (!visibilityClasses.includes(cls.name)) {return false;}
+
+    const classNames = cls.description
+        .split(" ")
+        .map((c: string) => c.replace(".", "").trim())
+        .filter(Boolean);
+
+    for (const className of classNames) {
+        if (!target[className]) {
+        target[className] = {
+            css: "",
+            type: "layout",
+        };
         }
     }
+
+    return true;
+}
+
+// Add scraped utilities / text / spacing
+scraped.forEach(cls => {
+    if (skipSpacing.includes(cls.name)) {return;}
+
+    // 👇 clean and readable
+    if (transformDisplayClasses(cls, vuetifyClasses)) {return;}
+
+    let key = cls.name;
+    let cssValue = toCss(cls.name) || cls.description || "";
+    let type = categoryMap[cls.category] || "layout";
 
     vuetifyClasses[key] = { css: cssValue, type };
     });
