@@ -445,84 +445,60 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
     "css": "display: none;",
     "type": "layout"
   },
-  "Extra small": {
-    "css": "xs",
-    "type": "spacing"
-  },
-  "Small": {
-    "css": "sm",
-    "type": "spacing"
-  },
-  "Medium": {
-    "css": "md",
-    "type": "spacing"
-  },
-  "Large": {
-    "css": "lg",
-    "type": "spacing"
-  },
-  "Extra large": {
-    "css": "xl",
-    "type": "spacing"
-  },
-  "Extra extra large": {
-    "css": "xxl",
-    "type": "spacing"
-  },
-  "Hidden on all": {
-    "css": ".d-none",
+  ".d-none": {
+    "css": "",
     "type": "layout"
   },
-  "Hidden only on xs": {
-    "css": ".d-none .d-sm-flex",
+  ".d-none .d-sm-flex": {
+    "css": "",
     "type": "layout"
   },
-  "Hidden only on sm": {
-    "css": ".d-sm-none .d-md-flex",
+  ".d-sm-none .d-md-flex": {
+    "css": "",
     "type": "layout"
   },
-  "Hidden only on md": {
-    "css": ".d-md-none .d-lg-flex",
+  ".d-md-none .d-lg-flex": {
+    "css": "",
     "type": "layout"
   },
-  "Hidden only on lg": {
-    "css": ".d-lg-none .d-xl-flex",
+  ".d-lg-none .d-xl-flex": {
+    "css": "",
     "type": "layout"
   },
-  "Hidden only on xl": {
-    "css": ".d-xl-none .d-xxl-flex",
+  ".d-xl-none .d-xxl-flex": {
+    "css": "",
     "type": "layout"
   },
-  "Hidden only on xxl": {
-    "css": ".d-xxl-none",
+  ".d-xxl-none": {
+    "css": "",
     "type": "layout"
   },
-  "Visible on all": {
-    "css": ".d-flex",
+  ".d-flex": {
+    "css": "",
     "type": "layout"
   },
-  "Visible only on xs": {
-    "css": ".d-flex .d-sm-none",
+  ".d-flex .d-sm-none": {
+    "css": "",
     "type": "layout"
   },
-  "Visible only on sm": {
-    "css": ".d-none .d-sm-flex .d-md-none",
+  ".d-none .d-sm-flex .d-md-none": {
+    "css": "",
     "type": "layout"
   },
-  "Visible only on md": {
-    "css": ".d-none .d-md-flex .d-lg-none",
+  ".d-none .d-md-flex .d-lg-none": {
+    "css": "",
     "type": "layout"
   },
-  "Visible only on lg": {
-    "css": ".d-none .d-lg-flex .d-xl-none",
+  ".d-none .d-lg-flex .d-xl-none": {
+    "css": "",
     "type": "layout"
   },
-  "Visible only on xl": {
-    "css": ".d-none .d-xl-flex .d-xxl-none",
+  ".d-none .d-xl-flex .d-xxl-none": {
+    "css": "",
     "type": "layout"
   },
-  "Visible only on xxl": {
-    "css": ".d-none .d-xxl-flex",
+  ".d-none .d-xxl-flex": {
+    "css": "",
     "type": "layout"
   },
   "d-flex": {

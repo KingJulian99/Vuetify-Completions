@@ -96,16 +96,59 @@ const categoryMap: Record<string, "spacing" | "color" | "layout" | "text"> = {
 
 const vuetifyClasses: Record<string, VuetifyClass> = {};
 
-// Add scraped utilities / text / spacing
-scraped.forEach((cls) => {
-    const cssValue = toCss(cls.name) || cls.description || "";
-    const type = categoryMap[cls.category] || "layout";
-    vuetifyClasses[cls.name] = { css: cssValue, type };
-});
+// Define spacing names to skip
+const skipSpacing = [
+    "Extra small",
+    "Small",
+    "Medium",
+    "Large",
+    "Extra large",
+    "Extra extra large"
+];
 
-// Merge color classes (override if needed)
-Object.entries(colorClasses).forEach(([name, cls]) => {
-      vuetifyClasses[name] = cls;
+// Add scraped utilities / text / spacing
+scraped.forEach(cls => {
+    // Skip the unwanted spacing labels
+    if (skipSpacing.includes(cls.name)) {
+        return;
+    }
+
+    let key = cls.name;
+    let cssValue = toCss(cls.name) || cls.description || "";
+    let type = categoryMap[cls.category] || "layout";
+
+    // Special remapping for layout visibility classes
+    if (cls.category === "display") {
+        // List of layout visibility descriptions to remap
+        const visibilityClasses = [
+        "Hidden on all",
+        "Hidden only on xs",
+        "Hidden only on sm",
+        "Hidden only on md",
+        "Hidden only on lg",
+        "Hidden only on xl",
+        "Hidden only on xxl",
+        "Visible on all",
+        "Visible only on xs",
+        "Visible only on sm",
+        "Visible only on md",
+        "Visible only on lg",
+        "Visible only on xl",
+        "Visible only on xxl"
+        ];
+
+        if (visibilityClasses.includes(cls.name)) {
+        key = cls.description; // Use current CSS as key
+        cssValue = "";         // Clear CSS
+        }
+    }
+
+    vuetifyClasses[key] = { css: cssValue, type };
+    });
+
+    // Merge color classes (override if needed)
+    Object.entries(colorClasses).forEach(([name, cls]) => {
+        vuetifyClasses[name] = cls;
 });
 
 // Write as a TypeScript module
@@ -121,5 +164,5 @@ export const vuetifyClasses: Record<string, VuetifyClass> = ${JSON.stringify(vue
 fs.writeFileSync("vuetify-classes.ts", output);
 
 console.log(
-     `✅ Generated vuetify-classes.ts with ${Object.keys(vuetifyClasses).length} classes`,
+    `✅ Generated vuetify-classes.ts with ${Object.keys(vuetifyClasses).length} classes`,
 );
