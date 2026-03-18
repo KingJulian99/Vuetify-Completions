@@ -38,18 +38,17 @@ exports.deactivate = deactivate;
 // The module 'vscode' contains the VS Code extensibility API
 // Import the module and reference it with the alias vscode in your code below
 const vscode = __importStar(require("vscode"));
+const completion_1 = require("./providers/completion");
+const hover_1 = require("./providers/hover");
 // This method is called when your extension is activated
-// Your extension is activated the very first time the command is executed
 function activate(context) {
-    // Use the console to output diagnostic information (console.log) and errors (console.error)
-    // This line of code will only be executed once when your extension is activated
-    console.log('Congratulations, your extension "vuetifyClassCompletions" is now active!');
-    // The command has been defined in the package.json file
-    // Now provide the implementation of the command with registerCommand
-    // The commandId parameter must match the command field in package.json
+    console.log('🎉 Vuetify Class Completions extension is now active!');
+    // Register the class autocomplete provider
+    context.subscriptions.push(completion_1.completionProvider);
+    // Register the hover provider
+    context.subscriptions.push(hover_1.hoverProvider);
+    // Optional: keep helloWorld command for testing if you want
     const disposable = vscode.commands.registerCommand('vuetifyClassCompletions.helloWorld', () => {
-        // The code you place here will be executed every time your command is executed
-        // Display a message box to the user
         vscode.window.showInformationMessage('Hello World from Vuetify Class Completions!');
     });
     context.subscriptions.push(disposable);
