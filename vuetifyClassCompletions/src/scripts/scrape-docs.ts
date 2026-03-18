@@ -23,7 +23,6 @@
  *
  * Usage:
  *   1. Run `npx ts-node scrape-docs.ts`
- *   2. Import the JSON in merge.ts to create a combined TypeScript module for VS Code autocomplete.
  *
  * Notes:
  * - Requires Puppeteer and Cheerio.

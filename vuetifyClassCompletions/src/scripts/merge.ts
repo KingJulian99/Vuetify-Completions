@@ -41,6 +41,10 @@ const scraped: any[] = JSON.parse(
      fs.readFileSync("../data/vuetify-docs-classes.json", "utf-8"),
 );
 
+const colorHexMap: Record<string, string> = JSON.parse(
+  fs.readFileSync("../data/vuetify-color-hex.json", "utf-8")
+);
+
 // Define color palette
 const COLORS = [
     "red",
@@ -86,25 +90,28 @@ COLORS.forEach((color) => {
     colorClasses[`text-${color}`] = {
         css: `color: var(--v-${color}-base);`,
         type: "color",
-        color,
+        color: colorHexMap[color] || undefined,
     };
     colorClasses[`bg-${color}`] = {
         css: `background-color: var(--v-${color}-base);`,
         type: "color",
-        color,
+        color: colorHexMap[color] || undefined,
     };
+
     // variants
     [...LIGHTEN, ...DARKEN, ...ACCENT].forEach((variant) => {
         const fullVariant = `${color}-${variant}`;
+        const hex = colorHexMap[fullVariant] || colorHexMap[color];
+
         colorClasses[`text-${fullVariant}`] = {
-        css: `color: var(--v-${fullVariant});`,
-        type: "color",
-        color: fullVariant,
+            css: `color: var(--v-${fullVariant});`,
+            type: "color",
+            color: hex,
         };
         colorClasses[`bg-${fullVariant}`] = {
-        css: `background-color: var(--v-${fullVariant});`,
-        type: "color",
-        color: fullVariant,
+            css: `background-color: var(--v-${fullVariant});`,
+            type: "color",
+            color: hex,
         };
     });
 });
@@ -187,7 +194,6 @@ function transformDisplayClasses(
 scraped.forEach(cls => {
     if (skipSpacing.includes(cls.name)) {return;}
 
-    // 👇 clean and readable
     if (transformDisplayClasses(cls, vuetifyClasses)) {return;}
 
     let key = cls.name;
