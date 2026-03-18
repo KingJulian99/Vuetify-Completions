@@ -1,0 +1,9 @@
+# Node dependencies
+node_modules/
+
+# TypeScript compiled output
+out/
+
+# VS Code extension dev host storage
+.vscode-test/
+.vscode/
