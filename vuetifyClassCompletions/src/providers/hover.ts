@@ -1,22 +1,22 @@
-// src/providers/hover.ts
-import * as vscode from 'vscode';
-import classes from '../../data/vuetify-classes.json';
+import * as vscode from "vscode";
+import { vuetifyClasses } from "../data/vuetify-classes";
 
+// The hover provider shows an information window about the Vuetify class that is being hovered over.
 export const hoverProvider = vscode.languages.registerHoverProvider(
-    ['vue', 'html'],
+    ["vue", "html"],
     {
         provideHover(document, position) {
-        const range = document.getWordRangeAtPosition(position);
-        const word = document.getText(range);
+            const range = document.getWordRangeAtPosition(position, /[\w-]+/);
+            if (!range) return;
 
-        const match = classes.find(c => c.name === word);
-        if (!match) return;
+            const word = document.getText(range);
 
-        return new vscode.Hover(
-            new vscode.MarkdownString(
-            `**${match.name}**\n\n\`\`\`css\n${match.css}\n\`\`\`\n${match.description || ''}`
-            )
-        );
-        }
-    }
+            const css = vuetifyClasses[word].css;
+            if (!css) return;
+
+            return new vscode.Hover(
+                new vscode.MarkdownString(`\`\`\`css\n${css}\n\`\`\``),
+            );
+        },
+    },
 );
