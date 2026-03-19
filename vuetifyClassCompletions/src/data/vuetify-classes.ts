@@ -3654,66 +3654,6 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
         css: "font-style: italic;",
         type: "text",
     },
-    "text-{breakpoint}-display-large": {
-        css: "Set the text-display-large style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-display-medium": {
-        css: "Set the text-display-medium style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-display-small": {
-        css: "Set the text-display-small style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-headline-large": {
-        css: "Set the text-headline-large style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-headline-medium": {
-        css: "Set the text-headline-medium style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-headline-small": {
-        css: "Set the text-headline-small style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-title-large": {
-        css: "Set the text-title-large style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-title-medium": {
-        css: "Set the text-title-medium style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-title-small": {
-        css: "Set the text-title-small style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-body-large": {
-        css: "Set the text-body-large style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-body-medium": {
-        css: "Set the text-body-medium style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-body-small": {
-        css: "Set the text-body-small style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-label-large": {
-        css: "Set the text-label-large style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-label-medium": {
-        css: "Set the text-label-medium style for the specified breakpoint.",
-        type: "text",
-    },
-    "text-{breakpoint}-label-small": {
-        css: "Set the text-label-small style for the specified breakpoint.",
-        type: "text",
-    },
     "elevation-0": {
         css: "box-shadow: /* elevation 0 */;",
         type: "layout",
@@ -4265,114 +4205,142 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
     "text-deep-purple": {
         css: "color: var(--v-deep-purple-base);",
         type: "color",
+        color: "#673ab7",
     },
     "bg-deep-purple": {
         css: "background-color: var(--v-deep-purple-base);",
         type: "color",
+        color: "#673ab7",
     },
     "text-deep-purple-lighten-1": {
         css: "color: var(--v-deep-purple-lighten-1);",
         type: "color",
+        color: "#7e57c2",
     },
     "bg-deep-purple-lighten-1": {
         css: "background-color: var(--v-deep-purple-lighten-1);",
         type: "color",
+        color: "#7e57c2",
     },
     "text-deep-purple-lighten-2": {
         css: "color: var(--v-deep-purple-lighten-2);",
         type: "color",
+        color: "#9575cd",
     },
     "bg-deep-purple-lighten-2": {
         css: "background-color: var(--v-deep-purple-lighten-2);",
         type: "color",
+        color: "#9575cd",
     },
     "text-deep-purple-lighten-3": {
         css: "color: var(--v-deep-purple-lighten-3);",
         type: "color",
+        color: "#b39ddb",
     },
     "bg-deep-purple-lighten-3": {
         css: "background-color: var(--v-deep-purple-lighten-3);",
         type: "color",
+        color: "#b39ddb",
     },
     "text-deep-purple-lighten-4": {
         css: "color: var(--v-deep-purple-lighten-4);",
         type: "color",
+        color: "#d1c4e9",
     },
     "bg-deep-purple-lighten-4": {
         css: "background-color: var(--v-deep-purple-lighten-4);",
         type: "color",
+        color: "#d1c4e9",
     },
     "text-deep-purple-lighten-5": {
         css: "color: var(--v-deep-purple-lighten-5);",
         type: "color",
+        color: "#ede7f6",
     },
     "bg-deep-purple-lighten-5": {
         css: "background-color: var(--v-deep-purple-lighten-5);",
         type: "color",
+        color: "#ede7f6",
     },
     "text-deep-purple-darken-1": {
         css: "color: var(--v-deep-purple-darken-1);",
         type: "color",
+        color: "#5e35b1",
     },
     "bg-deep-purple-darken-1": {
         css: "background-color: var(--v-deep-purple-darken-1);",
         type: "color",
+        color: "#5e35b1",
     },
     "text-deep-purple-darken-2": {
         css: "color: var(--v-deep-purple-darken-2);",
         type: "color",
+        color: "#512da8",
     },
     "bg-deep-purple-darken-2": {
         css: "background-color: var(--v-deep-purple-darken-2);",
         type: "color",
+        color: "#512da8",
     },
     "text-deep-purple-darken-3": {
         css: "color: var(--v-deep-purple-darken-3);",
         type: "color",
+        color: "#4527a0",
     },
     "bg-deep-purple-darken-3": {
         css: "background-color: var(--v-deep-purple-darken-3);",
         type: "color",
+        color: "#4527a0",
     },
     "text-deep-purple-darken-4": {
         css: "color: var(--v-deep-purple-darken-4);",
         type: "color",
+        color: "#311b92",
     },
     "bg-deep-purple-darken-4": {
         css: "background-color: var(--v-deep-purple-darken-4);",
         type: "color",
+        color: "#311b92",
     },
     "text-deep-purple-accent-1": {
         css: "color: var(--v-deep-purple-accent-1);",
         type: "color",
+        color: "#b388ff",
     },
     "bg-deep-purple-accent-1": {
         css: "background-color: var(--v-deep-purple-accent-1);",
         type: "color",
+        color: "#b388ff",
     },
     "text-deep-purple-accent-2": {
         css: "color: var(--v-deep-purple-accent-2);",
         type: "color",
+        color: "#7c4dff",
     },
     "bg-deep-purple-accent-2": {
         css: "background-color: var(--v-deep-purple-accent-2);",
         type: "color",
+        color: "#7c4dff",
     },
     "text-deep-purple-accent-3": {
         css: "color: var(--v-deep-purple-accent-3);",
         type: "color",
+        color: "#651fff",
     },
     "bg-deep-purple-accent-3": {
         css: "background-color: var(--v-deep-purple-accent-3);",
         type: "color",
+        color: "#651fff",
     },
     "text-deep-purple-accent-4": {
         css: "color: var(--v-deep-purple-accent-4);",
         type: "color",
+        color: "#6200ea",
     },
     "bg-deep-purple-accent-4": {
         css: "background-color: var(--v-deep-purple-accent-4);",
         type: "color",
+        color: "#6200ea",
     },
     "text-indigo": {
         css: "color: var(--v-indigo-base);",
@@ -4657,114 +4625,142 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
     "text-light-blue": {
         css: "color: var(--v-light-blue-base);",
         type: "color",
+        color: "#03a9f4",
     },
     "bg-light-blue": {
         css: "background-color: var(--v-light-blue-base);",
         type: "color",
+        color: "#03a9f4",
     },
     "text-light-blue-lighten-1": {
         css: "color: var(--v-light-blue-lighten-1);",
         type: "color",
+        color: "#29b6f6",
     },
     "bg-light-blue-lighten-1": {
         css: "background-color: var(--v-light-blue-lighten-1);",
         type: "color",
+        color: "#29b6f6",
     },
     "text-light-blue-lighten-2": {
         css: "color: var(--v-light-blue-lighten-2);",
         type: "color",
+        color: "#4fc3f7",
     },
     "bg-light-blue-lighten-2": {
         css: "background-color: var(--v-light-blue-lighten-2);",
         type: "color",
+        color: "#4fc3f7",
     },
     "text-light-blue-lighten-3": {
         css: "color: var(--v-light-blue-lighten-3);",
         type: "color",
+        color: "#81d4fa",
     },
     "bg-light-blue-lighten-3": {
         css: "background-color: var(--v-light-blue-lighten-3);",
         type: "color",
+        color: "#81d4fa",
     },
     "text-light-blue-lighten-4": {
         css: "color: var(--v-light-blue-lighten-4);",
         type: "color",
+        color: "#b3e5fc",
     },
     "bg-light-blue-lighten-4": {
         css: "background-color: var(--v-light-blue-lighten-4);",
         type: "color",
+        color: "#b3e5fc",
     },
     "text-light-blue-lighten-5": {
         css: "color: var(--v-light-blue-lighten-5);",
         type: "color",
+        color: "#e1f5fe",
     },
     "bg-light-blue-lighten-5": {
         css: "background-color: var(--v-light-blue-lighten-5);",
         type: "color",
+        color: "#e1f5fe",
     },
     "text-light-blue-darken-1": {
         css: "color: var(--v-light-blue-darken-1);",
         type: "color",
+        color: "#039be5",
     },
     "bg-light-blue-darken-1": {
         css: "background-color: var(--v-light-blue-darken-1);",
         type: "color",
+        color: "#039be5",
     },
     "text-light-blue-darken-2": {
         css: "color: var(--v-light-blue-darken-2);",
         type: "color",
+        color: "#0288d1",
     },
     "bg-light-blue-darken-2": {
         css: "background-color: var(--v-light-blue-darken-2);",
         type: "color",
+        color: "#0288d1",
     },
     "text-light-blue-darken-3": {
         css: "color: var(--v-light-blue-darken-3);",
         type: "color",
+        color: "#0277bd",
     },
     "bg-light-blue-darken-3": {
         css: "background-color: var(--v-light-blue-darken-3);",
         type: "color",
+        color: "#0277bd",
     },
     "text-light-blue-darken-4": {
         css: "color: var(--v-light-blue-darken-4);",
         type: "color",
+        color: "#01579b",
     },
     "bg-light-blue-darken-4": {
         css: "background-color: var(--v-light-blue-darken-4);",
         type: "color",
+        color: "#01579b",
     },
     "text-light-blue-accent-1": {
         css: "color: var(--v-light-blue-accent-1);",
         type: "color",
+        color: "#80d8ff",
     },
     "bg-light-blue-accent-1": {
         css: "background-color: var(--v-light-blue-accent-1);",
         type: "color",
+        color: "#80d8ff",
     },
     "text-light-blue-accent-2": {
         css: "color: var(--v-light-blue-accent-2);",
         type: "color",
+        color: "#40c4ff",
     },
     "bg-light-blue-accent-2": {
         css: "background-color: var(--v-light-blue-accent-2);",
         type: "color",
+        color: "#40c4ff",
     },
     "text-light-blue-accent-3": {
         css: "color: var(--v-light-blue-accent-3);",
         type: "color",
+        color: "#00b0ff",
     },
     "bg-light-blue-accent-3": {
         css: "background-color: var(--v-light-blue-accent-3);",
         type: "color",
+        color: "#00b0ff",
     },
     "text-light-blue-accent-4": {
         css: "color: var(--v-light-blue-accent-4);",
         type: "color",
+        color: "#0091ea",
     },
     "bg-light-blue-accent-4": {
         css: "background-color: var(--v-light-blue-accent-4);",
         type: "color",
+        color: "#0091ea",
     },
     "text-cyan": {
         css: "color: var(--v-cyan-base);",
@@ -5189,114 +5185,142 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
     "text-light-green": {
         css: "color: var(--v-light-green-base);",
         type: "color",
+        color: "#8bc34a",
     },
     "bg-light-green": {
         css: "background-color: var(--v-light-green-base);",
         type: "color",
+        color: "#8bc34a",
     },
     "text-light-green-lighten-1": {
         css: "color: var(--v-light-green-lighten-1);",
         type: "color",
+        color: "#9ccc65",
     },
     "bg-light-green-lighten-1": {
         css: "background-color: var(--v-light-green-lighten-1);",
         type: "color",
+        color: "#9ccc65",
     },
     "text-light-green-lighten-2": {
         css: "color: var(--v-light-green-lighten-2);",
         type: "color",
+        color: "#aed581",
     },
     "bg-light-green-lighten-2": {
         css: "background-color: var(--v-light-green-lighten-2);",
         type: "color",
+        color: "#aed581",
     },
     "text-light-green-lighten-3": {
         css: "color: var(--v-light-green-lighten-3);",
         type: "color",
+        color: "#c5e1a5",
     },
     "bg-light-green-lighten-3": {
         css: "background-color: var(--v-light-green-lighten-3);",
         type: "color",
+        color: "#c5e1a5",
     },
     "text-light-green-lighten-4": {
         css: "color: var(--v-light-green-lighten-4);",
         type: "color",
+        color: "#dcedc8",
     },
     "bg-light-green-lighten-4": {
         css: "background-color: var(--v-light-green-lighten-4);",
         type: "color",
+        color: "#dcedc8",
     },
     "text-light-green-lighten-5": {
         css: "color: var(--v-light-green-lighten-5);",
         type: "color",
+        color: "#f1f8e9",
     },
     "bg-light-green-lighten-5": {
         css: "background-color: var(--v-light-green-lighten-5);",
         type: "color",
+        color: "#f1f8e9",
     },
     "text-light-green-darken-1": {
         css: "color: var(--v-light-green-darken-1);",
         type: "color",
+        color: "#7cb342",
     },
     "bg-light-green-darken-1": {
         css: "background-color: var(--v-light-green-darken-1);",
         type: "color",
+        color: "#7cb342",
     },
     "text-light-green-darken-2": {
         css: "color: var(--v-light-green-darken-2);",
         type: "color",
+        color: "#689f38",
     },
     "bg-light-green-darken-2": {
         css: "background-color: var(--v-light-green-darken-2);",
         type: "color",
+        color: "#689f38",
     },
     "text-light-green-darken-3": {
         css: "color: var(--v-light-green-darken-3);",
         type: "color",
+        color: "#558b2f",
     },
     "bg-light-green-darken-3": {
         css: "background-color: var(--v-light-green-darken-3);",
         type: "color",
+        color: "#558b2f",
     },
     "text-light-green-darken-4": {
         css: "color: var(--v-light-green-darken-4);",
         type: "color",
+        color: "#33691e",
     },
     "bg-light-green-darken-4": {
         css: "background-color: var(--v-light-green-darken-4);",
         type: "color",
+        color: "#33691e",
     },
     "text-light-green-accent-1": {
         css: "color: var(--v-light-green-accent-1);",
         type: "color",
+        color: "#ccff90",
     },
     "bg-light-green-accent-1": {
         css: "background-color: var(--v-light-green-accent-1);",
         type: "color",
+        color: "#ccff90",
     },
     "text-light-green-accent-2": {
         css: "color: var(--v-light-green-accent-2);",
         type: "color",
+        color: "#b2ff59",
     },
     "bg-light-green-accent-2": {
         css: "background-color: var(--v-light-green-accent-2);",
         type: "color",
+        color: "#b2ff59",
     },
     "text-light-green-accent-3": {
         css: "color: var(--v-light-green-accent-3);",
         type: "color",
+        color: "#76ff03",
     },
     "bg-light-green-accent-3": {
         css: "background-color: var(--v-light-green-accent-3);",
         type: "color",
+        color: "#76ff03",
     },
     "text-light-green-accent-4": {
         css: "color: var(--v-light-green-accent-4);",
         type: "color",
+        color: "#64dd17",
     },
     "bg-light-green-accent-4": {
         css: "background-color: var(--v-light-green-accent-4);",
         type: "color",
+        color: "#64dd17",
     },
     "text-lime": {
         css: "color: var(--v-lime-base);",
@@ -5861,114 +5885,142 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
     "text-deep-orange": {
         css: "color: var(--v-deep-orange-base);",
         type: "color",
+        color: "#ff5722",
     },
     "bg-deep-orange": {
         css: "background-color: var(--v-deep-orange-base);",
         type: "color",
+        color: "#ff5722",
     },
     "text-deep-orange-lighten-1": {
         css: "color: var(--v-deep-orange-lighten-1);",
         type: "color",
+        color: "#ff7043",
     },
     "bg-deep-orange-lighten-1": {
         css: "background-color: var(--v-deep-orange-lighten-1);",
         type: "color",
+        color: "#ff7043",
     },
     "text-deep-orange-lighten-2": {
         css: "color: var(--v-deep-orange-lighten-2);",
         type: "color",
+        color: "#ff8a65",
     },
     "bg-deep-orange-lighten-2": {
         css: "background-color: var(--v-deep-orange-lighten-2);",
         type: "color",
+        color: "#ff8a65",
     },
     "text-deep-orange-lighten-3": {
         css: "color: var(--v-deep-orange-lighten-3);",
         type: "color",
+        color: "#ffab91",
     },
     "bg-deep-orange-lighten-3": {
         css: "background-color: var(--v-deep-orange-lighten-3);",
         type: "color",
+        color: "#ffab91",
     },
     "text-deep-orange-lighten-4": {
         css: "color: var(--v-deep-orange-lighten-4);",
         type: "color",
+        color: "#ffccbc",
     },
     "bg-deep-orange-lighten-4": {
         css: "background-color: var(--v-deep-orange-lighten-4);",
         type: "color",
+        color: "#ffccbc",
     },
     "text-deep-orange-lighten-5": {
         css: "color: var(--v-deep-orange-lighten-5);",
         type: "color",
+        color: "#fbe9e7",
     },
     "bg-deep-orange-lighten-5": {
         css: "background-color: var(--v-deep-orange-lighten-5);",
         type: "color",
+        color: "#fbe9e7",
     },
     "text-deep-orange-darken-1": {
         css: "color: var(--v-deep-orange-darken-1);",
         type: "color",
+        color: "#f4511e",
     },
     "bg-deep-orange-darken-1": {
         css: "background-color: var(--v-deep-orange-darken-1);",
         type: "color",
+        color: "#f4511e",
     },
     "text-deep-orange-darken-2": {
         css: "color: var(--v-deep-orange-darken-2);",
         type: "color",
+        color: "#e64a19",
     },
     "bg-deep-orange-darken-2": {
         css: "background-color: var(--v-deep-orange-darken-2);",
         type: "color",
+        color: "#e64a19",
     },
     "text-deep-orange-darken-3": {
         css: "color: var(--v-deep-orange-darken-3);",
         type: "color",
+        color: "#d84315",
     },
     "bg-deep-orange-darken-3": {
         css: "background-color: var(--v-deep-orange-darken-3);",
         type: "color",
+        color: "#d84315",
     },
     "text-deep-orange-darken-4": {
         css: "color: var(--v-deep-orange-darken-4);",
         type: "color",
+        color: "#bf360c",
     },
     "bg-deep-orange-darken-4": {
         css: "background-color: var(--v-deep-orange-darken-4);",
         type: "color",
+        color: "#bf360c",
     },
     "text-deep-orange-accent-1": {
         css: "color: var(--v-deep-orange-accent-1);",
         type: "color",
+        color: "#ff9e80",
     },
     "bg-deep-orange-accent-1": {
         css: "background-color: var(--v-deep-orange-accent-1);",
         type: "color",
+        color: "#ff9e80",
     },
     "text-deep-orange-accent-2": {
         css: "color: var(--v-deep-orange-accent-2);",
         type: "color",
+        color: "#ff6e40",
     },
     "bg-deep-orange-accent-2": {
         css: "background-color: var(--v-deep-orange-accent-2);",
         type: "color",
+        color: "#ff6e40",
     },
     "text-deep-orange-accent-3": {
         css: "color: var(--v-deep-orange-accent-3);",
         type: "color",
+        color: "#ff3d00",
     },
     "bg-deep-orange-accent-3": {
         css: "background-color: var(--v-deep-orange-accent-3);",
         type: "color",
+        color: "#ff3d00",
     },
     "text-deep-orange-accent-4": {
         css: "color: var(--v-deep-orange-accent-4);",
         type: "color",
+        color: "#dd2c00",
     },
     "bg-deep-orange-accent-4": {
         css: "background-color: var(--v-deep-orange-accent-4);",
         type: "color",
+        color: "#dd2c00",
     },
     "text-brown": {
         css: "color: var(--v-brown-base);",
@@ -6253,114 +6305,102 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
     "text-blue-grey": {
         css: "color: var(--v-blue-grey-base);",
         type: "color",
+        color: "#607d8b",
     },
     "bg-blue-grey": {
         css: "background-color: var(--v-blue-grey-base);",
         type: "color",
+        color: "#607d8b",
     },
     "text-blue-grey-lighten-1": {
         css: "color: var(--v-blue-grey-lighten-1);",
         type: "color",
+        color: "#78909c",
     },
     "bg-blue-grey-lighten-1": {
         css: "background-color: var(--v-blue-grey-lighten-1);",
         type: "color",
+        color: "#78909c",
     },
     "text-blue-grey-lighten-2": {
         css: "color: var(--v-blue-grey-lighten-2);",
         type: "color",
+        color: "#90a4ae",
     },
     "bg-blue-grey-lighten-2": {
         css: "background-color: var(--v-blue-grey-lighten-2);",
         type: "color",
+        color: "#90a4ae",
     },
     "text-blue-grey-lighten-3": {
         css: "color: var(--v-blue-grey-lighten-3);",
         type: "color",
+        color: "#b0bec5",
     },
     "bg-blue-grey-lighten-3": {
         css: "background-color: var(--v-blue-grey-lighten-3);",
         type: "color",
+        color: "#b0bec5",
     },
     "text-blue-grey-lighten-4": {
         css: "color: var(--v-blue-grey-lighten-4);",
         type: "color",
+        color: "#cfd8dc",
     },
     "bg-blue-grey-lighten-4": {
         css: "background-color: var(--v-blue-grey-lighten-4);",
         type: "color",
+        color: "#cfd8dc",
     },
     "text-blue-grey-lighten-5": {
         css: "color: var(--v-blue-grey-lighten-5);",
         type: "color",
+        color: "#eceff1",
     },
     "bg-blue-grey-lighten-5": {
         css: "background-color: var(--v-blue-grey-lighten-5);",
         type: "color",
+        color: "#eceff1",
     },
     "text-blue-grey-darken-1": {
         css: "color: var(--v-blue-grey-darken-1);",
         type: "color",
+        color: "#546e7a",
     },
     "bg-blue-grey-darken-1": {
         css: "background-color: var(--v-blue-grey-darken-1);",
         type: "color",
+        color: "#546e7a",
     },
     "text-blue-grey-darken-2": {
         css: "color: var(--v-blue-grey-darken-2);",
         type: "color",
+        color: "#455a64",
     },
     "bg-blue-grey-darken-2": {
         css: "background-color: var(--v-blue-grey-darken-2);",
         type: "color",
+        color: "#455a64",
     },
     "text-blue-grey-darken-3": {
         css: "color: var(--v-blue-grey-darken-3);",
         type: "color",
+        color: "#37474f",
     },
     "bg-blue-grey-darken-3": {
         css: "background-color: var(--v-blue-grey-darken-3);",
         type: "color",
+        color: "#37474f",
     },
     "text-blue-grey-darken-4": {
         css: "color: var(--v-blue-grey-darken-4);",
         type: "color",
+        color: "#263238",
     },
     "bg-blue-grey-darken-4": {
         css: "background-color: var(--v-blue-grey-darken-4);",
         type: "color",
-    },
-    "text-blue-grey-accent-1": {
-        css: "color: var(--v-blue-grey-accent-1);",
-        type: "color",
-    },
-    "bg-blue-grey-accent-1": {
-        css: "background-color: var(--v-blue-grey-accent-1);",
-        type: "color",
-    },
-    "text-blue-grey-accent-2": {
-        css: "color: var(--v-blue-grey-accent-2);",
-        type: "color",
-    },
-    "bg-blue-grey-accent-2": {
-        css: "background-color: var(--v-blue-grey-accent-2);",
-        type: "color",
-    },
-    "text-blue-grey-accent-3": {
-        css: "color: var(--v-blue-grey-accent-3);",
-        type: "color",
-    },
-    "bg-blue-grey-accent-3": {
-        css: "background-color: var(--v-blue-grey-accent-3);",
-        type: "color",
-    },
-    "text-blue-grey-accent-4": {
-        css: "color: var(--v-blue-grey-accent-4);",
-        type: "color",
-    },
-    "bg-blue-grey-accent-4": {
-        css: "background-color: var(--v-blue-grey-accent-4);",
-        type: "color",
+        color: "#263238",
     },
     "text-primary": {
         css: "color: var(--v-primary-base);",
@@ -6584,454 +6624,6 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
     },
     "bg-secondary-accent-4": {
         css: "background-color: var(--v-secondary-accent-4);",
-        type: "color",
-    },
-    "text-success": {
-        css: "color: var(--v-success-base);",
-        type: "color",
-    },
-    "bg-success": {
-        css: "background-color: var(--v-success-base);",
-        type: "color",
-    },
-    "text-success-lighten-1": {
-        css: "color: var(--v-success-lighten-1);",
-        type: "color",
-    },
-    "bg-success-lighten-1": {
-        css: "background-color: var(--v-success-lighten-1);",
-        type: "color",
-    },
-    "text-success-lighten-2": {
-        css: "color: var(--v-success-lighten-2);",
-        type: "color",
-    },
-    "bg-success-lighten-2": {
-        css: "background-color: var(--v-success-lighten-2);",
-        type: "color",
-    },
-    "text-success-lighten-3": {
-        css: "color: var(--v-success-lighten-3);",
-        type: "color",
-    },
-    "bg-success-lighten-3": {
-        css: "background-color: var(--v-success-lighten-3);",
-        type: "color",
-    },
-    "text-success-lighten-4": {
-        css: "color: var(--v-success-lighten-4);",
-        type: "color",
-    },
-    "bg-success-lighten-4": {
-        css: "background-color: var(--v-success-lighten-4);",
-        type: "color",
-    },
-    "text-success-lighten-5": {
-        css: "color: var(--v-success-lighten-5);",
-        type: "color",
-    },
-    "bg-success-lighten-5": {
-        css: "background-color: var(--v-success-lighten-5);",
-        type: "color",
-    },
-    "text-success-darken-1": {
-        css: "color: var(--v-success-darken-1);",
-        type: "color",
-    },
-    "bg-success-darken-1": {
-        css: "background-color: var(--v-success-darken-1);",
-        type: "color",
-    },
-    "text-success-darken-2": {
-        css: "color: var(--v-success-darken-2);",
-        type: "color",
-    },
-    "bg-success-darken-2": {
-        css: "background-color: var(--v-success-darken-2);",
-        type: "color",
-    },
-    "text-success-darken-3": {
-        css: "color: var(--v-success-darken-3);",
-        type: "color",
-    },
-    "bg-success-darken-3": {
-        css: "background-color: var(--v-success-darken-3);",
-        type: "color",
-    },
-    "text-success-darken-4": {
-        css: "color: var(--v-success-darken-4);",
-        type: "color",
-    },
-    "bg-success-darken-4": {
-        css: "background-color: var(--v-success-darken-4);",
-        type: "color",
-    },
-    "text-success-accent-1": {
-        css: "color: var(--v-success-accent-1);",
-        type: "color",
-    },
-    "bg-success-accent-1": {
-        css: "background-color: var(--v-success-accent-1);",
-        type: "color",
-    },
-    "text-success-accent-2": {
-        css: "color: var(--v-success-accent-2);",
-        type: "color",
-    },
-    "bg-success-accent-2": {
-        css: "background-color: var(--v-success-accent-2);",
-        type: "color",
-    },
-    "text-success-accent-3": {
-        css: "color: var(--v-success-accent-3);",
-        type: "color",
-    },
-    "bg-success-accent-3": {
-        css: "background-color: var(--v-success-accent-3);",
-        type: "color",
-    },
-    "text-success-accent-4": {
-        css: "color: var(--v-success-accent-4);",
-        type: "color",
-    },
-    "bg-success-accent-4": {
-        css: "background-color: var(--v-success-accent-4);",
-        type: "color",
-    },
-    "text-info": {
-        css: "color: var(--v-info-base);",
-        type: "color",
-    },
-    "bg-info": {
-        css: "background-color: var(--v-info-base);",
-        type: "color",
-    },
-    "text-info-lighten-1": {
-        css: "color: var(--v-info-lighten-1);",
-        type: "color",
-    },
-    "bg-info-lighten-1": {
-        css: "background-color: var(--v-info-lighten-1);",
-        type: "color",
-    },
-    "text-info-lighten-2": {
-        css: "color: var(--v-info-lighten-2);",
-        type: "color",
-    },
-    "bg-info-lighten-2": {
-        css: "background-color: var(--v-info-lighten-2);",
-        type: "color",
-    },
-    "text-info-lighten-3": {
-        css: "color: var(--v-info-lighten-3);",
-        type: "color",
-    },
-    "bg-info-lighten-3": {
-        css: "background-color: var(--v-info-lighten-3);",
-        type: "color",
-    },
-    "text-info-lighten-4": {
-        css: "color: var(--v-info-lighten-4);",
-        type: "color",
-    },
-    "bg-info-lighten-4": {
-        css: "background-color: var(--v-info-lighten-4);",
-        type: "color",
-    },
-    "text-info-lighten-5": {
-        css: "color: var(--v-info-lighten-5);",
-        type: "color",
-    },
-    "bg-info-lighten-5": {
-        css: "background-color: var(--v-info-lighten-5);",
-        type: "color",
-    },
-    "text-info-darken-1": {
-        css: "color: var(--v-info-darken-1);",
-        type: "color",
-    },
-    "bg-info-darken-1": {
-        css: "background-color: var(--v-info-darken-1);",
-        type: "color",
-    },
-    "text-info-darken-2": {
-        css: "color: var(--v-info-darken-2);",
-        type: "color",
-    },
-    "bg-info-darken-2": {
-        css: "background-color: var(--v-info-darken-2);",
-        type: "color",
-    },
-    "text-info-darken-3": {
-        css: "color: var(--v-info-darken-3);",
-        type: "color",
-    },
-    "bg-info-darken-3": {
-        css: "background-color: var(--v-info-darken-3);",
-        type: "color",
-    },
-    "text-info-darken-4": {
-        css: "color: var(--v-info-darken-4);",
-        type: "color",
-    },
-    "bg-info-darken-4": {
-        css: "background-color: var(--v-info-darken-4);",
-        type: "color",
-    },
-    "text-info-accent-1": {
-        css: "color: var(--v-info-accent-1);",
-        type: "color",
-    },
-    "bg-info-accent-1": {
-        css: "background-color: var(--v-info-accent-1);",
-        type: "color",
-    },
-    "text-info-accent-2": {
-        css: "color: var(--v-info-accent-2);",
-        type: "color",
-    },
-    "bg-info-accent-2": {
-        css: "background-color: var(--v-info-accent-2);",
-        type: "color",
-    },
-    "text-info-accent-3": {
-        css: "color: var(--v-info-accent-3);",
-        type: "color",
-    },
-    "bg-info-accent-3": {
-        css: "background-color: var(--v-info-accent-3);",
-        type: "color",
-    },
-    "text-info-accent-4": {
-        css: "color: var(--v-info-accent-4);",
-        type: "color",
-    },
-    "bg-info-accent-4": {
-        css: "background-color: var(--v-info-accent-4);",
-        type: "color",
-    },
-    "text-warning": {
-        css: "color: var(--v-warning-base);",
-        type: "color",
-    },
-    "bg-warning": {
-        css: "background-color: var(--v-warning-base);",
-        type: "color",
-    },
-    "text-warning-lighten-1": {
-        css: "color: var(--v-warning-lighten-1);",
-        type: "color",
-    },
-    "bg-warning-lighten-1": {
-        css: "background-color: var(--v-warning-lighten-1);",
-        type: "color",
-    },
-    "text-warning-lighten-2": {
-        css: "color: var(--v-warning-lighten-2);",
-        type: "color",
-    },
-    "bg-warning-lighten-2": {
-        css: "background-color: var(--v-warning-lighten-2);",
-        type: "color",
-    },
-    "text-warning-lighten-3": {
-        css: "color: var(--v-warning-lighten-3);",
-        type: "color",
-    },
-    "bg-warning-lighten-3": {
-        css: "background-color: var(--v-warning-lighten-3);",
-        type: "color",
-    },
-    "text-warning-lighten-4": {
-        css: "color: var(--v-warning-lighten-4);",
-        type: "color",
-    },
-    "bg-warning-lighten-4": {
-        css: "background-color: var(--v-warning-lighten-4);",
-        type: "color",
-    },
-    "text-warning-lighten-5": {
-        css: "color: var(--v-warning-lighten-5);",
-        type: "color",
-    },
-    "bg-warning-lighten-5": {
-        css: "background-color: var(--v-warning-lighten-5);",
-        type: "color",
-    },
-    "text-warning-darken-1": {
-        css: "color: var(--v-warning-darken-1);",
-        type: "color",
-    },
-    "bg-warning-darken-1": {
-        css: "background-color: var(--v-warning-darken-1);",
-        type: "color",
-    },
-    "text-warning-darken-2": {
-        css: "color: var(--v-warning-darken-2);",
-        type: "color",
-    },
-    "bg-warning-darken-2": {
-        css: "background-color: var(--v-warning-darken-2);",
-        type: "color",
-    },
-    "text-warning-darken-3": {
-        css: "color: var(--v-warning-darken-3);",
-        type: "color",
-    },
-    "bg-warning-darken-3": {
-        css: "background-color: var(--v-warning-darken-3);",
-        type: "color",
-    },
-    "text-warning-darken-4": {
-        css: "color: var(--v-warning-darken-4);",
-        type: "color",
-    },
-    "bg-warning-darken-4": {
-        css: "background-color: var(--v-warning-darken-4);",
-        type: "color",
-    },
-    "text-warning-accent-1": {
-        css: "color: var(--v-warning-accent-1);",
-        type: "color",
-    },
-    "bg-warning-accent-1": {
-        css: "background-color: var(--v-warning-accent-1);",
-        type: "color",
-    },
-    "text-warning-accent-2": {
-        css: "color: var(--v-warning-accent-2);",
-        type: "color",
-    },
-    "bg-warning-accent-2": {
-        css: "background-color: var(--v-warning-accent-2);",
-        type: "color",
-    },
-    "text-warning-accent-3": {
-        css: "color: var(--v-warning-accent-3);",
-        type: "color",
-    },
-    "bg-warning-accent-3": {
-        css: "background-color: var(--v-warning-accent-3);",
-        type: "color",
-    },
-    "text-warning-accent-4": {
-        css: "color: var(--v-warning-accent-4);",
-        type: "color",
-    },
-    "bg-warning-accent-4": {
-        css: "background-color: var(--v-warning-accent-4);",
-        type: "color",
-    },
-    "text-error": {
-        css: "color: var(--v-error-base);",
-        type: "color",
-    },
-    "bg-error": {
-        css: "background-color: var(--v-error-base);",
-        type: "color",
-    },
-    "text-error-lighten-1": {
-        css: "color: var(--v-error-lighten-1);",
-        type: "color",
-    },
-    "bg-error-lighten-1": {
-        css: "background-color: var(--v-error-lighten-1);",
-        type: "color",
-    },
-    "text-error-lighten-2": {
-        css: "color: var(--v-error-lighten-2);",
-        type: "color",
-    },
-    "bg-error-lighten-2": {
-        css: "background-color: var(--v-error-lighten-2);",
-        type: "color",
-    },
-    "text-error-lighten-3": {
-        css: "color: var(--v-error-lighten-3);",
-        type: "color",
-    },
-    "bg-error-lighten-3": {
-        css: "background-color: var(--v-error-lighten-3);",
-        type: "color",
-    },
-    "text-error-lighten-4": {
-        css: "color: var(--v-error-lighten-4);",
-        type: "color",
-    },
-    "bg-error-lighten-4": {
-        css: "background-color: var(--v-error-lighten-4);",
-        type: "color",
-    },
-    "text-error-lighten-5": {
-        css: "color: var(--v-error-lighten-5);",
-        type: "color",
-    },
-    "bg-error-lighten-5": {
-        css: "background-color: var(--v-error-lighten-5);",
-        type: "color",
-    },
-    "text-error-darken-1": {
-        css: "color: var(--v-error-darken-1);",
-        type: "color",
-    },
-    "bg-error-darken-1": {
-        css: "background-color: var(--v-error-darken-1);",
-        type: "color",
-    },
-    "text-error-darken-2": {
-        css: "color: var(--v-error-darken-2);",
-        type: "color",
-    },
-    "bg-error-darken-2": {
-        css: "background-color: var(--v-error-darken-2);",
-        type: "color",
-    },
-    "text-error-darken-3": {
-        css: "color: var(--v-error-darken-3);",
-        type: "color",
-    },
-    "bg-error-darken-3": {
-        css: "background-color: var(--v-error-darken-3);",
-        type: "color",
-    },
-    "text-error-darken-4": {
-        css: "color: var(--v-error-darken-4);",
-        type: "color",
-    },
-    "bg-error-darken-4": {
-        css: "background-color: var(--v-error-darken-4);",
-        type: "color",
-    },
-    "text-error-accent-1": {
-        css: "color: var(--v-error-accent-1);",
-        type: "color",
-    },
-    "bg-error-accent-1": {
-        css: "background-color: var(--v-error-accent-1);",
-        type: "color",
-    },
-    "text-error-accent-2": {
-        css: "color: var(--v-error-accent-2);",
-        type: "color",
-    },
-    "bg-error-accent-2": {
-        css: "background-color: var(--v-error-accent-2);",
-        type: "color",
-    },
-    "text-error-accent-3": {
-        css: "color: var(--v-error-accent-3);",
-        type: "color",
-    },
-    "bg-error-accent-3": {
-        css: "background-color: var(--v-error-accent-3);",
-        type: "color",
-    },
-    "text-error-accent-4": {
-        css: "color: var(--v-error-accent-4);",
-        type: "color",
-    },
-    "bg-error-accent-4": {
-        css: "background-color: var(--v-error-accent-4);",
         type: "color",
     },
 };
