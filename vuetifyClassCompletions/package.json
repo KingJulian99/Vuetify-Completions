@@ -1,13 +1,24 @@
 {
-    "name": "vuetifyClassCompletions",
-    "displayName": "Vuetify Class Completions",
-    "description": "Enables Vuetify class text completions",
-    "version": "0.0.1",
+    "name": "vuetify-utility-class-completions",
+    "displayName": "Vuetify Utility Class Completions",
+    "description": "Adds Vuetify utility class code completion suggestions.",
+    "version": "1.0.0",
     "engines": {
         "vscode": ">=1.108.0"
     },
     "categories": [
         "Other"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KingJulian99/Vuetify-Completions"
+    },
+    "keywords": [
+        "vuetify",
+        "utility class",
+        "autocomplete",
+        "vue",
+        "css"
     ],
     "activationEvents": [
         "onLanguage:vue",
@@ -15,12 +26,7 @@
     ],
     "main": "./out/extension.js",
     "contributes": {
-        "commands": [
-            {
-                "command": "vuetifyClassCompletions.helloWorld",
-                "title": "Hello World"
-            }
-        ]
+        "commands": []
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
@@ -40,9 +46,5 @@
         "typescript": "^5.9.3",
         "typescript-eslint": "^8.54.0"
     },
-    "dependencies": {
-        "cheerio": "^1.2.0",
-        "puppeteer": "^24.39.1",
-        "vuetify": "^3.12.3"
-    }
+    "dependencies": {}
 }
