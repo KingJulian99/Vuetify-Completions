@@ -65,19 +65,19 @@ type ClassItem = {
         const $ = cheerio.load(html);
 
         // Vuetify tables usually contain class lists
-        $("table tbody tr").each((_, el) => {
-        const cols = $(el).find("td");
+        $("table tbody tr").each((_: any, el: any) => {
+            const cols = $(el).find("td");
 
-        const name = $(cols[0]).text().trim();
-        const description = $(cols[1]).text().trim();
+            const name = $(cols[0]).text().trim();
+            const description = $(cols[1]).text().trim();
 
-        if (name) {
-            results.push({
-            name,
-            description,
-            category: url.split("/styles/")[1].replace("/", ""),
-            });
-        }
+            if (name) {
+                results.push({
+                    name,
+                    description,
+                    category: url.split("/styles/")[1].replace("/", ""),
+                });
+            }
         });
     }
 
