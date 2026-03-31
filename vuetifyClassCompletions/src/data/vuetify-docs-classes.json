@@ -290,6 +290,411 @@
     "category": "borders"
   },
   {
+    "name": "rounded",
+    "description": "border-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-0",
+    "description": "border-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-sm",
+    "description": "border-radius: 2px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-md",
+    "description": "border-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-lg",
+    "description": "border-radius: 8px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-xl",
+    "description": "border-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-pill",
+    "description": "border-radius: 9999px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-circle",
+    "description": "border-radius: 50%;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-shaped",
+    "description": "border-radius: 24px 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-t",
+    "description": "border-top-left-radius: 4px; border-top-right-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-t-0",
+    "description": "border-top-left-radius: 0; border-top-right-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-t-sm",
+    "description": "border-top-left-radius: 2px; border-top-right-radius: 2px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-t-md",
+    "description": "border-top-left-radius: 4px; border-top-right-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-t-lg",
+    "description": "border-top-left-radius: 8px; border-top-right-radius: 8px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-t-xl",
+    "description": "border-top-left-radius: 24px; border-top-right-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-t-pill",
+    "description": "border-top-left-radius: 9999px; border-top-right-radius: 9999px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-t-circle",
+    "description": "border-top-left-radius: 50%; border-top-right-radius: 50%;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-t-shaped",
+    "description": "border-top-left-radius: 24px; border-top-right-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-te",
+    "description": "border-top-right-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-te-0",
+    "description": "border-top-right-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-te-sm",
+    "description": "border-top-right-radius: 2px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-te-md",
+    "description": "border-top-right-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-te-lg",
+    "description": "border-top-right-radius: 8px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-te-xl",
+    "description": "border-top-right-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-te-pill",
+    "description": "border-top-right-radius: 9999px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-te-circle",
+    "description": "border-top-right-radius: 50%;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-te-shaped",
+    "description": "border-top-right-radius: 24px; border-top-left-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-ts",
+    "description": "border-top-left-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-ts-0",
+    "description": "border-top-left-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-ts-sm",
+    "description": "border-top-left-radius: 2px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-ts-md",
+    "description": "border-top-left-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-ts-lg",
+    "description": "border-top-left-radius: 8px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-ts-xl",
+    "description": "border-top-left-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-ts-pill",
+    "description": "border-top-left-radius: 9999px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-ts-circle",
+    "description": "border-top-left-radius: 50%;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-ts-shaped",
+    "description": "border-top-left-radius: 24px; border-top-right-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-e",
+    "description": "border-inline-end-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-e-0",
+    "description": "border-inline-end-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-e-sm",
+    "description": "border-inline-end-radius: 2px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-e-md",
+    "description": "border-inline-end-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-e-lg",
+    "description": "border-inline-end-radius: 8px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-e-xl",
+    "description": "border-inline-end-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-e-pill",
+    "description": "border-inline-end-radius: 9999px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-e-circle",
+    "description": "border-inline-end-radius: 50%;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-e-shaped",
+    "description": "border-inline-end-radius: 0; border-inline-start-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-b",
+    "description": "border-bottom-left-radius: 4px; border-bottom-right-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-b-0",
+    "description": "border-bottom-left-radius: 0; border-bottom-right-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-b-sm",
+    "description": "border-bottom-left-radius: 2px; border-bottom-right-radius: 2px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-b-md",
+    "description": "border-bottom-left-radius: 4px; border-bottom-right-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-b-lg",
+    "description": "border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-b-xl",
+    "description": "border-bottom-left-radius: 24px; border-bottom-right-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-b-pill",
+    "description": "border-bottom-left-radius: 9999px; border-bottom-right-radius: 9999px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-b-circle",
+    "description": "border-bottom-left-radius: 50%; border-bottom-right-radius: 50%;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-b-shaped",
+    "description": "border-bottom-left-radius: 0; border-bottom-right-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-be",
+    "description": "border-bottom-right-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-be-0",
+    "description": "border-bottom-right-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-be-sm",
+    "description": "border-bottom-right-radius: 2px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-be-md",
+    "description": "border-bottom-right-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-be-lg",
+    "description": "border-bottom-right-radius: 8px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-be-xl",
+    "description": "border-bottom-right-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-be-pill",
+    "description": "border-bottom-right-radius: 9999px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-be-circle",
+    "description": "border-bottom-right-radius: 50%;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-be-shaped",
+    "description": "border-bottom-right-radius: 24px; border-bottom-left-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-bs",
+    "description": "border-inline-start-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-bs-0",
+    "description": "border-inline-start-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-bs-sm",
+    "description": "border-inline-start-radius: 2px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-bs-md",
+    "description": "border-inline-start-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-bs-lg",
+    "description": "border-inline-start-radius: 8px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-bs-xl",
+    "description": "border-inline-start-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-bs-pill",
+    "description": "border-inline-start-radius: 9999px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-bs-circle",
+    "description": "border-inline-start-radius: 50%;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-bs-shaped",
+    "description": "border-inline-start-radius: 24px; border-inline-end-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-s",
+    "description": "border-inline-start-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-s-0",
+    "description": "border-inline-start-radius: 0;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-s-sm",
+    "description": "border-inline-start-radius: 2px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-s-md",
+    "description": "border-inline-start-radius: 4px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-s-lg",
+    "description": "border-inline-start-radius: 8px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-s-xl",
+    "description": "border-inline-start-radius: 24px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-s-pill",
+    "description": "border-inline-start-radius: 9999px;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-s-circle",
+    "description": "border-inline-start-radius: 50%;",
+    "category": "border-radius"
+  },
+  {
+    "name": "rounded-s-shaped",
+    "description": "border-inline-start-radius: 24px; border-inline-end-radius: 0;",
+    "category": "border-radius"
+  },
+  {
     "name": "d-none",
     "description": "display: none;",
     "category": "display"

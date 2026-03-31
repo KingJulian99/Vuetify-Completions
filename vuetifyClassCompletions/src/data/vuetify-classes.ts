@@ -234,6 +234,330 @@ export const vuetifyClasses: Record<string, VuetifyClass> = {
         css: "–v-border-color: currentColor;",
         type: "layout",
     },
+    rounded: {
+        css: "border-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-0": {
+        css: "border-radius: 0;",
+        type: "layout",
+    },
+    "rounded-sm": {
+        css: "border-radius: 2px;",
+        type: "layout",
+    },
+    "rounded-md": {
+        css: "border-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-lg": {
+        css: "border-radius: 8px;",
+        type: "layout",
+    },
+    "rounded-xl": {
+        css: "border-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-pill": {
+        css: "border-radius: 9999px;",
+        type: "layout",
+    },
+    "rounded-circle": {
+        css: "border-radius: 50%;",
+        type: "layout",
+    },
+    "rounded-shaped": {
+        css: "border-radius: 24px 0;",
+        type: "layout",
+    },
+    "rounded-t": {
+        css: "border-top-left-radius: 4px; border-top-right-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-t-0": {
+        css: "border-top-left-radius: 0; border-top-right-radius: 0;",
+        type: "layout",
+    },
+    "rounded-t-sm": {
+        css: "border-top-left-radius: 2px; border-top-right-radius: 2px;",
+        type: "layout",
+    },
+    "rounded-t-md": {
+        css: "border-top-left-radius: 4px; border-top-right-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-t-lg": {
+        css: "border-top-left-radius: 8px; border-top-right-radius: 8px;",
+        type: "layout",
+    },
+    "rounded-t-xl": {
+        css: "border-top-left-radius: 24px; border-top-right-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-t-pill": {
+        css: "border-top-left-radius: 9999px; border-top-right-radius: 9999px;",
+        type: "layout",
+    },
+    "rounded-t-circle": {
+        css: "border-top-left-radius: 50%; border-top-right-radius: 50%;",
+        type: "layout",
+    },
+    "rounded-t-shaped": {
+        css: "border-top-left-radius: 24px; border-top-right-radius: 0;",
+        type: "layout",
+    },
+    "rounded-te": {
+        css: "border-top-right-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-te-0": {
+        css: "border-top-right-radius: 0;",
+        type: "layout",
+    },
+    "rounded-te-sm": {
+        css: "border-top-right-radius: 2px;",
+        type: "layout",
+    },
+    "rounded-te-md": {
+        css: "border-top-right-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-te-lg": {
+        css: "border-top-right-radius: 8px;",
+        type: "layout",
+    },
+    "rounded-te-xl": {
+        css: "border-top-right-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-te-pill": {
+        css: "border-top-right-radius: 9999px;",
+        type: "layout",
+    },
+    "rounded-te-circle": {
+        css: "border-top-right-radius: 50%;",
+        type: "layout",
+    },
+    "rounded-te-shaped": {
+        css: "border-top-right-radius: 24px; border-top-left-radius: 0;",
+        type: "layout",
+    },
+    "rounded-ts": {
+        css: "border-top-left-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-ts-0": {
+        css: "border-top-left-radius: 0;",
+        type: "layout",
+    },
+    "rounded-ts-sm": {
+        css: "border-top-left-radius: 2px;",
+        type: "layout",
+    },
+    "rounded-ts-md": {
+        css: "border-top-left-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-ts-lg": {
+        css: "border-top-left-radius: 8px;",
+        type: "layout",
+    },
+    "rounded-ts-xl": {
+        css: "border-top-left-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-ts-pill": {
+        css: "border-top-left-radius: 9999px;",
+        type: "layout",
+    },
+    "rounded-ts-circle": {
+        css: "border-top-left-radius: 50%;",
+        type: "layout",
+    },
+    "rounded-ts-shaped": {
+        css: "border-top-left-radius: 24px; border-top-right-radius: 0;",
+        type: "layout",
+    },
+    "rounded-e": {
+        css: "border-inline-end-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-e-0": {
+        css: "border-inline-end-radius: 0;",
+        type: "layout",
+    },
+    "rounded-e-sm": {
+        css: "border-inline-end-radius: 2px;",
+        type: "layout",
+    },
+    "rounded-e-md": {
+        css: "border-inline-end-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-e-lg": {
+        css: "border-inline-end-radius: 8px;",
+        type: "layout",
+    },
+    "rounded-e-xl": {
+        css: "border-inline-end-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-e-pill": {
+        css: "border-inline-end-radius: 9999px;",
+        type: "layout",
+    },
+    "rounded-e-circle": {
+        css: "border-inline-end-radius: 50%;",
+        type: "layout",
+    },
+    "rounded-e-shaped": {
+        css: "border-inline-end-radius: 0; border-inline-start-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-b": {
+        css: "border-bottom-left-radius: 4px; border-bottom-right-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-b-0": {
+        css: "border-bottom-left-radius: 0; border-bottom-right-radius: 0;",
+        type: "layout",
+    },
+    "rounded-b-sm": {
+        css: "border-bottom-left-radius: 2px; border-bottom-right-radius: 2px;",
+        type: "layout",
+    },
+    "rounded-b-md": {
+        css: "border-bottom-left-radius: 4px; border-bottom-right-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-b-lg": {
+        css: "border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;",
+        type: "layout",
+    },
+    "rounded-b-xl": {
+        css: "border-bottom-left-radius: 24px; border-bottom-right-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-b-pill": {
+        css: "border-bottom-left-radius: 9999px; border-bottom-right-radius: 9999px;",
+        type: "layout",
+    },
+    "rounded-b-circle": {
+        css: "border-bottom-left-radius: 50%; border-bottom-right-radius: 50%;",
+        type: "layout",
+    },
+    "rounded-b-shaped": {
+        css: "border-bottom-left-radius: 0; border-bottom-right-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-be": {
+        css: "border-bottom-right-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-be-0": {
+        css: "border-bottom-right-radius: 0;",
+        type: "layout",
+    },
+    "rounded-be-sm": {
+        css: "border-bottom-right-radius: 2px;",
+        type: "layout",
+    },
+    "rounded-be-md": {
+        css: "border-bottom-right-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-be-lg": {
+        css: "border-bottom-right-radius: 8px;",
+        type: "layout",
+    },
+    "rounded-be-xl": {
+        css: "border-bottom-right-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-be-pill": {
+        css: "border-bottom-right-radius: 9999px;",
+        type: "layout",
+    },
+    "rounded-be-circle": {
+        css: "border-bottom-right-radius: 50%;",
+        type: "layout",
+    },
+    "rounded-be-shaped": {
+        css: "border-bottom-right-radius: 24px; border-bottom-left-radius: 0;",
+        type: "layout",
+    },
+    "rounded-bs": {
+        css: "border-inline-start-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-bs-0": {
+        css: "border-inline-start-radius: 0;",
+        type: "layout",
+    },
+    "rounded-bs-sm": {
+        css: "border-inline-start-radius: 2px;",
+        type: "layout",
+    },
+    "rounded-bs-md": {
+        css: "border-inline-start-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-bs-lg": {
+        css: "border-inline-start-radius: 8px;",
+        type: "layout",
+    },
+    "rounded-bs-xl": {
+        css: "border-inline-start-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-bs-pill": {
+        css: "border-inline-start-radius: 9999px;",
+        type: "layout",
+    },
+    "rounded-bs-circle": {
+        css: "border-inline-start-radius: 50%;",
+        type: "layout",
+    },
+    "rounded-bs-shaped": {
+        css: "border-inline-start-radius: 24px; border-inline-end-radius: 0;",
+        type: "layout",
+    },
+    "rounded-s": {
+        css: "border-inline-start-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-s-0": {
+        css: "border-inline-start-radius: 0;",
+        type: "layout",
+    },
+    "rounded-s-sm": {
+        css: "border-inline-start-radius: 2px;",
+        type: "layout",
+    },
+    "rounded-s-md": {
+        css: "border-inline-start-radius: 4px;",
+        type: "layout",
+    },
+    "rounded-s-lg": {
+        css: "border-inline-start-radius: 8px;",
+        type: "layout",
+    },
+    "rounded-s-xl": {
+        css: "border-inline-start-radius: 24px;",
+        type: "layout",
+    },
+    "rounded-s-pill": {
+        css: "border-inline-start-radius: 9999px;",
+        type: "layout",
+    },
+    "rounded-s-circle": {
+        css: "border-inline-start-radius: 50%;",
+        type: "layout",
+    },
+    "rounded-s-shaped": {
+        css: "border-inline-start-radius: 24px; border-inline-end-radius: 0;",
+        type: "layout",
+    },
     "d-none": {
         css: "display: none;",
         type: "layout",
